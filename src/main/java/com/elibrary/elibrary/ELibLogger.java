@@ -45,4 +45,6 @@ public class ELibLogger {
     public static void addDebug(String message) {
         logger.debug(message);
     }
+
+    public static void addWarn(String message){logger.warn(message);}
 }

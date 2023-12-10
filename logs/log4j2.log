@@ -90,3 +90,121 @@
 2023-12-09 22:02:16.440 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
 2023-12-09 22:02:16.441 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\Test.docx
 2023-12-09 22:02:37.274 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 15:25:42.910 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 15:39:25.862 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-10 15:39:25.862 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-10 15:39:25.863 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-10 15:39:25.863 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-10 15:39:26.018 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-10 15:39:26.023 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-10 15:39:26.625 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-10 15:39:26.626 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-10 15:39:26.713 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-10 15:39:26.717 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-10 15:39:26.720 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-10 15:39:26.729 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-10 15:39:26.735 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-10 15:39:26.736 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\Test.docx
+2023-12-10 15:51:14.835 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-10 15:51:14.835 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-10 15:51:14.885 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - The file could not be written C:\Users\fyodo\OneDrive\Документы\Author||&.docx (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2023-12-10 16:04:00.270 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.1CD.cfl
+2023-12-10 16:04:00.270 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.1CD.cfl
+2023-12-10 16:04:00.283 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - Failed to parse the author name null
+2023-12-10 16:04:00.283 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - Failed to parse the place of work null
+2023-12-10 16:04:00.289 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-10 16:04:00.289 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-10 16:04:00.291 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-10 16:04:00.292 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-10 16:04:00.293 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-10 16:04:00.294 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-10 16:04:00.295 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-10 16:04:00.296 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\AuthorTest.docx
+2023-12-10 17:30:33.028 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:38:44.068 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:38:52.397 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:39:27.296 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:39:49.595 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\OneDrive\Документы\Arduino\sketch_sep22a\sketch_sep22a.ino
+2023-12-10 17:39:49.597 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\OneDrive\Документы\Arduino\sketch_sep22a\sketch_sep22a.ino
+2023-12-10 17:39:49.711 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - Failed to parse the author name null
+2023-12-10 17:39:49.711 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - Failed to parse the place of work null
+2023-12-10 17:39:49.985 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - The file could not be written C:\Users\fyodo\OneDrive\Документы\|.docx (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2023-12-10 17:39:52.509 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:40:18.588 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:40:54.171 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_server.log
+2023-12-10 17:40:54.173 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_server.log
+2023-12-10 17:40:54.216 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - Failed to parse the author name null
+2023-12-10 17:40:54.217 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - Failed to parse the place of work null
+2023-12-10 17:40:54.447 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - The file could not be written C:\Users\fyodo\OneDrive\Документы\Euro Truck Simulator 2\mod\|.docx (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2023-12-10 17:40:59.744 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:42:02.848 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:42:25.070 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:42:35.733 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:42:41.887 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:42:48.800 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:43:06.547 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:46:04.899 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:46:13.761 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_client.log
+2023-12-10 17:46:13.761 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\Econtent\ext_proc_client.log
+2023-12-10 17:46:13.762 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\Econtent\ext_proc_server.log
+2023-12-10 17:48:35.843 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:48:39.714 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 17:48:44.593 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.1CD.cfl
+2023-12-10 17:48:44.594 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.1CL.cfl
+2023-12-10 17:48:44.594 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.cgr.cfl
+2023-12-10 17:48:44.594 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8tmp.1CL.cfl
+2023-12-10 17:48:46.606 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-10 17:48:50.974 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-10 17:49:03.091 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 17:51:17.720 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:51:20.646 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 17:51:30.983 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.1CD.cfl
+2023-12-10 17:51:30.983 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.1CL.cfl
+2023-12-10 17:51:30.984 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.cgr.cfl
+2023-12-10 17:51:30.984 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8tmp.1CD.cfl
+2023-12-10 17:51:30.984 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8tmp.1CL.cfl
+2023-12-10 17:51:32.751 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-10 17:51:34.665 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-10 17:54:07.646 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 17:54:09.545 [JavaFX Application Thread] WARN  com.elibrary.elibrary.ELibLogger - Incorrect or empty input
+2023-12-10 17:55:55.977 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 18:57:32.015 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 18:57:34.182 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 18:59:19.032 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 18:59:20.452 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 18:59:24.666 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-10 18:59:25.695 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-10 18:59:27.498 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-10 18:59:34.215 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse
+2023-12-10 18:59:34.216 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibLogger - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-10 18:59:34.216 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-10 18:59:34.402 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The beginning of the report recording procedure
+2023-12-10 18:59:34.754 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-10 18:59:34.755 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-10 18:59:34.841 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-10 18:59:34.845 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-10 18:59:34.847 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-10 18:59:34.856 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-10 18:59:34.860 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-10 18:59:34.862 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\Test.docx
+2023-12-10 18:59:55.438 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 19:03:55.017 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 19:03:57.970 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 19:04:27.223 [main] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 19:04:35.143 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 19:04:43.228 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8.cgr.cfl
+2023-12-10 19:04:43.228 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\InfoBase\1Cv8tmp.1CD.cfl
+2023-12-10 19:05:17.990 [main] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 19:05:21.705 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 19:05:38.947 [main] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 19:05:40.395 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 19:05:44.543 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\AuthorTest.docx
+2023-12-10 19:08:23.570 [%с] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 19:08:29.541 [%с] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 19:08:35.090 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 19:08:38.509 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 19:08:45.068 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\DataBase\CMakeLists.txt.user
+2023-12-10 19:08:46.892 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 19:08:55.501 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 19:08:57.337 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 20:42:59.540 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program

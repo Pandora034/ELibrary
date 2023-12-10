@@ -3,6 +3,7 @@ package com.elibrary.elibrary;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.IntStream;
 
 /**
  * Класс Author представляет автора статей.
@@ -75,17 +76,15 @@ public class Author {
      * Вычисляет индекс Hirsch на основе списка цитат.
      */
     private void calculateIndexH() {
-        List<Integer> cits = new ArrayList<>();
-        for (String cit : citations) {
-            cits.add(Integer.parseInt(cit));
-        }
-        cits.sort(Collections.reverseOrder());
-        for (int i = 0; i < cits.size(); i++) {
-            if (i + 1 > cits.get(i)) {
-                indexH = i;
-                break;
-            }
-        }
+        List<Integer> cits = citations.stream()
+                .map(Integer::parseInt)
+                .sorted(Collections.reverseOrder())
+                .toList();
+
+        indexH = IntStream.range(0, cits.size())
+                .filter(i -> i + 1 > cits.get(i))
+                .findFirst()
+                .orElse(cits.size());
     }
 
     private void calculateNumberOfPublication(){

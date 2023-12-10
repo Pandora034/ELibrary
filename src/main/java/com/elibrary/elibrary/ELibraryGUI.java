@@ -168,7 +168,7 @@ public class ELibraryGUI extends Application {
      */
     private void initScene(Stage primaryStage, VBox layout) {
         Scene scene = new Scene(layout);
-        scene.getStylesheets().add("com/elibrary/elibrary/styles.css");
+        scene.getStylesheets().add("C:\\Users\\fyodo\\IdeaProjects\\ELibraryGradle\\out\\artifacts\\ELibrary_main_jar\\styles.css");
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(260);  // Устанавливаем минимальную ширину окна
         primaryStage.setMinHeight(350); // Устанавливаем минимальную высоту окна
@@ -193,6 +193,7 @@ public class ELibraryGUI extends Application {
      * @param stage Сцена (окно), используемая для отображения диалогового окна выбора файлов.
      */
     private void selectFiles(Stage stage) {
+        ELibLogger.addInfo("The file explorer is open to select a files");
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Выберите файлы");
         selectedFiles = fileChooser.showOpenMultipleDialog(stage);
@@ -206,6 +207,7 @@ public class ELibraryGUI extends Application {
      * @param stage Сцена (окно), используемая для отображения диалогового окна выбора директории.
      */
     private void selectDirectory(Stage stage) {
+        ELibLogger.addInfo("The file explorer is open to select a directory");
         DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Выберите директорию");
         selectedDirectory = directoryChooser.showDialog(stage);
@@ -222,6 +224,7 @@ public class ELibraryGUI extends Application {
         if (selectedFiles != null && !selectedFiles.isEmpty()) {
             StringBuilder filesText = new StringBuilder();
             for (File file : selectedFiles) {
+                ELibLogger.addInfo("A new file has been selected: " + file.getAbsolutePath());
                 filesText.append(file.getAbsolutePath()).append(System.getProperty("line.separator"));
             }
             filesText.insert(0, "Выбранные файлы:" + System.getProperty("line.separator"));
@@ -239,6 +242,7 @@ public class ELibraryGUI extends Application {
     private void updateSelectedDirectoryLabel() {
         if (selectedDirectory != null) {
             selectedDirectoryLabel.setText("Выбранная директория: " + selectedDirectory.getAbsolutePath());
+            ELibLogger.addInfo("A new directory has been selected: " + selectedDirectory.getAbsolutePath());
         } else {
             selectedDirectoryLabel.setText("Выбранная директория:");
         }
@@ -275,6 +279,7 @@ public class ELibraryGUI extends Application {
      * Предупреждение информирует пользователя о необходимости выбрать файлы, директорию и ввести имя файла.
      */
     private void showWarning() {
+        ELibLogger.addWarn("Incorrect or empty input");
         Alert alert = new Alert(Alert.AlertType.WARNING);
         alert.setTitle("Предупреждение");
         alert.setHeaderText(null);
@@ -319,6 +324,8 @@ public class ELibraryGUI extends Application {
      * и отображает информационное сообщение об успешной записи, затем очищает входные данные.
      */
     private void startELibrary() {
+        ELibLogger.addInfo("Starting to parse");
+
         ELibraryParser parser = new ELibraryParser();
 
         addPaths(parser);
@@ -344,6 +351,7 @@ public class ELibraryGUI extends Application {
      * @param parser - объект класса {@link ELibraryParser}
      */
     private void writeToFile(ELibraryParser parser){
+        ELibLogger.addInfo("The beginning of the report recording procedure");
         try {
             ELibraryFileWriter eLibraryFileWriter = new ELibraryFileWriter(parser);
             eLibraryFileWriter.setOutputFileName(fileName);
