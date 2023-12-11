@@ -15,7 +15,7 @@ application {
 
 
 group "com.elibrary.elibrary"
-version '1.0'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -25,13 +25,13 @@ ext {
     junitVersion = '5.9.2'
 }
 
+sourceCompatibility = '16'
+targetCompatibility = '16'
+
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
 
-tasks.withType(ProcessResources).configureEach {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-}
 
 javafx {
     version = '17.0.6'
@@ -55,11 +55,9 @@ jar {
 
     manifest {
         attributes(
-                'Main-Class': 'com.elibrary.elibrary.ELibraryLauncher')
+                'Main-Class': 'com.elibrary.elibrary.ELibraryLauncher'
+        )
     }
-    // creating an uber jar
-    from {
-        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it)    } }
 }
 
     //from sourceSets.main.resources
