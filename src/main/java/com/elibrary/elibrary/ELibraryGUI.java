@@ -168,7 +168,7 @@ public class ELibraryGUI extends Application {
      */
     private void initScene(Stage primaryStage, VBox layout) {
         Scene scene = new Scene(layout);
-        scene.getStylesheets().add("C:\\Users\\fyodo\\IdeaProjects\\ELibraryGradle\\out\\artifacts\\ELibrary_main_jar\\styles.css");
+        scene.getStylesheets().add("styles.css");
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(260);  // Устанавливаем минимальную ширину окна
         primaryStage.setMinHeight(350); // Устанавливаем минимальную высоту окна
