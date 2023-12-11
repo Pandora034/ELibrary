@@ -13,6 +13,9 @@ import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -22,6 +25,7 @@ import java.util.List;
  * Так же можно указать имя выходного файла.
  */
 public class ELibraryGUI extends Application {
+    private static final Logger LOGGER = LogManager.getLogger(ELibraryGUI.class);
     /**
      * Список выбранных файлов.
      */
@@ -43,11 +47,11 @@ public class ELibraryGUI extends Application {
     private static TextField inputTextField;
 
     /**
-     * Входная точка в класс. Пишется лог о старте программы {@link ELibLogger#addInfo(String)}
+     * Входная точка в класс. Пишется лог о старте программы
      * @param args - аргументы из командной строки (не используются)
      */
     public static void main(String[] args) {
-        ELibLogger.addInfo("Starting program");
+        LOGGER.info("Starting program");
         launch(args);
 
     }
@@ -179,11 +183,11 @@ public class ELibraryGUI extends Application {
 
     /**
      * Метод stop вызывается при завершении работы графического интерфейса приложения.
-     * Использует {@link  ELibLogger#addInfo(String)}
+     * Записывается соответсвующий лог
      */
     @Override
     public void stop() {
-        ELibLogger.addInfo("Closing program");
+        LOGGER.info("Closing program");
     }
 
     /**
@@ -193,7 +197,7 @@ public class ELibraryGUI extends Application {
      * @param stage Сцена (окно), используемая для отображения диалогового окна выбора файлов.
      */
     private void selectFiles(Stage stage) {
-        ELibLogger.addInfo("The file explorer is open to select a files");
+        LOGGER.debug("The file explorer is open to select a files");
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Выберите файлы");
         selectedFiles = fileChooser.showOpenMultipleDialog(stage);
@@ -207,7 +211,7 @@ public class ELibraryGUI extends Application {
      * @param stage Сцена (окно), используемая для отображения диалогового окна выбора директории.
      */
     private void selectDirectory(Stage stage) {
-        ELibLogger.addInfo("The file explorer is open to select a directory");
+        LOGGER.debug("The file explorer is open to select a directory");
         DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Выберите директорию");
         selectedDirectory = directoryChooser.showDialog(stage);
@@ -224,7 +228,7 @@ public class ELibraryGUI extends Application {
         if (selectedFiles != null && !selectedFiles.isEmpty()) {
             StringBuilder filesText = new StringBuilder();
             for (File file : selectedFiles) {
-                ELibLogger.addInfo("A new file has been selected: " + file.getAbsolutePath());
+                LOGGER.debug("A new file has been selected: " + file.getAbsolutePath());
                 filesText.append(file.getAbsolutePath()).append(System.getProperty("line.separator"));
             }
             filesText.insert(0, "Выбранные файлы:" + System.getProperty("line.separator"));
@@ -242,7 +246,7 @@ public class ELibraryGUI extends Application {
     private void updateSelectedDirectoryLabel() {
         if (selectedDirectory != null) {
             selectedDirectoryLabel.setText("Выбранная директория: " + selectedDirectory.getAbsolutePath());
-            ELibLogger.addInfo("A new directory has been selected: " + selectedDirectory.getAbsolutePath());
+            LOGGER.debug("A new directory has been selected: " + selectedDirectory.getAbsolutePath());
         } else {
             selectedDirectoryLabel.setText("Выбранная директория:");
         }
@@ -279,7 +283,7 @@ public class ELibraryGUI extends Application {
      * Предупреждение информирует пользователя о необходимости выбрать файлы, директорию и ввести имя файла.
      */
     private void showWarning() {
-        ELibLogger.addWarn("Incorrect or empty input");
+        LOGGER.warn("Incorrect or empty input");
         Alert alert = new Alert(Alert.AlertType.WARNING);
         alert.setTitle("Предупреждение");
         alert.setHeaderText(null);
@@ -324,7 +328,7 @@ public class ELibraryGUI extends Application {
      * и отображает информационное сообщение об успешной записи, затем очищает входные данные.
      */
     private void startELibrary() {
-        ELibLogger.addInfo("Starting to parse");
+        LOGGER.info("Starting to parse");
 
         ELibraryParser parser = new ELibraryParser();
 
@@ -351,7 +355,7 @@ public class ELibraryGUI extends Application {
      * @param parser - объект класса {@link ELibraryParser}
      */
     private void writeToFile(ELibraryParser parser){
-        ELibLogger.addInfo("The beginning of the report recording procedure");
+        LOGGER.info("The beginning of the report recording procedure");
         try {
             ELibraryFileWriter eLibraryFileWriter = new ELibraryFileWriter(parser);
             eLibraryFileWriter.setOutputFileName(fileName);
@@ -360,7 +364,7 @@ public class ELibraryGUI extends Application {
             clearAllInputs();
 
         } catch (IOException e) {
-            ELibLogger.addError("The file could not be written", e);
+            LOGGER.error("The file could not be written");
             showError("Не удалось записать файл");
         }
     }

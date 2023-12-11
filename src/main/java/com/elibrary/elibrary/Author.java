@@ -1,5 +1,8 @@
 package com.elibrary.elibrary;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -9,6 +12,7 @@ import java.util.stream.IntStream;
  * Класс Author представляет автора статей.
  */
 public class Author {
+    private static final Logger LOGGER = LogManager.getLogger(Author.class);
     /**
      * Имя автора.
      */
@@ -41,6 +45,8 @@ public class Author {
         calculateIndexH();
         calculateNumberOfPublication();
         calculateNumberOfZeroCitations();
+        LOGGER.debug("Create new author: all- " + numberOfPublications + " zero- " +
+                numberOfZeroCitations + " HIndex- " + indexH);
     }
 
     /**

@@ -1,5 +1,8 @@
 package com.elibrary.elibrary;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.apache.poi.xwpf.usermodel.Borders;
 import org.apache.poi.xwpf.usermodel.BreakType;
 import org.apache.poi.xwpf.usermodel.ParagraphAlignment;
@@ -18,6 +21,7 @@ import java.util.List;
  * и связанных с ними деталях.
  */
 public class ELibraryFileWriter {
+    private static final Logger LOGGER = LogManager.getLogger(ELibraryFileWriter.class);
     private final ELibraryParser libraryParser;
     private String outputFileName;
     private final XWPFDocument document = new XWPFDocument();
@@ -43,7 +47,7 @@ public class ELibraryFileWriter {
     public void write(String outputPath) throws IOException {
         if (outputFileName == null || outputFileName.isEmpty() || outputFileName.startsWith(" ")) {
             outputFileName = "Output";
-            ELibLogger.addDebug("Output file name out of format. (" + outputFileName + ") - auto create)");
+            LOGGER.debug("Output file name out of format. (" + outputFileName + ") - auto create)");
         }
         writeAllInformation();
         writeToFile(outputPath);
@@ -61,6 +65,7 @@ public class ELibraryFileWriter {
 
     /**
      * Создает новый абзац и инициализирует новый текстовый блок с настройками шрифта по умолчанию.
+     * <p>
      * Шрифт по умолчанию установлен как "Times New Roman", размер шрифта - 14.
      */
     private void createNewParagraph() {
@@ -211,9 +216,9 @@ public class ELibraryFileWriter {
         try (OutputStream fileOut = new FileOutputStream(outputPath + "\\" + outputFileName + ".docx")) {
             if (!documentIsEmpty()) {
                 document.write(fileOut);
-                ELibLogger.addInfo("The file was successfully written: " + outputPath + "\\" + outputFileName + ".docx");
+                LOGGER.info("The file was successfully written: " + outputPath + "\\" + outputFileName + ".docx");
             } else {
-                ELibLogger.addError("The file could not be written. There is a problem with the input files.");
+                LOGGER.error("The file could not be written. There is a problem with the input files.");
                 throw new IOException("File is empty");
             }
         }

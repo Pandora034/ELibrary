@@ -5,6 +5,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -13,6 +17,7 @@ import java.util.*;
  * Класс ELibraryParser предназначен для парсинга информации из HTML-файлов электронной библиотеки ELibrary.
  */
 public class ELibraryParser {
+    private static final Logger LOGGER = LogManager.getLogger(ELibraryParser.class);
     /**
      * Массив для хранения путей до входных файлов
      */
@@ -38,7 +43,7 @@ public class ELibraryParser {
      */
     public void addInputPath(String inputPath) {
         arrayInputPath.add(inputPath);
-        ELibLogger.addDebug("Added the path to the input file: " + inputPath);
+        LOGGER.debug("Added the path to the input file: " + inputPath);
     }
 
     /**
@@ -77,7 +82,7 @@ public class ELibraryParser {
         try {
             doc = Jsoup.parse(new File(fileInputPath), "UTF-8");
         } catch (IOException e) {
-            ELibLogger.addError("Could not read the file", e);
+            LOGGER.error("Could not read the file");
         }
     }
 
@@ -96,7 +101,7 @@ public class ELibraryParser {
      * @param inputPath Путь к файлу с HTML для парсинга
      */
     public void parseELibrary(String inputPath) {
-        ELibLogger.addInfo("Starting to parse the file: " + inputPath);
+        LOGGER.info("Starting to parse the file: " + inputPath);
         initNewFile(inputPath);
         initTrElements();
         author = new Author(parseCitations());
@@ -115,7 +120,7 @@ public class ELibraryParser {
         try {
             trElements = doc.select("tr");
         } catch (NullPointerException e) {
-            ELibLogger.addError("Failed to parse the table", e);
+            LOGGER.error("Failed to parse the table");
             trElements = new Elements();
         }
     }
@@ -168,7 +173,7 @@ public class ELibraryParser {
             element = doc.select("span").first();
             return Objects.requireNonNull(element).text();
         } catch (NullPointerException e) {
-            ELibLogger.addError("Failed to parse the author name", e);
+            LOGGER.error("Failed to parse the author name");
             return "Не удалось найти имя автора";
         }
     }
@@ -184,7 +189,7 @@ public class ELibraryParser {
             element = doc.select("i").first();
             return Objects.requireNonNull(element).text();
         } catch (NullPointerException e) {
-            ELibLogger.addError("Failed to parse the place of work", e);
+            LOGGER.error("Failed to parse the place of work");
             return "Место работы не найдено";
         }
     }

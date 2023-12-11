@@ -4,8 +4,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
+ * @deprecated Теперь логгер встроен отдельно в каждый класс модуля.
+ * <p>
  * ELibLogger представляет собой класс, отвечающий за логирование различных уровней сообщений.
  */
+@Deprecated
 public class ELibLogger {
     private static final Logger logger = LogManager.getLogger(ELibLogger.class);
 

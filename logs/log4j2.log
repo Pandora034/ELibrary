@@ -226,3 +226,622 @@
 2023-12-11 13:32:39.586 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
 2023-12-11 13:34:35.258 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
 2023-12-11 13:34:39.868 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 13:53:28.329 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 13:53:30.695 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-11 13:53:40.619 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 13:53:43.935 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-11 13:53:47.909 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 13:53:55.283 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse
+2023-12-11 13:53:55.284 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 13:53:55.285 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 13:53:55.526 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The beginning of the report recording procedure
+2023-12-11 13:53:56.005 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-11 13:53:56.005 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-11 13:53:56.094 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-11 13:53:56.100 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-11 13:53:56.104 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-11 13:53:56.116 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-11 13:53:56.120 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-11 13:53:56.121 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\Test.docx
+2023-12-11 13:54:21.714 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 13:55:45.561 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:16:25.710 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:16:34.093 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-11 14:16:40.353 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_client.log
+2023-12-11 14:16:41.646 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-11 14:16:43.696 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:16:52.305 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse
+2023-12-11 14:16:52.306 [com.elibrary.elibrary.ELibraryParser] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_client.log
+2023-12-11 14:16:52.307 [com.elibrary.elibrary.ELibraryParser] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_client.log
+2023-12-11 14:16:52.373 [com.elibrary.elibrary.ELibraryParser] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the author name
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parseAuthorName(ELibraryParser.java:174) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parseELibrary(ELibraryParser.java:108) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parse(ELibraryParser.java:71) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startELibrary(ELibraryGUI.java:332) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startButtonHandler(ELibraryGUI.java:103) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.lambda$createStartButton$0(ELibraryGUI.java:91) ~[ELibrary-1.0.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) [?:?]
+2023-12-11 14:16:52.381 [com.elibrary.elibrary.ELibraryParser] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the place of work
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parsePlaceOfWork(ELibraryParser.java:190) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parseELibrary(ELibraryParser.java:109) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parse(ELibraryParser.java:71) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startELibrary(ELibraryGUI.java:332) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startButtonHandler(ELibraryGUI.java:103) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.lambda$createStartButton$0(ELibraryGUI.java:91) ~[ELibrary-1.0.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) [?:?]
+2023-12-11 14:16:52.384 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - The beginning of the report recording procedure
+2023-12-11 14:16:52.693 [com.elibrary.elibrary.ELibLogger] ERROR com.elibrary.elibrary.ELibLogger - The file could not be written C:\Users\fyodo\OneDrive\Документы\|.docx (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2023-12-11 14:17:30.013 [com.elibrary.elibrary.ELibLogger] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 14:18:18.080 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:18:20.297 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-11 14:18:24.730 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\DataBase\CMakeLists.txt.user
+2023-12-11 14:18:25.442 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-11 14:18:27.702 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:18:31.428 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse
+2023-12-11 14:18:31.429 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Документы\DataBase\CMakeLists.txt.user
+2023-12-11 14:18:31.429 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Документы\DataBase\CMakeLists.txt.user
+2023-12-11 14:18:31.486 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the author name
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parseAuthorName(ELibraryParser.java:174) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parseELibrary(ELibraryParser.java:108) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parse(ELibraryParser.java:71) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startELibrary(ELibraryGUI.java:332) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startButtonHandler(ELibraryGUI.java:103) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.lambda$createStartButton$0(ELibraryGUI.java:91) ~[ELibrary-1.0.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) [?:?]
+2023-12-11 14:18:31.493 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the place of work
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parsePlaceOfWork(ELibraryParser.java:190) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parseELibrary(ELibraryParser.java:109) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parse(ELibraryParser.java:71) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startELibrary(ELibraryGUI.java:332) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startButtonHandler(ELibraryGUI.java:103) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.lambda$createStartButton$0(ELibraryGUI.java:91) ~[ELibrary-1.0.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) [?:?]
+2023-12-11 14:18:31.495 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The beginning of the report recording procedure
+2023-12-11 14:18:31.737 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - The file could not be written C:\Users\fyodo\OneDrive\Документы\|.docx (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2023-12-11 14:18:36.021 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 14:24:39.922 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:24:41.406 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-11 14:24:45.262 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\DataBase\CMakeLists.txt.user
+2023-12-11 14:24:45.921 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-11 14:24:47.615 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:24:50.924 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse
+2023-12-11 14:24:50.925 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Документы\DataBase\CMakeLists.txt.user
+2023-12-11 14:24:50.925 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Документы\DataBase\CMakeLists.txt.user
+2023-12-11 14:24:50.983 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the author name
+2023-12-11 14:24:50.984 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the place of work
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parsePlaceOfWork(ELibraryParser.java:190) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parseELibrary(ELibraryParser.java:109) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryParser.parse(ELibraryParser.java:71) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startELibrary(ELibraryGUI.java:332) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.startButtonHandler(ELibraryGUI.java:103) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary@1.0/com.elibrary.elibrary.ELibraryGUI.lambda$createStartButton$0(ELibraryGUI.java:91) ~[ELibrary-1.0.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:831) [?:?]
+2023-12-11 14:24:50.991 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The beginning of the report recording procedure
+2023-12-11 14:24:51.220 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - The file could not be written C:\Users\fyodo\OneDrive\Документы\|.docx (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2023-12-11 14:24:54.199 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 14:26:09.307 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:26:10.996 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-11 14:26:22.525 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new file has been selected: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_server.log
+2023-12-11 14:26:23.805 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a directory
+2023-12-11 14:26:26.059 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:26:32.761 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Starting to parse
+2023-12-11 14:26:32.763 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_server.log
+2023-12-11 14:26:32.763 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Документы\Econtent\cef_proc_server.log
+2023-12-11 14:26:32.823 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the author name
+2023-12-11 14:26:32.823 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse the place of work
+2023-12-11 14:26:32.823 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The beginning of the report recording procedure
+2023-12-11 14:26:33.102 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibLogger - The file could not be written C:\Users\fyodo\OneDrive\Документы\|.docx (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2023-12-11 14:26:36.486 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 14:29:39.477 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:29:41.152 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 14:29:55.135 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:29:56.907 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 14:30:28.973 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:33:22.804 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 14:33:24.511 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 14:44:58.548 [main] INFO  com.elibrary.elibrary.ELibraryParser - Starting program
+2023-12-11 14:45:05.062 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a files
+2023-12-11 14:45:14.188 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:45:14.188 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:45:14.188 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:45:14.188 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:45:15.340 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a directory
+2023-12-11 14:45:17.286 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:45:21.098 [JavaFX Application Thread] WARN  com.elibrary.elibrary.ELibraryParser - Incorrect or empty input
+2023-12-11 14:45:29.760 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse
+2023-12-11 14:45:29.761 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:45:29.761 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:45:29.761 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:45:29.761 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:45:29.761 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:45:29.835 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 8zero- 2H-index- 3
+2023-12-11 14:45:29.845 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:45:29.884 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 99zero- 75H-index- 5
+2023-12-11 14:45:29.905 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:45:29.908 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 3zero- 2H-index- 1
+2023-12-11 14:45:29.909 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:45:29.964 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 223zero- 86H-index- 21
+2023-12-11 14:45:29.989 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - The beginning of the report recording procedure
+2023-12-11 14:45:30.355 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-11 14:45:30.355 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-11 14:45:30.433 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-11 14:45:30.437 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-11 14:45:30.438 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-11 14:45:30.445 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-11 14:45:30.450 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-11 14:45:30.451 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\Test.docx
+2023-12-11 14:46:12.208 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Closing program
+2023-12-11 14:46:33.666 [main] INFO  com.elibrary.elibrary.ELibraryParser - Starting program
+2023-12-11 14:46:35.694 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a files
+2023-12-11 14:46:40.274 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:46:40.274 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:46:40.274 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:46:40.274 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:46:41.530 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a directory
+2023-12-11 14:46:43.298 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:46:47.365 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse
+2023-12-11 14:46:47.365 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:46:47.365 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:46:47.365 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:46:47.366 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:46:47.366 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:46:47.420 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 8zero- 2H-index- 3
+2023-12-11 14:46:47.428 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:46:47.465 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 99zero- 75H-index- 5
+2023-12-11 14:46:47.488 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:46:47.491 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 3zero- 2H-index- 1
+2023-12-11 14:46:47.492 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:46:47.534 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 223zero- 86H-index- 21
+2023-12-11 14:46:47.554 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - The beginning of the report recording procedure
+2023-12-11 14:46:47.910 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-11 14:46:47.910 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-11 14:46:47.981 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-11 14:46:47.986 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-11 14:46:47.988 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-11 14:46:47.995 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-11 14:46:48.001 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-11 14:46:48.003 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\Test.docx
+2023-12-11 14:46:54.491 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Closing program
+2023-12-11 14:47:15.980 [main] INFO  com.elibrary.elibrary.ELibraryParser - Starting program
+2023-12-11 14:47:17.401 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a files
+2023-12-11 14:47:24.148 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:47:24.148 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:47:24.148 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:47:24.148 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:47:25.015 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a directory
+2023-12-11 14:47:26.503 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:47:30.573 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse
+2023-12-11 14:47:30.574 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:47:30.574 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:47:30.574 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:47:30.574 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:47:30.574 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:47:30.633 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-11 14:47:30.639 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:47:30.676 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-11 14:47:30.698 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:47:30.700 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-11 14:47:30.701 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:47:30.737 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 223 zero- 86 HIndex- 21
+2023-12-11 14:47:30.756 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - The beginning of the report recording procedure
+2023-12-11 14:47:31.100 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-11 14:47:31.101 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-11 14:47:31.161 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-11 14:47:31.164 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-11 14:47:31.166 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-11 14:47:31.172 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-11 14:47:31.177 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-11 14:47:31.178 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - The file was successfully written: C:\Users\fyodo\OneDrive\Документы\Test.docx
+2023-12-11 14:50:17.234 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a files
+2023-12-11 14:50:24.959 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:50:25.820 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - The file explorer is open to select a directory
+2023-12-11 14:50:27.357 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:50:30.651 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse
+2023-12-11 14:50:30.651 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:50:30.651 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:50:30.664 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-11 14:50:30.669 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - The beginning of the report recording procedure
+2023-12-11 14:50:30.685 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - The file could not be written
+java.io.FileNotFoundException: C:\Users\fyodo\OneDrive\Документы\Test.docx (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:291) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:234) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at com.elibrary.elibrary.ELibraryFileWriter.writeToFile(ELibraryFileWriter.java:215) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryFileWriter.write(ELibraryFileWriter.java:53) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.writeToFile(ELibraryGUI.java:362) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.startELibrary(ELibraryGUI.java:337) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.startButtonHandler(ELibraryGUI.java:107) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.lambda$createStartButton$0(ELibraryGUI.java:95) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[ELibrary-1.0.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8792) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[ELibrary-1.0.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[ELibrary-1.0.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[ELibrary-1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2023-12-11 14:53:05.225 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-11 14:53:07.335 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-11 14:53:14.637 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:53:14.638 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:53:14.638 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:53:33.864 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-11 14:53:35.883 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:53:41.290 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-11 14:53:41.291 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:53:41.291 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:53:41.291 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:53:41.291 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:53:41.352 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-11 14:53:41.360 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:53:41.364 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-11 14:53:41.365 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\Krasov
+2023-12-11 14:53:41.429 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 223 zero- 86 HIndex- 21
+2023-12-11 14:53:41.457 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-11 14:53:41.752 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryGUI - The file could not be written
+java.io.FileNotFoundException: C:\Users\fyodo\OneDrive\Документы\Test.docx (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:291) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:234) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at com.elibrary.elibrary.ELibraryFileWriter.writeToFile(ELibraryFileWriter.java:215) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryFileWriter.write(ELibraryFileWriter.java:53) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.writeToFile(ELibraryGUI.java:362) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.startELibrary(ELibraryGUI.java:337) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.startButtonHandler(ELibraryGUI.java:107) ~[ELibrary-1.0.jar:?]
+	at com.elibrary.elibrary.ELibraryGUI.lambda$createStartButton$0(ELibraryGUI.java:95) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[ELibrary-1.0.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8792) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[ELibrary-1.0.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[ELibrary-1.0.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[ELibrary-1.0.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[ELibrary-1.0.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[ELibrary-1.0.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[ELibrary-1.0.jar:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2023-12-11 14:58:34.088 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-11 14:58:35.567 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-11 14:58:42.751 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:58:42.752 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:58:42.752 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:58:43.833 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-11 14:58:46.575 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:58:56.141 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-11 14:58:56.142 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:58:56.143 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:58:56.143 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:58:56.143 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:58:56.217 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-11 14:58:56.222 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 14:58:56.259 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-11 14:58:56.280 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_2
+2023-12-11 14:58:56.283 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-11 14:58:56.284 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-11 14:58:56.607 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryGUI - The file could not be written
+2023-12-11 14:59:46.793 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-11 14:59:48.214 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-11 14:59:51.585 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:59:52.331 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-11 14:59:53.754 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 14:59:57.327 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-11 14:59:57.328 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:59:57.329 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_3
+2023-12-11 14:59:57.389 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-11 14:59:57.395 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-11 14:59:57.656 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryGUI - The file could not be written
+2023-12-11 15:02:30.011 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-11 15:02:31.824 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-11 15:02:40.125 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 15:02:40.765 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-11 15:02:42.158 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Документы
+2023-12-11 15:02:52.953 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-11 15:02:52.954 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 15:02:52.954 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\CoursePaper\src\InputFiles\AuthorTest_4
+2023-12-11 15:02:53.050 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-11 15:02:53.070 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-11 15:02:53.354 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryGUI - The file could not be written
+2023-12-11 15:02:57.212 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
