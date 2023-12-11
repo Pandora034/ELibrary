@@ -294,14 +294,12 @@ public class ELibraryGUI extends Application {
 
     /**
      * Метод showError отображает сообщение об ошибке в виде диалогового окна.
-     *
-     * @param message Сообщение об ошибке, которое следует отобразить в диалоговом окне.
      */
-    private void showError(String message) {
+    private void showError() {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("Ошибка");
         alert.setHeaderText(null);
-        alert.setContentText(message);
+        alert.setContentText("Не удалось записать файл");
 
         alert.showAndWait();
     }
@@ -365,7 +363,7 @@ public class ELibraryGUI extends Application {
 
         } catch (IOException e) {
             LOGGER.error("The file could not be written");
-            showError("Не удалось записать файл");
+            showError();
         }
     }
 }

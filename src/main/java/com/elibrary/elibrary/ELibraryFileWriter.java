@@ -3,12 +3,7 @@ package com.elibrary.elibrary;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import org.apache.poi.xwpf.usermodel.Borders;
-import org.apache.poi.xwpf.usermodel.BreakType;
-import org.apache.poi.xwpf.usermodel.ParagraphAlignment;
-import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import org.apache.poi.xwpf.usermodel.XWPFParagraph;
-import org.apache.poi.xwpf.usermodel.XWPFRun;
+import org.apache.poi.xwpf.usermodel.*;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -241,9 +236,10 @@ public class ELibraryFileWriter {
     }
 
     /**
+     * @deprecated Cлужит для отладки.
      * Выводит информацию об авторах и их статьях в консоль.
-     * Cлужит для отладки
      */
+    @Deprecated
     public void printAuthor() {
         List<Author> authors = libraryParser.getArrayAuthors();
         if (!authors.isEmpty()) {

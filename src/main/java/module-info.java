@@ -1,3 +1,6 @@
+/**
+ * Модуль для работы с html-файлами российской электронной библиотеки elibrary.ru.
+ */
 module com.elibrary.elibrary {
     requires javafx.controls;
     requires javafx.fxml;

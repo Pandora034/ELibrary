@@ -138,8 +138,18 @@ public class Author {
         return articles;
     }
 
+    /**
+     * Возвращает количество статей автора.
+     *
+     * @return количество статей автора.
+     */
     public int getNumberOfPublications(){return numberOfPublications;}
 
+    /**
+     * Возвращает количество статей с нулевым цитированием.
+     *
+     * @return количество статей с нулевым цитированием.
+     */
     public int getNumberOfZeroCitations() {
         return numberOfZeroCitations;
     }
