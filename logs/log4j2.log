@@ -208,3 +208,21 @@
 2023-12-10 19:08:55.501 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
 2023-12-10 19:08:57.337 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
 2023-12-10 20:42:59.540 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 22:52:43.655 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 22:52:47.584 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 22:52:54.275 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 22:53:01.662 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 22:53:05.398 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 23:00:30.372 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 23:00:34.695 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 23:03:48.973 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 23:03:50.735 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-10 23:04:14.499 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-10 23:05:56.448 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - The file explorer is open to select a files
+2023-12-10 23:05:59.343 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 13:32:23.445 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 13:32:28.368 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 13:32:37.956 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 13:32:39.586 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
+2023-12-11 13:34:35.258 [main] INFO  com.elibrary.elibrary.ELibLogger - Starting program
+2023-12-11 13:34:39.868 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibLogger - Closing program
