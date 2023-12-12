@@ -1,0 +1,1920 @@
+<html><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head>
+<style type="text/css">
+BODY, P, TR, TD, INPUT, SELECT, OPTION, TEXTAREA, UL {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 8pt;}
+A {text-decoration: none; color: #00008f}
+H1 {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 9pt;}
+H2 {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 9pt;}
+FORM, H1, H2 {margin: 0}
+A:hover {color: #ff0000; text-decoration: underline}
+.menus A {color: #ffffff}
+.menus A:hover {color: #ffffff; text-decoration: underline}
+.menub A {color: #000000}
+.expandable {cursor:pointer;}
+img.expandable {filter:alpha(opacity=70); opacity: 0.7;}
+.win_expandable {cursor:pointer}
+.expanded {display:}
+.collapsed {display:none}
+.menug A {color: #555555}
+.redref A {color: #ED1C24}
+P.break {page-break-before: always}
+.input {border: #7f9db9 1px solid; background: #f5f5f5; height: 20px}
+.inputw {border: #7f9db9 1px solid; background: #ffffff; height: 20px}
+.inputr {border: #7f9db9 1px solid; background: #f5f5f5}
+.inputrw {border: #7f9db9 1px solid; background: #ffffff}
+.ast A:hover {text-decoration: none; color: #F26C4F}
+.ast A {font-family: Times New Roman, Garamond, Times, Georgia, serif; font-size: 30pt; color: #F26C4F}
+.astb A:hover {text-decoration: none; color: #00008f}
+.astb A {font-family: Times New Roman, Times, serif; font-size: 30pt; color: #00008f}
+.aster {color: #F26C4F; font-family: Times New Roman, Times, serif; font-size: 16pt; cursor:pointer;}
+.tooltip {
+	background-color:#000;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:250px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:8pt;
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+.tooltip A:hover {color: #ffffff; text-decoration: underline}
+.tooltip A {color: #ffffff; text-decoration: underline}
+.redtext {color: #F26C4F;}
+.bluetext {color: #00008f;}
+</style>
+<meta property="og:image" content="https://elibrary.ru/images/elibrary_fb.png">
+
+<title>SCIENCE INDEX - Красов Андрей Владимирович - Список публикаций</title>
+</head>
+
+<body bgcolor="#ffffff">
+<center>
+<font color="#000000">
+<b><span style="font-size: 10pt;">КРАСОВ АНДРЕЙ ВЛАДИМИРОВИЧ</span></b>
+<br><i>Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича,<br>факультет инфокоммуникационных сетей и систем (Санкт-Петербург)</i></font>
+<br>
+
+
+<img src="/pic/1pix.gif" vspace="8"><br>
+
+<table width="580" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr align="center" valign="bottom">
+<td width="30">№</td><td width="550" colspan="2" align="right">Публикация<img src="/pic/1pix.gif" hspace="100">Цитирований</td></tr>
+<tr><td colspan="3" valign="top"><hr width="100%" style="height:1px; color:#000; background-color:#000;"></td></tr>
+</tbody></table>
+<br>
+<table width="580" cellspacing="0" cellpadding="3" border="0">
+
+
+<tbody><tr valign="middle">
+<td align="center" valign="top" width="30">1</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММА ВНЕДРЕНИЯ СТЕГАНОГРАФИЧЕСКОГО КАНАЛА ПО МЕТОДУ LACK</span></b><br><i>Красов А.В., Салита А.С., Ушаков И.А.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2023663509, 23.06.2023. Заявка&nbsp;№&nbsp;2023662362&nbsp;от&nbsp;14.06.2023.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">2</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММА ДЕТЕКТИРОВАНИЯ СЕТЕВОЙ СТЕГАНОГРАФИИ В БЛОКАХ ДАННЫХ ПРОТОКОЛА TCP</span></b><br><i>Красов А.В., Салита А.С., Пешков А.И., Ушаков И.А.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2023663566, 26.06.2023. Заявка&nbsp;№&nbsp;2023662332&nbsp;от&nbsp;14.06.2023.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">3</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЭВМ И ПЕРИФЕРИЙНЫЕ УСТРОЙСТВА. БАЗОВАЯ ОРГАНИЗАЦИЯ ЭВМ</span></b><br><i>Солодухин Б.В., Бородко А.В., Пантюхин О.И., Бирюков М.А., Михайличенко Н.В., Рябов Г.А.</i><br> Санкт-Петербург, 2023.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">4</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЦИФРОВАЯ ТРАНСФОРМАЦИЯ И ПРОБЛЕМЫ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ</span></b><br><i>Альбовский И.А., Андреевский И.Л., Васильев М.Д., Васильева И.Н., Гатчин Ю.А., Гниденко И.Г., Егорова И.В., Иванченко А.С., Красильникова Е.В., Майорова Е.В., Сидоров Е.С., Соколовская С.А., Солодянников А.В., Стельмашонок В.Л., Стельмашонок Е.В., Сухостат В.В., Фоминцева А.П., Хуссамов Р.Р., Штеренберг С.И.</i><br>Монография / Под редакцией А.В. Солодянникова, И.Н. Васильевой.  Санкт-Петербург, 2023.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">5</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОЦИАЛЬНАЯ ИНЖЕНЕРИЯ: ЕЁ МЕТОДЫ И СПОСОБЫ ЗАЩИТЫ</span></b><br><i>Бударный Г.С., Дюсметова А.А., Казанцев А.А., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей. XII Международная научно-техническая и научно-методическая конференция. В 4 т.. Санкт-Петербург, 2023.  С. 200-204.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">6</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СРАВНЕНИЕ СТАТИЧЕСКОГО И ДИНАМИЧЕСКОГО АНАЛИЗА КОДА И ИХ РОЛЬ В МЕТОДОЛОГИИ DEVSECOPS</span></b><br><i>Бударный Г.С., Камалова А.О., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей. XII Международная научно-техническая и научно-методическая конференция. В 4 т.. Санкт-Петербург, 2023.  С. 204-208.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">7</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ТЕНДЕНЦИИ РАЗВИТИЯ И БЕЗОПАСНОСТЬ IP-ТЕЛЕФОНИИ</span></b><br><i>Абрамова Е.А., Красов А.В., Поляничева А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей. XII Международная научно-техническая и научно-методическая конференция. В 4 т.. Санкт-Петербург, 2023.  С. 23-28.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">8</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЦИФРОВАЯ СТЕГАНОГРАФИЯ</span></b><br><i>Коржик В.И., Красов А.В.</i><br>учебник /  Москва, 2023.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">9</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОЦЕНКА ЭФФЕКТИВНОСТИ МЕХАНИЗМОВ КОНТРОЛЯ ПРАВАМИ ДОСТУПА В ОС LINUX</span></b><br><i>Горбань С.А., Красов А.В., Цветков А.Ю.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей. XII Международная научно-техническая и научно-методическая конференция. В 4 т.. Санкт-Петербург, 2023.  С. 345-348.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">10</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ АТАК НА СИСТЕМЫ ВИДЕОНАБЛЮДЕНИЯ И МЕТОДЫ ЗАЩИТЫ ОТ НИХ</span></b><br><i>Ахметов Р.Р., Казанцев А.А., Красов А.В., Руденко С.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей XII Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией С.И. Макаренк, сост. В.С. Елагин, Е.А. Аникевич. Санкт-Петербург, 2023.  С. 561-563.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">11</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ МЕТОДОВ АВТОМАТИЗИРОВАННОГО АНАЛИЗА УЯЗВИМОСТЕЙ МОБИЛЬНЫХ ПРИЛОЖЕНИЙ НА ANDROID</span></b><br><i>Голубничев И.А., Косов Н.А., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей XII Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией С.И. Макаренк, сост. В.С. Елагин, Е.А. Аникевич. Санкт-Петербург, 2023.  С. 593-600.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">12</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СЕТЕВАЯ СТЕГАНОГРАФИЯ НА ОСНОВЕ ФОНТАННЫХ КОДОВ</span></b><br><i>Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей. XII Международная научно-техническая и научно-методическая конференция. В 4 т.. Санкт-Петербург, 2023.  С. 707-711.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">13</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ IP УАТС АГАТ CU В УСЛОВИЯХ ИМПОРТОЗАМЕЩЕНИЯ</span></b><br><i>Красов А.В., Поляничева А.В., Сафина А.И.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей. XII Международная научно-техническая и научно-методическая конференция. В 4 т.. Санкт-Петербург, 2023.  С. 711-715.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">14</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СРАВНЕНИЕ ЭФФЕКТИВНОСТИ МЕТОДОВ СЕТЕВОЙ СТЕГАНОГРАФИИ</span></b><br><i>Красов А.В., Салита А.С.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2023).&nbsp;Сборник научных статей. XII Международная научно-техническая и научно-методическая конференция. В 4 т.. Санкт-Петербург, 2023.  С. 716-719.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">15</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДЫ ВЫЯВЛЕНИЯ СЕТЕВОЙ СТЕГАНОГРАФИИ</span></b><br><i>Красов А.В.</i><br>Методы и технические средства обеспечения безопасности информации. 2023. №&nbsp;32.  С. 52-54.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">16</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММА УПРАВЛЕНИЯ IOT УСТРОЙСТВАМИ НА БАЗЕ ОБЛАЧНЫХ ПЛАТФОРМ</span></b><br><i>Красов А.В., Пестов И.Е., Алехин Р.В., Казанцев А.А.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2022613439, 14.03.2022. Заявка&nbsp;№&nbsp;2022612581&nbsp;от&nbsp;24.02.2022.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">17</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПО РЕАЛИЗАЦИИ СТЕГАНОГРАФИЧЕСКИХ МЕТОДОВ ПРИ ПЕРЕДАЧЕ СООБЩЕНИЯ</span></b><br><i>Красов А.В., Гельфанд А.М., Шариков П.И., Катасонов А.И.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2022613440, 14.03.2022. Заявка&nbsp;№&nbsp;2022612582&nbsp;от&nbsp;24.02.2022.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">18</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДУЛЬ ОБНАРУЖЕНИЯ РУТКИТОВ УРОВНЯ ЯДРА В ПАМЯТИ СИСТЕМ GNU\LINUX</span></b><br><i>Красов А.В., Цветков А.Ю., Кирилова К.С., Фёдорова О.В.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2022613444, 14.03.2022. Заявка&nbsp;№&nbsp;2022612611&nbsp;от&nbsp;24.02.2022.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">19</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ БЕСПРОВОДНЫХ СЕНСОРНЫХ СЕТЕЙ С ИСПОЛЬЗОВАНИЕМ ОБУЧАЮЩИХСЯ АВТОМАТОВ</span></b><br><i>Овасапян Т.Д.</i><br>диссертация на соискание ученой степени кандидата технических наук / ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ "САНКТ-ПЕТЕРБУРГСКИЙ ПОЛИТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ ПЕТРА ВЕЛИКОГО". 2022
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">20</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА АВТОМАТИЗИРОВАННОГО ПРОТИВОДЕЙСТВИЯ НЕСАНКЦИОНИРОВАННЫМ ВОЗДЕЙСТВИЯМ НА ИНСТАНСЫ ОБЛАЧНОЙ ИНФРАСТРУКТУРЫ С ИСПОЛЬЗОВАНИЕМ БЕЗАГЕНТНОГО МЕТОДА СБОРА МЕТРИК</span></b><br><i>Пестов И.Е.</i><br>диссертация на соискание ученой степени кандидата технических наук / Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича. Санкт-Петербург, 2022
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">21</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОПЫТ ПРОХОЖДЕНИЯ МЕЖДУНАРОДНОЙ ПРОФЕССИОНАЛЬНО-ОБЩЕСТВЕННОЙ АККРЕДИТАЦИИ НА ПРИМЕРЕ САНКТ-ПЕТЕРБУРГСКОГО УНИВЕРСИТЕТА ТЕЛЕКОММУНИКАЦИЙ ИМ. ПРОФ. БОНЧ-БРУЕВИЧА</span></b><br><i>Красов А.В., Казанцев А.А.</i><br> В сборнике: Новые технологии оценки качества образования.&nbsp;Сборник материалов XVII Форума Гильдии экспертов в сфере профессионального образования. Под общей редакцией Г.Н. Мотовой. Москва, 2022.  С. 13-18.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">22</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ШИФРОВАЛЬЩИКА GANDCRAB</span></b><br><i>Дмитриева Д.С., Красов А.В., Пилипова В.М.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2022).&nbsp;XI Международная научно-техническая и научно-методическая конференция. Санкт-Петербург, 2022.  С. 398-403.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">23</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ГОЛОГРАФИЯ КАК СОВРЕМЕННЫЙ СПОСОБ ЗАЩИТЫ ИНФОРМАЦИИ</span></b><br><i>Дмитриева Д.С., Красов А.В., Пилипова В.М.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2022).&nbsp;XI Международная научно-техническая и научно-методическая конференция. Санкт-Петербург, 2022.  С. 403-407.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">24</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗНОВИДНОСТИ НАРУШЕНИЙ БЕЗОПАСНОСТИ И ТИПОВЫЕ АТАКИ НА ОПЕРАЦИОННУЮ СИСТЕМУ</span></b><br><i>Бударный Г.С., Казанцев А.А., Красов А.В., Поляничева А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2022).&nbsp;Сборник научных статей XI Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией А.В. Шестакова, сост. В.С. Елагин, Е.А. Аникевич. Санкт-Петербург, 2022.  С. 406-411.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">25</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МОДЕЛИ НАРУШИТЕЛЯ ИСПОЛЬЗУЮЩЕГО СТЕГАНОГРАФИЧЕСКИЕ ПРИЕМЫ КОМПЬЮТЕРНЫХ ВИРУСОВ</span></b><br><i>Красов А.В.</i><br> В книге: Региональная информатика (РИ-2022).&nbsp;Юбилейная XVIII Санкт-Петербургская международная конференция. Материалы конференции. Санкт-Петербург, 2022.  С. 553-554.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">26</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛЬ НАРУШИТЕЛЯ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ, ИСПОЛЬЗУЮЩЕГО МЕТОДЫ СТЕГАНОГРФАИИ</span></b><br><i>Красов А.В.</i><br> В сборнике: Региональная информатика и информационная безопасность.&nbsp;Сборник трудов Юбилейной XVIII Санкт-Петербургской международной конференции. Санкт-Петербург, 2022.  С. 589-592.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">27</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЛАЧНЫЕ СЕРВИСЫ. ПРИНЦИП РАБОТЫ, КЛАССИФИКАЦИЯ И МОДЕЛИ ОБСЛУЖИВАНИЯ</span></b><br><i>Алехин Р.В., Красов А.В., Макарова А.Д., Орлов Г.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2022).&nbsp;XI Международная научно-техническая и научно-методическая конференция. Санкт-Петербург, 2022.  С. 70-74.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">28</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ТИПОВЫЕ ОФТАЛЬМОЛОГИЧЕСКИЕ ИНФОРМАЦИОННЫЕ СИСТЕМЫ, ЯВЛЯЮЩИЕСЯ ОБЪЕКТАМИ КРИТИЧЕСКОЙ ИНФОРМАЦИОННОЙ ИНФРАСТРУКТУРЫ</span></b><br><i>Красов А.В., Лансере Н.Н., Фадеев И.И., Гельфанд А.М., Лесневский М.В.</i><br>Офтальмохирургия. 2022. №&nbsp;S4.  С. 85-91.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">29</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АКТУАЛЬНЫЕ УГРОЗЫ БЕЗОПАСНОСТИ ИНФОРМАЦИИ В СФЕРЕ ЗДРАВООХРАНЕНИЯ И ОФТАЛЬМОЛОГИИ</span></b><br><i>Красов А.В., Шакин Д.Н., Лансере Н.Н., Фадеев И.И., Гельфанд А.М.</i><br>Офтальмохирургия. 2022. №&nbsp;S4.  С. 92-101.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">30</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОПРЕДЕЛЕНИЕ ПСИХИЧЕСКОГО СОСТОЯНИЯ ПОЛЬЗОВАТЕЛЕЙ СОЦИАЛЬНОЙ СЕТИ REDDIT НА ОСНОВЕ МЕТОДОВ МАШИННОГО ОБУЧЕНИЯ</span></b><br><i>Браницкий А.А., Шарма Яш.Д., Котенко И.В., Федорченко Е.В., Красов А.В., Ушаков И.А.</i><br>Информационно-управляющие системы. 2022. №&nbsp;1&nbsp;(116).  С. 8-18.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">31</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ПРИМЕНИМОСТИ ИЗВЕСТНЫХ МЕТОДОВ ВНЕДРЕНИЯ ЦИФРОВЫХ ВОДЯНЫХ ЗНАКОВ К ИСПОЛНЯЕМЫМ ФАЙЛАМ UNIX-ПОДОБНЫХ СИСТЕМ</span></b><br><i>Красов А.В., Борисов В.И.</i><br>Известия высших учебных заведений. Технология легкой промышленности. 2022. Т. 56. №&nbsp;2.  С. 38-42.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">32</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД ЗАЩИТЫ АВТОРСКИХ ПРАВ И ЦЕЛОСТНОСТИ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ НА ОСНОВЕ ВНЕДРЕНИЯ ЦВЗ В ИСПОЛНЯЕМЫЙ КОД</span></b><br><i>Красов А.В.</i><br>Перспективы науки. 2022. №&nbsp;4&nbsp;(151).  С. 16-25.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">33</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ МЕТОДОВ МАШИННОГО ОБУЧЕНИЯ ПРИ ВЫЯВЛЕНИИ СЕТЕВОЙ СТЕГАНОГРАФИИ</span></b><br><i>Красов А.В., Паскидов Н.В., Салита А.С.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2022. №&nbsp;3.  С. 50-53.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">34</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ОБНАРУЖЕНИЯ АНОМАЛИЙ В СЕТЕВОМ ТРАФИКЕ С ИСПОЛЬЗОВАНИЕМ IPS НА ОСНОВЕ SECURITY ONION</span></b><br><i>Ушаков И.А., Красов А.В., Мулладжанов Д.Д.У.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2022. №&nbsp;1.  С. 5-11.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">35</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРИМЕНЕНИЕ МЕТОДОВ МАШИННОГО ОБУЧЕНИЯ ПРИ РАЗРАБОТКЕ АЛГОРИТМА ДИАГНОСТИКИ КЕРАТОКОНУСА</span></b><br><i>Малюгин Б.Э., Сахнов С.Н., Аксенова Л.Е., Аксенов К.Д., Красов А.В., Мясникова В.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2022. №&nbsp;1.  С. 79-86.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">36</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ВЫЯВЛЕНИЯ В ДОВЕРЕННОЙ ЗОНЕ ПОТЕНЦИАЛЬНОГО ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ПО СОЗДАНИЮ НЕТРАДИЦИОННЫХ (СТЕГАНОГРАФИЧЕСКИХ) КАНАЛОВ</span></b><br><i>Красов А.В.</i><br>Наука и бизнес: пути развития. 2022. №&nbsp;4&nbsp;(130).  С. 65-78.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">37</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛЬ НАРУШИТЕЛЯ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ, ИСПОЛЬЗУЮЩЕГО СТЕГАНОГРАФИЧЕСКИЕ КАНАЛЫ ВЗАИМОДЕЙСТВИЯ</span></b><br><i>Красов А.В.</i><br>Наука и бизнес: пути развития. 2022. №&nbsp;4&nbsp;(130).  С. 79-88.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">38</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД ОБНАРУЖЕНИЯ СЕТЕВОЙ СТЕГАНОГРАФИИ НА ОСНОВЕ МАШИННОГО ОБУЧЕНИЯ</span></b><br><i>Красов А.В.</i><br>Современная наука: актуальные проблемы теории и практики. Серия: Естественные и технические науки. 2022. №&nbsp;3.  С. 100-108.
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">39</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДИКИ ВНЕДРЕНИЯ И ВЫЯВЛЕНИЯ ЭФФЕКТИВНОСТИ SIEM-СИСТЕМЫ В СРЕДЕ ДОВЕРЕННОЙ ЗОНЫ</span></b><br><i>Красов А.В.</i><br>Современная наука: актуальные проблемы теории и практики. Серия: Естественные и технические науки. 2022. №&nbsp;3.  С. 109-120.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">40</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД ОБНАРУЖЕНИЯ СЕТЕВОЙ СТЕГАНОГРАФИИ НА ОСНОВЕ СТАТИСТИЧЕСКОГО РАСПРЕДЕЛЕНИЯ ПОЛЕЙ СЕТЕВЫХ ПАКЕТОВ</span></b><br><i>Красов А.В.</i><br>Современная наука: актуальные проблемы теории и практики. Серия: Естественные и технические науки. 2022. №&nbsp;4.  С. 84-91.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">41</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МОДЕЛИ УГРОЗ ANDROID ПРИЛОЖЕНИЙ, СВОЙСТВЕННЫХ ОШИБКАМ РАЗРАБОТЧИКА</span></b><br><i>Коромыслов К.Е., Красов А.В., Ушаков И.А.</i><br>I-methods. 2022. Т. 14. №&nbsp;2.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">42</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД КОНТРОЛЯ ВЫПОЛНЕНИЯ ПОЛИТИКИ БЕЗОПАСНОСТИ В ОПЕРАЦИОННЫХ СИСТЕМАХ СЕМЕЙСТВА WINDOWS</span></b><br><i>Кочетков Е.В.</i><br>диссертация на соискание ученой степени кандидата технических наук / ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ "САНКТ-ПЕТЕРБУРГСКИЙ ПОЛИТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ ПЕТРА ВЕЛИКОГО". 2021
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">43</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">DEVELOPMENT OF A METHOD FOR BUILDING A TRUSTED ENVIRONMENT BY USING HIDDEN SOFTWARE AGENT STEGANOGRAPHY</span></b><br><i>Fedorov V.Kh., Balenko E.G., Shterenberg S.I., Krasov A.V.</i><br> В сборнике: Journal of Physics: Conference Series.&nbsp;Сер. "International Conference on Automatics and Energy, ICAE 2021" 2021.  С. 012047.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">44</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КИБЕРПРЕСТУПНОСТЬ В ПЕРИОД ПАНДЕМИИ КОРОНАВИРУСА</span></b><br><i>Елисеева П.А., Пенкин Д.А., Тихонова Ю.А.</i><br> В сборнике: АКТУАЛЬНЫЕ ВОПРОСЫ СОВРЕМЕННОЙ НАУКИ.&nbsp;Сборник трудов по материалам IV Всероссийского конкурса научно-исследовательских работ. Уфа, 2021.  С. 13-21.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">45</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВОЗМОЖНОСТИ ПРОГРАММЫ STEGDETECT ДЛЯ ОПРЕДЕЛЕНИЯ СКРЫТЫХ ВЛОЖЕНИЙ В JPEG ФАЙЛАХ</span></b><br><i>Деревянко В.С., Красов А.В.</i><br> В сборнике: ТЕХНОЛОГИИ ИНФОРМАЦИОННОГО ОБЩЕСТВА.&nbsp;Сборник трудов XV Международной отраслевой научно-технической конференции «Технологии информационного общества». 2021.  С. 156-158.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">46</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИНТЕРНЕТ ВЕЩЕЙ (IOT): УГРОЗЫ БЕЗОПАСНОСТИ И КОНФИДЕНЦИАЛЬНОСТИ</span></b><br><i>Гельфанд А.М., Казанцев А.А., Красов А.В., Уляшева В.Р.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;сборник научных статей: в 4х томах. Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича. Санкт-Петербург, 2021.  С. 215-220.
+</td><td align="center" valign="top" width="30">12</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">47</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">A TECHNIQUE FOR DETECTING THE SUBSTITUTION OF A JAVA-MODULE OF AN INFORMATION SYSTEM PRONE TO PHARMING WITH USING A HIDDEN EMBEDDING OF A DIGITAL WATERMARK RESISTANT TO DECOMPILATION</span></b><br><i>Pavel Sh., Audrey K., Artem G., Ernest B.</i><br> В сборнике: International Congress on Ultra Modern Telecommunications and Control Systems and Workshops.&nbsp;13. Сер. "2021 13th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2021" 2021.  С. 219-223.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">48</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">SECURITY DECISION SUPPORT IN THE CONTROL SYSTEMS BASED ON GRAPH MODELS</span></b><br><i>Doynikova E.V., Fedorchenko A.V., Novikova E.S., Ushakov I.A., Krasov A.V.</i><br> В сборнике: Proceedings of 2021 IV International Conference on Control in Technical Systems (CTS).&nbsp;IEEE, 2021.  С. 224-227.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">49</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СРАВНЕНИЕ МОДЕЛЕЙ РАЗГРАНИЧЕНИЯ ПРАВ ДОСТУПА НА ОСНОВЕ АТРИБУТОВ И РОЛЕЙ</span></b><br><i>Рузманов Е.Ю., Красов А.В., Цветков А.Ю.</i><br> В сборнике: Безопасность в профессиональной деятельности.&nbsp;сборник научных статей. Санкт-Петербург, 2021.  С. 227-232.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">50</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РЕАЛИЗАЦИЯ ДИСЦИПЛИН В ОБЛАСТИ СЕТЕВОЙ БЕЗОПАСНОСТИ СОВМЕСТНОЙ ПРОГРАММЫ ПОДГОТОВКИ МАГИСТРОВ В ДИСТАНЦИОННОМ РЕЖИМЕ</span></b><br><i>Красов А.В., Штеренберг С.И.</i><br> В сборнике: Новые технологии оценки качества образования.&nbsp;Сборник материалов XVI Форума Гильдии экспертов в сфере профессионального образования в рамках онлайн-конференций. Москва, 2021.  С. 36-42.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">51</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ДИСТАНЦИОННОГО ОБРАЗОВАНИЯ И ТРУДОУСТРОЙСТВА СПЕЦИАЛИСТОВ ПО ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ В УСЛОВИЯХ СОВРЕМЕННЫХ ВЫЗОВОВ</span></b><br><i>Елисеева П.А., Пенкин Д.А., Тихонова Ю.А.</i><br> В книге: Актуальные проблемы науки и образования в условиях современных вызовов.&nbsp;Сборник материалов Международной научно-практической конференции. Махачкала, 2021.  С. 41-47.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">52</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА УНИВЕРСАЛЬНОГО АЛГОРИТМА ПО СОЗДАНИЮ ПРОСТЕЙШИХ МОДУЛЕЙ ЯДРА ДЛЯ РАЗЛИЧНЫХ ВЕРСИЙ ЯДРА LINUX</span></b><br><i>Катасонов А.И., Красов А.В., Цветков А.Ю.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;сборник научных статей: в 4х томах. Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича. Санкт-Петербург, 2021.  С. 438-442.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">53</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДА ОБНАРУЖЕНИЯ РУТКИТОВ УРОВНЯ ЯДРА В РАБОТАЮЩИХ LINUX-СИСТЕМАХ</span></b><br><i>Кирилова К.С., Красов А.В., Цветков А.Ю.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;сборник научных статей: в 4х томах. Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича. Санкт-Петербург, 2021.  С. 457-460.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">54</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СТЕГАНОГРАФИЧЕСКИЕ ВЛОЖЕНИЯ В ПРОТОКОЛАХ VOIP</span></b><br><i>Салита А.С., Гетьман Е.М., Красов А.В.</i><br> В сборнике: ТЕХНОЛОГИИ ИНФОРМАЦИОННОГО ОБЩЕСТВА.&nbsp;Сборник трудов XV Международной отраслевой научно-технической конференции «Технологии информационного общества». 2021.  С. 52-54.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">55</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ УЯЗВИМОСТЕЙ В ПРОТОКОЛАХ ИНТЕРНЕТА ВЕЩЕЙ УМНЫХ ГОРОДОВ</span></b><br><i>Красов А.В., Крылов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;сборник научных статей: в 4х томах. Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича. Санкт-Петербург, 2021.  С. 541-545.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">56</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОРГАНИЗАЦИЯ СТЕГАНОГРАФИЧЕСКОГО КАНАЛА С ПОМОЩЬЮ МЕТОДА LACK НА ПРИМЕРЕ ПРОТОКОЛА RTP</span></b><br><i>Салита А.С., Красов А.В.</i><br> В сборнике: ТЕОРИЯ И ПРАКТИКА ОБЕСПЕЧЕНИЯ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ.&nbsp;Сборник научных трудов по материалам всероссийской научно-теоретической конференции. 2021.  С. 68-73.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">57</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДИКИ ПОСТРОЕНИЯ ДОВЕРЕННОЙ СРЕДЫ НА ОСНОВЕ СКРЫТОГО ПРОГРАММНОГО АГЕНТА. ЧАСТЬ 1. ИССЛЕДОВАНИЕ</span></b><br><i>Штеренберг С.И., Красов А.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2021. №&nbsp;2.  С. 14-20.
+</td><td align="center" valign="top" width="30">7</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">58</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДИКИ ПОСТРОЕНИЯ ДОВЕРЕННОЙ СРЕДЫ НА ОСНОВЕ СКРЫТОГО ПРОГРАММНОГО АГЕНТА. ЧАСТЬ 3. ПРИНЦИП ДЕЙСТВИЯ ПРОГРАММНОГО АГЕНТА И ПРОВЕРКА ЕГО РАБОТОСПОСОБНОСТИ</span></b><br><i>Штеренберг С.И., Красов А.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2021. №&nbsp;4.  С. 34-40.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">59</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОЗДАНИЕ СТЕГАНОГРАФИЧЕСКОГО КАНАЛА ПРИ ПОМОЩИ ПОЛЕЙ</span></b><br><i>Салита А.С., Красов А.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2021. №&nbsp;2.  С. 36-40.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">60</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДИКИ ПОСТРОЕНИЯ ДОВЕРЕННОЙ СРЕДЫ НА ОСНОВЕ СКРЫТОГО ПРОГРАММНОГО АГЕНТА. ЧАСТЬ 2. ТЕСТИРОВАНИЕ И ОЦЕНКА ЭФФЕКТИВНОСТИ</span></b><br><i>Штеренберг С.И., Красов А.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2021. №&nbsp;3.  С. 3-8.
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">61</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДОЛОГИИ ТЕСТИРОВАНИЯ СИСТЕМ ЗАЩИТЫ ИНФОРМАЦИИ В ВИРТУАЛЬНЫХ КОМПЛЕКСАХ ДЛЯ ОБНАРУЖЕНИЯ ОШИБОК I И II-РОДА</span></b><br><i>Красов А.В., Максудова Р.Р., Нефедов В.В., Лебедева А.Д., Крёкшин М.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2021. №&nbsp;1.  С. 45-52.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">62</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">RESEARCH AND EVALUATION OF THE MOST SIGNIFICANT QUANTITATIVE CHARACTERISTICS OF MPLS EQUIPMENT</span></b><br><i>Krasov A., Karelsky P., Zuyev I., Kovzur M., Tasyuk A.</i><br>Smart Innovation, Systems and Technologies. 2021. Т. 220.  С. 431-443.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">63</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА СЦЕНАРИЕВ БЕЗОПАСНОСТИ ДЛЯ СОЗДАНИЯ УЯЗВИМЫХ ВИРТУАЛЬНЫХ МАШИН И ИЗУЧЕНИЯ МЕТОДОВ ТЕСТИРОВАНИЯ НА ПРОНИКНОВЕНИЯ</span></b><br><i>Штеренберг С.И., Москальчук А.И., Красов А.В.</i><br>Информационные технологии и телекоммуникации. 2021. Т. 9. №&nbsp;1.  С. 47-58.
+</td><td align="center" valign="top" width="30">11</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">64</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КРИПТОГРАФИЧЕСКИЕ СРЕДСТВА ЗАЩИТЫ ИНФОРМАЦИИ</span></b><br><i>Красов А.В., Земцов Д.С.</i><br>Инновации. Наука. Образование. 2021. №&nbsp;48.  С. 1629-1632.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">65</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВМЕСТНАЯ ПРОГРАММА ПОДГОТОВКИ МАГИСТРОВ ERASMUS + (ANALYZE MALWARE)</span></b><br><i>Ивасишин С.И., Красов А.В., Косов Н.А.</i><br>Инновации. Наука. Образование. 2021. №&nbsp;29.  С. 801-806.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">66</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВМЕСТНАЯ ПРОГРАММА ПОДГОТОВКИ МАГИСТРОВ ERASMUS + (RESELA)</span></b><br><i>Ивасишин С.И., Красов А.В., Ушаков И.А.</i><br>Инновации. Наука. Образование. 2021. №&nbsp;29.  С. 831-838.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">67</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">AN APPROACH FOR STEGO-INSIDER DETECTION BASED ON A HYBRID NOSQL DATABASE</span></b><br><i>Kotenko I., Izrailov K., Krasov A., Ushakov I.</i><br>Journal of Sensor and Actuator Networks. 2021. Т. 10. №&nbsp;2.
+</td><td align="center" valign="top" width="30">9</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">68</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДИКИ ПОСТРОЕНИЯ ДОВЕРЕННОЙ СРЕДЫ НА ОСНОВЕ РАСПРОСТРАНЕНИЯ СКРЫТОГО ПРОГРАММНОГО АГЕНТА. ЧАСТЬ 1. ИССЛЕДОВАНИЕ</span></b><br><i>Красов А.В., Штеренберг С.И.</i><br>Методы и технические средства обеспечения безопасности информации. 2021. №&nbsp;30.  С. 36-38.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">69</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПОДДЕРЖКА ПРИНЯТИЯ РЕШЕНИЙ ПО РЕАГИРОВАНИЮ НА НАРУШЕНИЯ В СИСТЕМАХ УПРАВЛЕНИЯ С ИСПОЛЬЗОВАНИЕМ ГРАФОВЫХ МОДЕЛЕЙ</span></b><br><i>Дойникова (Федорченко) Е.В., Федорченко А.В., Ушаков И.А., Красов А.В., Новикова Е.С.</i><br>Международная научная конференция по проблемам управления в технических системах. 2021. Т. 1.  С. 278-282.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">70</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММА ДЛЯ КЛАССИФИКАЦИИ ФАЙЛОВ ОСНОВНЫХ ТИПОВ НА БАЗЕ ТЕХНОЛОГИИ МАШИННОГО ОБУЧЕНИЯ</span></b><br><i>Израилов К.Е., Буйневич М.В., Красов А.В., Хорошенко С.В.</i><br>Свидетельство о регистрации программы для ЭВМ RU&nbsp;2020614603, 16.04.2020. Заявка&nbsp;№&nbsp;2020613525&nbsp;от&nbsp;25.03.2020.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">71</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММА ВИЗУАЛИЗАЦИИ ПРОЦЕССА КЛАСТЕРИЗАЦИИ МНОГОМЕРНЫХ ТОЧЕК ДЛЯ УЧЕБНЫХ ЦЕЛЕЙ</span></b><br><i>Израилов К.Е., Красов А.В.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2020617704, 10.07.2020. Заявка&nbsp;№&nbsp;2020616728&nbsp;от&nbsp;29.06.2020.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">72</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММНАЯ РЕАЛИЗАЦИЯ СРЕДСТВ ПРЕДОТВРАЩЕНИЙ ВТОРЖЕНИЙ И АНОМАЛИЙ СЕТЕВОЙ ИНФРАСТРУКТУРЫ</span></b><br><i>Красов А.В., Гельфанд А.М., Фадеев И.И., Казанцев А.А.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2020617705, 10.07.2020. Заявка&nbsp;№&nbsp;2020616731&nbsp;от&nbsp;29.06.2020.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">73</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗАТОР БАЙТ-КОДА JAVA - ПРОГРАММЫ ДЛЯ СКРЫТОГО ВЛОЖЕНИЯ ЦИФРОВОГО ВОДЯНОГО ЗНАКА ПОСРЕДСТВОМ АВТОМАТИЧЕСКОГО РЕДАКТИРОВАНИЯ БАЙТ-КОДА CLASS-ФАЙЛА</span></b><br><i>Красов А.В., Пешков А.И., Шариков П.И.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2020617872, 15.07.2020. Заявка&nbsp;№&nbsp;2020616770&nbsp;от&nbsp;29.06.2020.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">74</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛЬ УГРОЗ И НАРУШИТЕЛЯ</span></b><br><i>Красов А.В., Миняев А.А., Пешков А.И.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2020617876, 15.07.2020. Заявка&nbsp;№&nbsp;2020616749&nbsp;от&nbsp;29.06.2020.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">75</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ДЛЯ СБОРА ДАННЫХ МЕТРИК И ВЫЯВЛЕНИЙ АНОМАЛИЙ ОБЛАЧНОЙ ИНФРАСТРУКТУРЫ OPEN STACK</span></b><br><i>Пестов И.Е., Красов А.В., Рыжаков Д.В., Орлов Г.А.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2020619716, 21.08.2020. Заявка&nbsp;№&nbsp;2020618952&nbsp;от&nbsp;10.08.2020.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">76</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДИФИКАТОР БАЙТ-КОДА JAVA-ПРОГРАММЫ ДЛЯ СКРЫТОГО ВЛОЖЕНИЯ ЦИФРОВОГО ВОДЯНОГО ЗНАКА ПОСРЕДСТВОМ АВТОМАТИЧЕСКОГО РЕДАКТИРОВАНИЯ БАЙТ-КОДА CLASS-ФАЙЛА</span></b><br><i>Красов А.В., Пешков А.И., Шариков П.И., Жиркова Г.П.</i><br>Свидетельство о регистрации программы для ЭВМ &nbsp;2020664301, 11.11.2020. Заявка&nbsp;№&nbsp;2020663386&nbsp;от&nbsp;30.10.2020.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">77</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБНАРУЖЕНИЕ РАСПРЕДЕЛЁННЫХ АТАК ОТКАЗА В ОБСЛУЖИВАНИИ В КРУПНОМАСШТАБНЫХ СЕТЯХ НА ОСНОВЕ МЕТОДОВ МАТЕМАТИЧЕСКОЙ СТАТИСТИКИ И ИСКУССТВЕННОГО ИНТЕЛЛЕКТА</span></b><br><i>Алексеев И.В.</i><br>диссертация на соискание ученой степени кандидата технических наук / Федеральное государственное автономное образовательное учреждение высшего образования «Санкт-Петербургский политехнический университет Петра Великого». 2020
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">78</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВМЕСТНАЯ ПРОГРАММА ПОДГОТОВКИ МАГИСТРОВ ПО ПРОЕКТУ TEMPUS</span></b><br><i>Штеренберг С.И., Красов А.В.</i><br> В сборнике: Трансформация бизнеса и общественных институтов в условиях цифровизации экономики.&nbsp;Сборник материалов II Национальной научно-практической конференции. Санкт-Петербург, 2020.  С. 221-228.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">79</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">METHODS FOR BUILDING A TRUSTED ENVIRONMENT IN UNIX OPERATING SYSTEMS BASED ON THE IMPLEMENTATION OF A DIGITAL WATERMARK</span></b><br><i>Krasov A.V., Shterenberg S.I.</i><br> В сборнике: 12th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2020.&nbsp;Brno, 2020.  С. 253-257.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">80</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">A TECHNIQUE FOR ANALYZING BYTECODE IN A JAVA PROJECT FOR THE PURPOSE OF AN AUTOMATED ASSESSMENT OF THE POSSIBILITY AND EFFECTIVENESS OF THE HIDDEN INVESTMENT OF INFORMATION AND ITS VOLUMES IN A JAVA PROJECT</span></b><br><i>Krasov A., Sharikov P.</i><br> В сборнике: 12th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2020.&nbsp;Brno, 2020.  С. 258-263.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">81</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ СЕТЕВОЙ СТЕГАНОГРАФИИ НА ПРИМЕРЕ ПРОТОКОЛА IPV4</span></b><br><i>Салита А.С., Красов А.В.</i><br> В сборнике: Региональная информатика и информационная безопасность.&nbsp;Сборник трудов конференций: Санкт-Петербургской международной конференции и Санкт-Петербургской межрегиональной конференции. Санкт-Петербург, 2020.  С. 288-291.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">82</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">THE METHOD AND METHODOLOGY OF EFFICIENCY ASSESSMENT OF PROTECTION SYSTEM OF DISTRIBUTED INFORMATION SYSTEMS</span></b><br><i>Minyaev A.A., Krasov A.V., Saharov D.V.</i><br> В сборнике: 12th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2020.&nbsp;Brno, 2020.  С. 291-295.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">83</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ ЗАЩИЩЕННОСТИ СОВРЕМЕННЫХ СРЕДСТВ ПЕРЕДАЧИ ИНФОРМАЦИИ ПОСРЕДСТВОМ ПОРТАТИВНОЙ ЛАБОРАТОРИИ НА ОСНОВЕ МИКРОКОМПЬЮТЕРА RASPBERRY PI</span></b><br><i>Габуев А.Г., Красов А.В., Ощенков Ф.Д., Тарасов Н.М.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2020).&nbsp;IX Международная научно-техническая и научно-методическая конференция : сборник научных статей. Санкт-Петербург, 2020.  С. 295-298.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">84</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВЫЯВЛЕНИЕ ПОЛЕЙ ЗАГОЛОВКА ПРОТОКОЛА IPV4 ПРИГОДНЫХ ДЛЯ СТЕГАНОГРАФИЧЕСКИХ ВЛОЖЕНИЙ</span></b><br><i>Салита А.С., Красов K.I.Ru.</i><br> В книге: Региональная информатика (РИ-2020).&nbsp;XVII Санкт-Петербургская международная конференция. Материалы конференции. Санкт-Петербург, 2020.  С. 304-305.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">85</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОЦЕНКА РИСКОВ И УГРОЗ БЕЗОПАСНОСТИ В СРЕДЕ "УМНЫЙ ДОМ"</span></b><br><i>Гельфанд А.М., Казанцев А.А., Красов А.В., Орлов Г.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2020).&nbsp;IX Международная научно-техническая и научно-методическая конференция : сборник научных статей. Санкт-Петербург, 2020.  С. 316-321.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">86</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ РАСПРЕДЕЛЕННОГО МЕХАНИЗМА БЕЗОПАСНОСТИ ДЛЯ УСТРОЙСТВ ИНТЕРНЕТА ВЕЩЕЙ С ОГРАНИЧЕННЫМИ РЕСУРСАМИ</span></b><br><i>Гельфанд А.М., Казанцев А.А., Красов А.В., Орлов Г.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2020).&nbsp;IX Международная научно-техническая и научно-методическая конференция : сборник научных статей. Санкт-Петербург, 2020.  С. 321-326.
+</td><td align="center" valign="top" width="30">17</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">87</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">DETECTION OF STEGO-INSIDERS IN CORPORATE NETWORKS BASED ON A HYBRID NOSQL DATABASE MODEL</span></b><br><i>Kotenko I., Krasov A., Ushakov I., Izrailov K.</i><br> В сборнике: ACM International Conference Proceeding Series.&nbsp;4. Сер. "Proceedings of the 4th International Conference on Future Networks and Distributed Systems, ICFNDS 2020" 2020.  С. 3442612.
+</td><td align="center" valign="top" width="30">7</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">88</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ СОВРЕМЕННЫХ МЕТОДОВ СЕТЕВОЙ СТЕГАНОГРАФИИ</span></b><br><i>Диордица В.Н., Красов А.В., Таргонская А.И.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2020).&nbsp;IX Международная научно-техническая и научно-методическая конференция : сборник научных статей. Санкт-Петербург, 2020.  С. 404-409.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">89</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СРАВНЕНИЕ МЕХАНИЗМОВ БЕЗОПАСНОСТИ РАЗЛИЧНЫХ ВЕРСИЙ ОПЕРАЦИОННОЙ СИСТЕМЫ ANDROID</span></b><br><i>Атанов В.Д., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2020).&nbsp;Сборник научных статей IX Международной научно-технической и научно-методической конференции. В 4-х т.. Санкт-Петербург, 2020.  С. 47-52.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">90</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОЗДАНИЕ СЕГМЕНТА ТЕЛЕКОММУНИКАЦИОННОЙ ИНФРАСТРУКТУРЫ АПК "БЕЗОПАСНЫЙ ГОРОД"</span></b><br><i>Крылов А.В., Красов А.В., Ушаков И.А.</i><br> В книге: Инновации молодежной науки.&nbsp;Тезисы докладов Всероссийской научной конференции молодых ученых. 2020.  С. 50-51.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">91</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">A STUDY OF THE CORRECTNESS OF THE EXECUTION OF A CLASS FILE WITH AN EMBEDDED DIGITAL WATERMARK IN DIFFERENT ENVIRONMENTS</span></b><br><i>Sharikov P.I., Krasov A.V., Volkogonov V.N.</i><br> В сборнике: IOP Conference Series: Materials Science and Engineering.&nbsp;Krasnoyarsk Science and Technology City Hall of the Russian Union of Scientific and Engineering Associations. 2020.  С. 52052.
+</td><td align="center" valign="top" width="30">12</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">92</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОЕКТИРОВАНИЕ СЕГМЕНТА СЕТИ АПК «БЕЗОПАСНЫЙ ГОРОД» И ИССЛЕДОВАНИЕ МЕТОДОВ ОБЕСПЕЧЕНИЯ ЗАЩИТЫ ОТ АУТСАЙДЕРСКИХ УГРОЗ</span></b><br><i>Красов А.В., Крылов А.В., Ушаков И.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2020).&nbsp;IX Международная научно-техническая и научно-методическая конференция : сборник научных статей. Санкт-Петербург, 2020.  С. 649-653.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">93</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЭФФЕКТИВНОСТЬ ВСТРОЕННОЙ ЗАЩИТЫ MICROSOFT WINDOWS SERVER ОТ DDOS-АТАК НА ОСНОВЕ TCP SYN</span></b><br><i>Катасонов А.И., Красов А.В., Цветков А.Ю.</i><br> В сборнике: Сборник cтатей Круглого стола «Безопасность в профессиональной деятельности».&nbsp;Сборник статей Круглого стола «Безопасность в профессиональной деятельности», в рамках II Всероссийской научно-практической конференции «Инновационные технологии и вопросы обеспечения безопасности реальной экономики» ITES-2020. Санкт-Петербург, 2020.  С. 68-78.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">94</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЗАЩИЩЕННАЯ МОДЕЛЬ ПРОГРАММНО-ОПРЕДЕЛЯЕМОЙ СЕТИ В СРЕДЕ ВИРТУАЛИЗАЦИИ KVM</span></b><br><i>Сахаров Д.В., Красов А.В., Ушаков И.А., Орлов Г.А.</i><br>Электросвязь. 2020. №&nbsp;3.  С. 26-32.
+</td><td align="center" valign="top" width="30">12</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">95</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДОЛОГИЯ СОЗДАНИЯ ВИРТУАЛЬНОЙ ЛАБОРАТОРИИ ДЛЯ ТЕСТИРОВАНИЯ БЕЗОПАСНОСТИ РАСПРЕДЕЛЕННЫХ ИНФОРМАЦИОННЫХ СИСТЕМ</span></b><br><i>Красов А.В., Штеренберг С.И., Москальчук А.И.</i><br>Вестник Брянского государственного технического университета. 2020. №&nbsp;3&nbsp;(88).  С. 38-46.
+</td><td align="center" valign="top" width="30">22</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">96</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ЗАЩИЩЕННОЙ МАСШТАБИРУЕМОЙ СЕТИ ПРЕДПРИЯТИЯ С ДИНАМИЧЕСКОЙ МАРШРУТИЗАЦИЕЙ НА ОСНОВЕ IPV6</span></b><br><i>Сахаров Д.В., Красов А.В., Ушаков И.А., Бирих Э.В.</i><br>Защита информации. Инсайд. 2020. №&nbsp;1&nbsp;(91).  С. 51-57.
+</td><td align="center" valign="top" width="30">16</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">97</td>
+<td align="left" valign="top"><b>
+МЕТОДИКА ОЦЕНКИ ЭФФЕКТИВНОСТИ СИСТЕМЫ ЗАЩИТЫ ИНФОРМАЦИИ ТЕРРИТОРИАЛЬНО-РАСПРЕДЕЛЕННЫХ ИНФОРМАЦИОННЫХ СИСТЕМ</b><br><i>
+Миняев А.А., Красов А.В.</i><br>
+Вестник Санкт-Петербургского государственного университета технологии и дизайна.
+2020.
+№ 3. С. 26.</td>
+<td align="center" valign="top">0</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">98</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ПОСТРОЕНИЯ ДОВЕРЕННОЙ СРЕДЫ В UNIX-ПОДОБНЫХ ОС НА ОСНОВЕ ВНЕДРЕНИЯ ЦВЗ</span></b><br><i>Красов А.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2020. №&nbsp;4.  С. 17-25.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">99</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ОЦЕНКИ ЭФФЕКТИВНОСТИ СИСТЕМЫ ЗАЩИТЫ ИНФОРМАЦИИ ТЕРРИТОРИАЛЬНО-РАСПРЕДЕЛЕННЫХ ИНФОРМАЦИОННЫХ СИСТЕМ</span></b><br><i>Миняев А.А., Красов А.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2020. №&nbsp;3.  С. 26-32.
+</td><td align="center" valign="top" width="30">15</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">100</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД ОЦЕНКИ ЭФФЕКТИВНОСТИ СИСТЕМЫ ЗАЩИТЫ ИНФОРМАЦИИ ТЕРРИТОРИАЛЬНО-РАСПРЕДЕЛЕННЫХ ИНФОРМАЦИОННЫХ СИСТЕМ ПЕРСОНАЛЬНЫХ ДАННЫХ</span></b><br><i>Миняев А.А., Красов А.В., Сахаров Д.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2020. №&nbsp;1.  С. 29-33.
+</td><td align="center" valign="top" width="30">19</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">101</td>
+<td align="left" valign="top"><b>
+МЕТОД ОЦЕНКИ ЭФФЕКТИВНОСТИ СИСТЕМЫ ЗАЩИТЫ ИНФОРМАЦИИ ТЕРРИТОРИАЛЬНО-РАСПРЕДЕЛЕННЫХ ИНФОРМАЦИОННЫХ СИСТЕМ ПЕРСОНАЛЬНЫХ ДАННЫХ</b><br><i>
+Миняев А.А., Красов А.В., Сахаров Д.В.</i><br>
+Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 2: Искусствоведение. Филологические науки.
+2020.
+№ 1. С. 29.</td>
+<td align="center" valign="top">0</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">102</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОЕКТИРОВАНИЕ СИСТЕМЫ ОБНАРУЖЕНИЯ ВТОРЖЕНИЙ ДЛЯ ИНФОРМАЦИОННОЙ СЕТИ С ИСПОЛЬЗОВАНИЕМ БОЛЬШИХ ДАННЫХ</span></b><br><i>Красов А.В., Сахаров Д.В., Тасюк А.А.</i><br>Наукоемкие технологии в космических исследованиях Земли. 2020. Т. 12. №&nbsp;1.  С. 70-76.
+</td><td align="center" valign="top" width="30">17</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">103</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРИМЕНЕНИЕ BIG DATA ПРИ АНАЛИЗЕ БОЛЬШИХ ДАННЫХ В КОМПЬЮТЕРНЫХ СЕТЯХ</span></b><br><i>Орлов Г.А., Красов А.В., Гельфанд А.М.</i><br>Наукоемкие технологии в космических исследованиях Земли. 2020. Т. 12. №&nbsp;4.  С. 76-84.
+</td><td align="center" valign="top" width="30">12</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">104</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОЗДАНИЕ СЕГМЕНТА ТЕЛЕКОММУНИКАЦИОННОЙ ИНФРАСТРУКТУРЫ АПК “БЕЗОПАСНЫЙ ГОРОД”</span></b><br><i>Крылов А.В.</i><br>Вестник молодых ученых Санкт-Петербургского государственного университета технологии и дизайна. 2020. №&nbsp;1.  С. 20-23.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">105</td>
+<td align="left" valign="top"><b>
+MAY). A STUDY OF THE CORRECTNESS OF THE EXECUTION OF A CLASS FILE WITH AN EMBEDDED DIGITAL WATERMARK IN DIFFERENT ENVIRONMENTS</b><br><i>
+Sharikov P.I., Krasov A.V., Volkogonov V.N.</i><br>
+IOP Conference Series: Materials Science and Engineering.
+2020.
+Т. 862. № 5. С. 052052.</td>
+<td align="center" valign="top">0</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top">106</td>
+<td align="left" valign="top"><b>
+A STUDY OF THE CORRECTNESS OF THE EXECUTION OF A CLASS FILE WITH AN EMBEDDED DIGITAL WATERMARK IN DIFFERENT ENVIRONMENTS</b><br><i>
+Sharikov P.I., Krasov A.V., Volkogonov V.N.</i><br>
+IOP Conference Series: Materials Science and Engineering.
+2020.
+С. 52052.</td>
+<td align="center" valign="top">0</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">107</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">HUMAN-COMPUTER THREATS CLASSIFICATION IN INTELLIGENT TRANSPORTATION SYSTEMS</span></b><br><i>Kashevnik A., Ponomarev A., Krasov A.</i><br>Conference of Open Innovations Association, FRUCT. 2020. №&nbsp;26.  С. 151-157.
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">108</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АЛГОРИТМЫ И МЕТОДЫ ЗАЩИТЫ ПРОГРАММНОГО КОДА НА БАЗЕ ОБФУСКАЦИИ</span></b><br><i>Красов А.В., Зуев И.П., Карельский П.В., Радынская В.Е., Гераськина В.С.</i><br>I-methods. 2020. Т. 12. №&nbsp;1.  С. 1-12.
+</td><td align="center" valign="top" width="30">7</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">109</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛЬ УСТОЙЧИВОСТИ АВТОМАТИЗИРОВАННОЙ СИСТЕМЫ УПРАВЛЕНИЯ</span></b><br><i>Билятдинов К.З., Красов А.В., Меняйло В.В.</i><br>Техника средств связи. 2020. №&nbsp;4&nbsp;(152).  С. 43-50. (публикация отозвана 23.11.2022)
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">110</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММА ДЛЯ ВИЗУАЛИЗАЦИИ ДИНАМИЧЕСКОГО ИЗМЕНЕНИЯ ГРАФОВ, ЗАДАННЫХ В ФОРМАТЕ DOT, В РЕЖИМЕ РЕАЛЬНОГО ВРЕМЕНИ</span></b><br><i>Израилов К.Е., Буйневич М.В., Красов А.В., Хорошенко С.В.</i><br>Свидетельство о регистрации программы для ЭВМ RU&nbsp;2019667695, 26.12.2019. Заявка&nbsp;№&nbsp;2019666757&nbsp;от&nbsp;17.12.2019.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">111</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПОСТРОЕНИЕ ДОВЕРЕННОЙ ВЫЧИСЛИТЕЛЬНОЙ СРЕДЫ</span></b><br><i>Красов А.В., Гельфанд А.М., Коржик В.И., Котенко И.В., Петрив Р.Б., Сахаров Д.В., Ушаков И.А., Шариков П.И., Юркин Д.В.</i><br> Санкт-Петербург, 2019.
+</td><td align="center" valign="top" width="30">40</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">112</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ФУНКЦИОНАЛЬНОЕ И ЛОГИЧЕСКОЕ ПРОГРАММИРОВАНИЕ</span></b><br><i>Губанова Т.В., Ермакова Т.В., Белая Т.И.</i><br>Том Часть 2. Санкт-Петербург, 2019.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">113</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОРГАНИЗАЦИЯ, ПРИНЦИПЫ ПОСТРОЕНИЯ И ФУНКЦИОНИРОВАНИЯ КОМПЬЮТЕРНЫХ СЕТЕЙ</span></b><br><i>Ушаков И.А., Красов А.В., Савинов Н.В.</i><br>Учебник для студентов учреждений высшего профессионального образования /  Москва, 2019.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">114</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ТЕОРИЯ ИНФОРМАЦИОННЫХ ПРОЦЕССОВ И СИСТЕМ</span></b><br><i>Билятдинов К.З., Красов А.В., Меняйло В.В., Пешков А.И., Карпов А.Н.</i><br> Санкт-Петербург, 2019.
+</td><td align="center" valign="top" width="30">8</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">115</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВМЕСТНАЯ ПРОГРАММА ПОДГОТОВКИ МАГИСТРОВ ERASMUS +</span></b><br><i>Красов А.В., Ушаков И.А., Штеренберг С.И.</i><br> В сборнике: Новые технологии оценки качества образования.&nbsp;Сборник материалов XV Форума Гильдии экспертов в сфере профессионального образования. Под общей редакцией Г.Н. Мотовой. 2019.  С. 156-162.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">116</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СРАВНИТЕЛЬНЫЙ АНАЛИЗ РЕШЕНИЙ SDN ОТ ВЕДУЩИХ ПРОИЗВОДИТЕЛЕЙ</span></b><br><i>Бохан И.В., Красов А.В., Ушаков И.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 160-163.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">117</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">RESEARCH OF THE POSSIBILITY OF HIDDEN EMBEDDING OF A DIGITAL WATERMARK USING PRACTICAL METHODS OF CHANNEL STEGANOGRAPHY</span></b><br><i>Sharikov P.I., Krasov A.V., Gelfand A.M., Kosov N.A.</i><br> В сборнике: Intelligent Distributed Computing XIII.&nbsp;2019.  С. 203-209.
+</td><td align="center" valign="top" width="30">30</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">118</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЗАЩИТА ДЛЯ РАСПРЕДЕЛЕННЫХ ОТКАЗОВ В ОБСЛУЖИВАНИИ В ОБЛАЧНЫХ ВЫЧИСЛЕНИЯХ</span></b><br><i>Гельфанд А.М., Косов Н.А., Красов А.В., Орлов Г.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 329-334.
+</td><td align="center" valign="top" width="30">28</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">119</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ СИСТЕМ И АНАЛИЗ РЕЗУЛЬТАТОВ ИСПЫТАНИЙ</span></b><br><i>Билятдинов К.З., Красов А.В., Меняйло В.В.</i><br>Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича.  Санкт-Петербург, 2019.
+</td><td align="center" valign="top" width="30">11</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">120</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОЕКТИРОВАНИЕ СИСТЕМЫ ОБНАРУЖЕНИЯ ВТОРЖЕНИЙ ДЛЯ МОНИТОРИНГА СИСТЕМ 5G С ИСПОЛЬЗОВАНИЕМ БОЛЬШИХ ДАННЫХ</span></b><br><i>Гамидов Т.О., Тасюк А.А.</i><br> В сборнике: Модернизация информационной инфраструктуры для сетей 5G/IMT 2020 и для других перспективных технологий в интересах трансформации регионов РОСИНФОКОМ-2019.&nbsp;Сборник научных статей. 2019.  С. 37-45.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">121</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА БЫСТРОЙ ОБФУСКАЦИИ CLASS-ФАЙЛОВ JAVA-ПРИЛОЖЕНИЯ С МИНИМАЛЬНЫМ ИСПОЛЬЗОВАНИЕМ РЕСУРСОВ</span></b><br><i>Шариков П.И.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференции : в 4 т.. 2019.  С. 548-551.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">122</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОПТИМИЗАЦИЯ ПРОЦЕССА ОБУЧЕНИЯ ВЫПУСКНИКОВ ВЫСШЕЙ ШКОЛЫ С ПРИМЕНЕНИЕМ НОВЫХ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ</span></b><br><i>Атанов В.Д., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференции : в 4 т.. 2019.  С. 565-570.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">123</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОЗДАНИЕ И УПРАВЛЕНИЕ SECURITY OPERATIONS CENTER ДЛЯ ЭФФЕКТИВНОГО ПРИМЕНЕНИЯ В РЕАЛЬНЫХ УСЛОВИЯХ</span></b><br><i>Казанцев А.А., Красов А.В., Катасонов А.И., Гельфанд А.М.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 590-595.
+</td><td align="center" valign="top" width="30">10</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">124</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">KERBEROS, ЗАЩИТА ДАННЫХ В BIG DATA</span></b><br><i>Красов А.В., Радынская В.Е., Тасюк А.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 596-601.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">125</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ ОБХОДА ПОЛИТИК БЕЗОПАСНОСТИ SDN</span></b><br><i>Красов А.В., Савинов Н.В., Токарева К.А., Ушаков И.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 602-605.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">126</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СРАВНИТЕЛЬНЫЙ АНАЛИЗ СУЩЕСТВУЮЩИХ РЕШЕНИЙ МОНИТОРИНГА SDN-СЕТЕЙ</span></b><br><i>Красов А.В., Ушаков И.А., Федоров В.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 606-611.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">127</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ УЯЗВИМОСТЕЙ И РЕЛЕВАНТНЫХ РЕШЕНИЙ В ОБЛАСТИ ОБЕСПЕЧЕНИЯ БЕЗОПАСНОСТИ SDN-СЕТЕЙ</span></b><br><i>Красов А.В., Ушаков И.А., Щипцов Д.И.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 611-616.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">128</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ СУЩЕСТВУЮЩИХ МЕТОДОВ АТАК ТИПА ПЕРЕПОЛНЕНИЯ БУФЕРА НА ОПЕРАЦИОННЫЕ СИСТЕМЫ СЕМЕЙСТВА MICROSOFT</span></b><br><i>Цветков А.Ю.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 751-756.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">129</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ В КЛИЕНТ-СЕРВЕРНОМ JAVA ПРИЛОЖЕНИИ ДЛЯ УЧЕТА И АВТОМАТИЧЕСКОЙ ПРОВЕРКИ ЛАБОРАТОРНЫХ РАБОТ</span></b><br><i>Цветков А.Ю., Шалаева М.Е., Юрченко М.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2019).&nbsp;сборник научных статей VIII Международной научно-технической и научно-методической конференцияи : в 4 т.. 2019.  С. 756-761.
+</td><td align="center" valign="top" width="30">7</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">130</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">BEHAVIORAL ANALYSIS OF RESOURCE ALLOCATION SYSTEMS IN CLOUD INFRASTRUCTURE</span></b><br><i>Krasov A., Vitkova L., Pestov I.</i><br> В сборнике: Proceedings - 2019 International Russian Automation Conference, RusAutoCon 2019.&nbsp;2019.  С. 8867699.
+</td><td align="center" valign="top" width="30">10</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">131</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ВИЗУАЛИЗАЦИИ БОЛЬШИХ ДАННЫХ В СИСТЕМАХ ЗАЩИТЫ ИНФОРМАЦИИ ДЛЯ ФОРМИРОВАНИЯ ОТЧЕТОВ УЯЗВИМОСТЕЙ</span></b><br><i>Красов А.В., Штеренберг С.И., Голузина Д.Р.</i><br>Электросвязь. 2019. №&nbsp;11.  С. 39-47.
+</td><td align="center" valign="top" width="30">27</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">132</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МАСШТАБИРУЕМОЕ HONEYPOT-РЕШЕНИЕ ДЛЯ ОБЕСПЕЧЕНИЯ БЕЗОПАСНОСТИ В КОРПОРАТИВНЫХ СЕТЯХ</span></b><br><i>Красов А.В., Петрив Р.Б., Сахаров Д.В., Сторожук Н.Л., Ушаков И.А.</i><br>Труды учебных заведений связи. 2019. Т. 5. №&nbsp;3.  С. 86-97.
+</td><td align="center" valign="top" width="30">24</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">133</td>
+<td align="left" valign="top"><b>
+RESEARCHING THE POSSIBILITY OF USING JAVA AGENTS FOR EMBEDDING A HIDDEN DIGITAL WATERBAR DIRECTLY BEFORE RUNNING A JAVA APPLICATION", BULLETIN OF THE ST. PETERSBURG STATE UNIVERSITY OF TECHNOLOGY AND DESIGN. SERIES 1</b><br><i>
+Sharikov P.I., Krasov A.V.</i><br>
+Естественные и технические науки.
+2019.
+№ 4. С. 14.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">134</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ МОДЕЛИ СЕТИ ЦОД НА ОСНОВЕ ПОЛИТИК CISCO ACI</span></b><br><i>Савинов Н.В., Токарева К.А., Ушаков И.А., Красов А.В., Сахаров Д.В.</i><br>Защита информации. Инсайд. 2019. №&nbsp;4&nbsp;(88).  С. 32-43.
+</td><td align="center" valign="top" width="30">13</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">135</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ВОЗМОЖНОСТИ ИСПОЛЬЗОВАНИЯ JAVA-АГЕНТОВ ДЛЯ ВЛОЖЕНИЯ СКРЫТОГО ЦИФРОВОГО ВОДЯНОГО ЗНАКА НЕПОСРЕДСТВЕННО ПЕРЕД ЗАПУСКОМ JAVA-ПРИЛОЖЕНИЯ</span></b><br><i>Шариков П.И., Красов А.В.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2019. №&nbsp;4.  С. 14-18.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">136</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АКТУАЛЬНОСТЬ ВНЕДРЕНИЯ ЦИФРОВЫХ ВОДЯНЫХ ЗНАКОВ В ПРОГРАММЫ, НАПИСАННЫХ НА ЯЗЫКЕ KOTLIN</span></b><br><i>Владыкин М.В., Косов Н.А., Красов А.В.</i><br>Colloquium-Journal. 2019. №&nbsp;13-2&nbsp;(37).  С. 12-16.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">137</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ МЕТОДОВ ПРОВИЖИНИНГА БЕЗОПАСНОЙ СЕТИ НА МУЛЬТИВЕНДОРНОМ ОБОРУДОВАНИИ С ИСПОЛЬЗОВАНИЕМ СРЕДСТВ АВТОМАТИЗИРОВАННОЙ КОНФИГУРАЦИИ</span></b><br><i>Красов А.В., Косов Н.А., Холоденко В.Ю.</i><br>Colloquium-Journal. 2019. №&nbsp;13-2&nbsp;(37).  С. 243-247.
+</td><td align="center" valign="top" width="30">18</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">138</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">RIDESHARING FOR CARSHARING SERVICE PROVIDER: DRIVER AND PEDESTRIAN ROUTE MATCHING</span></b><br><i>Kashevnik A., Teslya N., Mikhailov S., Petrov M., Shabaev A., Krasov A.</i><br>Conference of Open Innovations Association, FRUCT. 2019. №&nbsp;25.  С. 146-152.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">139</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЕСПЕЧЕНИЕ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ КИБЕРФИЗИЧЕСКИХ СИСТЕМ НА ОСНОВЕ ПРИНЦИПА ГОМЕОСТАЗА</span></b><br><i>Павленко Е.Ю.</i><br>диссертация на соискание ученой степени кандидата технических наук / Федеральное государственное автономное образовательное учреждение высшего образования «Санкт-Петербургский политехнический университет Петра Великого». 2018
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">140</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СКРЫТОЕ ВЛОЖЕНИЕ В БАЙТ-КОД JAVA НА ОСНОВЕ ИСПОЛЬЗОВАНИЯ МЕТОДА ПЕРЕОПРЕДЕЛЯЕМЫХ ЗНАЧЕНИЙ ПЕРЕМЕННЫХ</span></b><br><i>Верещагин М.В., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2018).&nbsp;VII Международная научно-техническая и научно-методическая конференция. Сборник научных статей. В 4-х томах. Под редакцией С.В. Бачевского. 2018.  С. 152-154.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">141</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СПОСОБЫ КОММУТАЦИИ ПАКЕТОВ В СЕТЯХ CISCO</span></b><br><i>Красов А.В., Волкогонов В.Н., Волостных В.А., Гельфанд А.М., Катасонов А.И.</i><br> В сборнике: Материалы Всероссийской научно-практической конференции "Национальная безопасность России: актуальные аспекты" ГНИИ "Нацразвитие". Июль 2018.&nbsp;Сборник избранных статей. 2018.  С. 31-35.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">142</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РИСКИ ПРИ РЕАЛИЗАЦИИ ТЕХНОЛОГИИ BYOD В ОРГАНИЗАЦИЯХ И РЕШЕНИЯ ДЛЯ ИХ МИНИМИЗАЦИИ</span></b><br><i>Красов А.В., Рогова А.Н.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2018).&nbsp;VII Международная научно-техническая и научно-методическая конференция. Сборник научных статей. В 4-х томах. Под редакцией С.В. Бачевского. 2018.  С. 506-510.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">143</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ СЕТЕВОЙ СТЕГАНОГРАФИИ НА ПРИМЕРЕ ПРОТОКОЛА ICMP</span></b><br><i>Красов А.В., Степанов Е.И.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2018).&nbsp;VII Международная научно-техническая и научно-методическая конференция. Сборник научных статей. В 4-х томах. Под редакцией С.В. Бачевского. 2018.  С. 510-513.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">144</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ И РАЗРАБОТКА МЕТОДОВ ОБНАРУЖЕНИЯ ВРЕДОНОСНОЙ АКТИВНОСТИ АВТОМАТИЗИРОВАННОГО ПОСТРОЕНИЯ БОТНЕТ-СЕТЕЙ</span></b><br><i>Красов А.В., Сурмина М.С.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2018).&nbsp;VII Международная научно-техническая и научно-методическая конференция. Сборник научных статей. В 4-х томах. Под редакцией С.В. Бачевского. 2018.  С. 513-517.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">145</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ JAVA ПРОГРАММ ПОСРЕДСТВОМ ВЛОЖЕНИЯ ПРОГРАММНОГО ВОДЯНОГО ЗНАКА</span></b><br><i>Красов А.В., Шариков П.И.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2018).&nbsp;VII Международная научно-техническая и научно-методическая конференция. Сборник научных статей. В 4-х томах. Под редакцией С.В. Бачевского. 2018.  С. 517-520.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">146</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ АКТИВНЫХ СЕТЕВЫХ АТАК: ARP-SPOOFING И DNS-SPOOFING</span></b><br><i>Красов А.В., Ягудин И.Р.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2018).&nbsp;VII Международная научно-техническая и научно-методическая конференция. Сборник научных статей. В 4-х томах. Под редакцией С.В. Бачевского. 2018.  С. 520-526.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">147</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ ПРЕДПРИЯТИЯ НА ОСНОВЕ СБОРА ДАННЫХ ПОЛЬЗОВАТЕЛЕЙ С ОТКРЫТЫХ РЕСУРСОВ И МОНИТОРИНГА ИНФОРМАЦИОННЫХ РЕСУРСОВ С ИСПОЛЬЗОВАНИЕМ МАШИННОГО ОБУЧЕНИЯ</span></b><br><i>Красов А.В., Штеренберг С.И., Фахрутдинов Р.М., Рыжаков Д.В., Пестов И.Е.</i><br>T-Comm: Телекоммуникации и транспорт. 2018. Т. 12. №&nbsp;10.  С. 36-40.
+</td><td align="center" valign="top" width="30">30</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">148</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ВОЗМОЖНОСТЕЙ МЕТОДИКИ СКРЫТОГО ВЛОЖЕНИЯ ЦИФРОВОГО ВОДЯНОГО ЗНАКА В CLASS-ФАЙЛЫ НА ВИРТУАЛИЗИРОВАННЫХ ПЛАТФОРМАХ С ОТЛИЧАЮЩЕЙСЯ АРХИТЕКТУРОЙ</span></b><br><i>Иванов А.В., Красов А.В., Шариков П.И.</i><br>Научно-аналитический журнал "Вестник Санкт-Петербургского университета Государственной противопожарной службы МЧС России". 2018. №&nbsp;2.  С. 79-89.
+</td><td align="center" valign="top" width="30">11</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">149</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">EMBEDDING THE HIDDEN INFORMATION INTO JAVA BYTE CODE BASED ON OPERANDS INTERCHANGING</span></b><br><i>Krasov A.V., Arshinov A.S., Ushakov I.A.</i><br>ARPN Journal of Engineering and Applied Sciences. 2018. Т. 13. №&nbsp;8.  С. 2746-2752.
+</td><td align="center" valign="top" width="30">31</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">150</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОМПЛЕКСНЫЙ ПОДХОД К ОБЕСПЕЧЕНИЮ БЕЗОПАСНОСТИ КИБЕРФИЗИЧЕСКИХ СИСТЕМ НА ОСНОВЕ МИКРОКОНТРОЛЛЕРОВ</span></b><br><i>Котенко И.В., Левшун Д.С., Чечулин А.А., Ушаков И.А., Красов А.В.</i><br>Вопросы кибербезопасности. 2018. №&nbsp;3&nbsp;(27).  С. 29-38.
+</td><td align="center" valign="top" width="30">34</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">151</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА КОМПЛЕКСА ПРОГРАММНО-АППАРАТНОГО ОБЕСПЕЧЕНИЯ ДЛЯ ПЕРЕХВАТА БЕСПИЛОТНОГО ЛЕТАТЕЛЬНОГО АППАРАТА</span></b><br><i>Дмитриева Е.В., Красов А.В., Филиппов О.Б.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2017).&nbsp;Сборник научных статей VI Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией С.В. Бачевского. 2017.  С. 266-270.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">152</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОБЛЕМА БЕЗОПАСНОСТИ ПЕРЕДАЧИ ГРУППОВЫХ РАССЫЛОК В IP-СЕТЯХ</span></b><br><i>Красов А.В., Лосин Е.П., Ушаков И.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;сборник научных статей: в 4-х томах. Под редакцией С.В. Бачевского. 2017.  С. 295-301.
+</td><td align="center" valign="top" width="30">10</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">153</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РЕАЛИЗАЦИЯ МЕТОДА КАНАЛЬНОЙ СТЕГАНОГРАФИИ С ИСПОЛЬЗОВАНИЕМ ПРОТОКОЛА ICMP</span></b><br><i>Костырин А.С., Красов А.В.</i><br> В сборнике: Региональная информатика и информационная безопасность.&nbsp;сборник научных трудов. Санкт-Петербургское Общество информатики, вычислительной техники, систем связи и управления. 2017.  С. 313-316.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">154</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ УЯЗВИМОСТИ СЕРИАЛИЗАЦИИ И ДЕСЕРИАЛИЗАЦИИ ДАННЫХ В JAVA</span></b><br><i>Шариков П.И., Красов А.В.</i><br> В сборнике: Региональная информатика и информационная безопасность.&nbsp;сборник научных трудов. Санкт-Петербургское Общество информатики, вычислительной техники, систем связи и управления. 2017.  С. 333-336.
+</td><td align="center" valign="top" width="30">11</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">155</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЗОР ВОЗМОЖНОСТЕЙ РЕАЛИЗАЦИИ КАНАЛЬНОЙ СТЕГАНОГРАФИИ НА ОСНОВЕ ПРОТОКОЛОВ СЕТЕВОГО И ТРАНСПОРТНОГО УРОВНЕЙ МОДЕЛИ OSI</span></b><br><i>Костырин А.С., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2017).&nbsp;Сборник научных статей VI Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией С.В. Бачевского. 2017.  С. 437-443.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">156</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РЕАЛИЗАЦИЯ МЕТОДА КАНАЛЬНОЙ СТЕГАНОГРАФИИ С ИСПОЛЬЗОВАНИЕМ ПРОТОКОЛА ICMP</span></b><br><i>Костырин А.С., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2017).&nbsp;Сборник научных статей VI Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией С.В. Бачевского. 2017.  С. 443-448.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">157</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЗАЩИТА СЕТИ ПЕРЕДАЧИ ДАННЫХ С ИСПОЛЬЗОВАНИЕМ ТЕХНОЛОГИИ OPENDNS</span></b><br><i>Красов А.В., Лоханько Н.О., Подоляк Р.С.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2017).&nbsp;Сборник научных статей VI Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией С.В. Бачевского. 2017.  С. 448-453.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">158</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ ИНФРАСТРУКТУРЫ, ОРИЕНТИРОВАННОЙ НА ПРИЛОЖЕНИЯ КОМПАНИИ CISCO SYSTEMS INC. В СОВРЕМЕННЫХ СЕТЯХ ЦОД</span></b><br><i>Красов А.В., Савинов Н.В., Ушаков И.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании (АПИНО 2017).&nbsp;Сборник научных статей VI Международной научно-технической и научно-методической конференции. В 4-х томах. Под редакцией С.В. Бачевского. 2017.  С. 453-457.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">159</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ВОЗМОЖНОСТИ ВЛОЖЕНИЯ ЦИФРОВОГО ВОДЯНОГО ЗНАКА В БАЙТ-КОД ПУТЕМ ЗАМЕНЫ УЯЗВИМОГО БАЙТ-КОДА JAVA КЛАССА</span></b><br><i>Шариков П.И., Красов А.В.</i><br> В книге: Информационная безопасность регионов России (ИБРР-2017).&nbsp;Материалы конференции. 2017.  С. 499-500.
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">160</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОБЛЕМЫ ОБЕСПЕЧЕНИЯ БЕЗОПАСНОСТИ ОБЛАЧНЫХ ВЫЧИСЛЕНИЙ</span></b><br><i>Красов А.В., Левин М.В., Фостач Е.С.</i><br> В книге: Информационная безопасность регионов России (ИБРР-2017).&nbsp;Материалы конференции. 2017.  С. 520-522.
+</td><td align="center" valign="top" width="30">7</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">161</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ПРИНЦИПОВ РАБОТЫ ПРОТОКОЛА OPENFLOW В ПРОГРАММНО-КОНФИГУРИРУЕМЫХ СЕТЯХ</span></b><br><i>Альшаев И.А., Красов А.В., Ушаков И.А.</i><br>Труды учебных заведений связи. 2017. Т. 3. №&nbsp;2.  С. 16-27.
+</td><td align="center" valign="top" width="30">14</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">162</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ ПЕРЕДАЧИ MULTICAST-ТРАФИКА В IP-СЕТЯХ</span></b><br><i>Красов А.В., Сахаров Д.В., Ушаков И.А., Лосин Е.П.</i><br>Защита информации. Инсайд. 2017. №&nbsp;3&nbsp;(75).  С. 34-42.
+</td><td align="center" valign="top" width="30">33</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">163</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА СОЗДАНИЯ И ВЛОЖЕНИЯ ЦИФРОВОГО ВОДЯНОГО ЗНАКА В ИСПОЛНЯЕМЫЕ JAVA ФАЙЛЫ НА ОСНОВЕ ЗАМЕН ОПКОДОВ</span></b><br><i>Шариков П.И., Красов А.В., Штеренберг С.И.</i><br>T-Comm: Телекоммуникации и транспорт. 2017. Т. 11. №&nbsp;3.  С. 66-70.
+</td><td align="center" valign="top" width="30">23</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">164</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ЗАЩИТЫ БАЙТ-КОДА JAVA-ПРОГРАММЫ ОТ ДЕКОМПИЛЯЦИИ И ХИЩЕНИЯ ИСХОДНОГО КОДА ЗЛОУМЫШЛЕННИКОМ</span></b><br><i>Красов А.В., Шариков П.И.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2017. №&nbsp;1.  С. 47-50.
+</td><td align="center" valign="top" width="30">23</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">165</td>
+<td align="left" valign="top"><b>
+МЕТОДИКА ЗАЩИТЫ БАЙТ-КОДА JAVA-ПРОГРАММЫ ОТ ДЕКОМПИЛЯЦИИ И ХИЩЕНИЯ ИСХОДНОГО КОДА ЗЛОУМЫШЛЕННИКОМ</b><br><i>
+Красов А.В., Шариков П.И.</i><br>
+Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 2: Искусствоведение. Филологические науки.
+2017.
+№ 1. С. 47.</td>
+<td align="center" valign="top">0</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top">166</td>
+<td align="left" valign="top"><b>
+РЕАЛИЗАЦИЯ МЕТОДА КАНАЛЬНОЙ СТЕГАНОГРАФИИ С ИСПОЛЬЗОВАНИЕМ ПРОТОКОЛА ICMP</b><br><i>
+Костырин А.С., Красов А.В.</i><br>
+Актуальные проблемы современной науки, техники и образования.
+2017.
+№ 3. С. 312.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">167</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ЭФФЕКТИВНОСТИ МЕТОДА УПРАВЛЕНИЯ ПОТОКАМИ ТРАФИКА НА ОСНОВЕ ИНФОРМАЦИИ О НАГРУЗКЕ В ПРОГРАММНО-ОПРЕДЕЛЯЕМОЙ СЕТИ С НЕРАВНЫМИ МЕТРИКАМИ МАРШРУТОВ</span></b><br><i>Исаченков П.А., Красов А.В., Левин М.В.</i><br>Современная наука и инновации. 2017. №&nbsp;2&nbsp;(18).  С. 32-38.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">168</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОНТРОЛЬ, ИЗМЕРЕНИЕ И ИНТЕЛЛЕКТУАЛЬНОЕ УПРАВЛЕНИЕ ТРАФИКОМ</span></b><br><i>Алейников А.А., Билятдинов К.З., Красов А.В., Левин М.В.</i><br>монография /  Санкт-Петербург, 2016.
+</td><td align="center" valign="top" width="30">21</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">169</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД ИСПОЛЬЗОВАНИЯ САМОМОДИФИЦИРУЮЩЕГОСЯ КОДА ДЛЯ ЗАЩИТЫ ПРИЛОЖЕНИЯ С КОДОВЫМ ЗАШУМЛЕНИЕМ</span></b><br><i>Красов А.В., Шариков П.И.</i><br> В сборнике: Телекоммуникационные и вычислительные системы.&nbsp;Международный форум информатизации (МФМ-2016); Международный конгресс (CTN-2016) "Коммуникационные технологии сети". Труды конференции. 2016.  С. 118-121.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">170</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ТЕХНИЧЕСКИЕ АСПЕКТЫ УПРАВЛЕНИЯ С ИСПОЛЬЗОВАНИЕМ СЕТИ ИНТЕРНЕТ</span></b><br><i>Алейников А.А., Билятдинов К.З., Красов А.В., Кривчун Е.А., Крысанов А.В.</i><br>Монография /  Санкт-Петербург, 2016.
+</td><td align="center" valign="top" width="30">22</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">171</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ЗАЩИТЫ СЕТИ СВЯЗИ ОТ DDOS АТАК С ПОМОЩЬЮ BGP FLOWSPEC</span></b><br><i>Казаков Д.Б., Красов А.В., Лоханько Н.О., Подоляк Р.С.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;сборник научных статей V международной научно-технической и научно-методической конференции. 2016.  С. 386-390.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">172</td>
+<td align="left" valign="top"><b>
+METHODOLOGY RESEARCH ON THE EFFICIENCY OF THE TRAFFIC FLOW MANAGEMENT METHOD BASED ON THE INFORMATION ABOUT THE LOAD OF SOFTWARE-DEFINED NETWORKS WITH UNEQUAL ROUTE METRIC, VESTNIK OF ST. PETERSBURG STATE UNIVERSITY OF TECHNOLOGY AND DESIGN. SERIES 1</b><br><i>
+Krasov A., Levin M., Shterenberg S., Isachenkov P.</i><br>
+Естественные и технические науки.
+2016.
+№ 4. С. 3.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">173</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДОЛОГИЯ УПРАВЛЕНИЯ ПОТОКАМИ ТРАФИКА В ПРОГРАММНО-ОПРЕДЕЛЯЕМОЙ АДАПТИВНОЙ СЕТИ</span></b><br><i>Красов А.В., Левин М.В., Штеренберг С.И., Исаченков П.А.</i><br>Вестник Санкт-Петербургского государственного университета технологии и дизайна. Серия 1: Естественные и технические науки. 2016. №&nbsp;4.  С. 3-8.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">174</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД УПРАВЛЕНИЯ ТРАФИКОМ В ГИБРИДНОЙ ПРОГРАММНО-ОПРЕДЕЛЯЕМОЙ СЕТИ</span></b><br><i>Красов А.В., Левин М.В., Цветков А.Ю.</i><br>Информационные технологии и телекоммуникации. 2016. Т. 4. №&nbsp;2.  С. 53-63.
+</td><td align="center" valign="top" width="30">21</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">175</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛЬ УПРАВЛЕНИЯ ПОТОКАМИ ТРАФИКА В ПРОГРАММНО-ОПРЕДЕЛЯЕМОЙ СЕТИ С ИЗМЕНЯЮЩЕЙСЯ НАГРУЗКОЙ</span></b><br><i>Красов А.В., Левин М.В., Штеренберг С.И., Исаченков П.А.</i><br>Наукоемкие технологии в космических исследованиях Земли. 2016. Т. 8. №&nbsp;4.  С. 70-74.
+</td><td align="center" valign="top" width="30">20</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">176</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОМПЬЮТЕРНЫЕ ВИРУСЫ</span></b><br><i>Штеренберг С.И., Красов А.В., Цветков А.Ю.</i><br>Том Часть 1. Санкт-Петербург, 2015.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">177</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОДОВОЕ ЗАШУМЛЕНИЕ ПРИ ВЛОЖЕНИИ ИНФОРМАЦИИ В ИСПОЛНЯЕМЫЙ ФАЙЛ МЕТОДОМ СЕМАНТИЧЕСКОЙ ЗАМЕНЫ ЭКВИВАЛЕНТНЫХ ИНСТРУКЦИЙ</span></b><br><i>Красов А.В., Трегубов Ю.А.</i><br> В сборнике: Телекоммуникационные и вычислительные системы.&nbsp;Труды конференции. 2015.  С. 108-111.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">178</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ ВОЗМОЖНОСТЕЙ МАСШТАБИРОВАНИЯ ОБЛАЧНОЙ ИНФРАСТРУКТУРЫ ДЛЯ ОПТИМИЗАЦИИ ПРОЦЕССА СОЗДАНИЯ ЛАБОРАТОРНЫХ СТЕНДОВ</span></b><br><i>Красов А.В., Швидкий А.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;Международная научно-техническая и научно-методическая конференция: сборник научных статей в 2 томах. под. ред. С. В. Бачевского, сост. А. Г. Владыко, Е. А. Аникевич, Л. М. Минаков. 2015.  С. 1580-1584.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">179</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВОЗМОЖНОСТИ УПРАВЛЕНИЯ ТРАФИКОМ В РАМКАХ КОНЦЕПЦИИ SDN</span></b><br><i>Красов А.В., Левин М.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;IV Международная научно-техническая и научно-методическая конференция: сборник научных статей в 2 томах. 2015.  С. 350-354.
+</td><td align="center" valign="top" width="30">16</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">180</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОСОБЕННОСТИ И ПРЕИМУЩЕСТВА VXLAN</span></b><br><i>Красов А.В., Подоляк Р.С.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;IV Международная научно-техническая и научно-методическая конференция: сборник научных статей в 2 томах. 2015.  С. 354-358.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">181</td>
+<td align="left" valign="top"><b>
+RESEARCH OF COPY PROTECTION METHODS SOFTWARE BASED ON EMBED OF DIGITAL WATERMARKS INTO EXECUTABLE AND LIBRARY FILES</b><br><i>
+Krasov A., Tregubov Y., Shterenberg S.</i><br>
+.
+2015.
+Т. 2. № 14. С. 565.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top">182</td>
+<td align="left" valign="top"><b>
+ANALYSIS OF USE OF EQUIVALENT INSTRUCTIONS IN THE EMBEDDING HIDDEN INFORMATION INTO THE BYTE-CODE OF JAVA</b><br><i>
+Krasov A., Tregubov Y., Shterenberg S.</i><br>
+.
+2015.
+Т. 2. С. 811.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">183</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ANALYSIS OF USING EQUIVALENT INSTRUCTIONS AT THE HIDDEN EMBEDDING OF INFORMATION INTO THE EXECUTABLE FILES</span></b><br><i>Shterenberg S.I., Krasov A.V., Ushakov I.A.</i><br>Journal of Theoretical and Applied Information Technology. 2015. Т. 80. №&nbsp;1.  С. 28-34.
+</td><td align="center" valign="top" width="30">52</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">184</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МАГИСТЕРСКАЯ ПРОГРАММА НОВОГО ПОКОЛЕНИЯ ЭКСПЕРТОВ В ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ, ПРИЗНАННАЯ ЕС (ENGENSEC)</span></b><br><i>Красов А.В., Ушаков И.А., Штеренберг С.И.</i><br>Современное образование: содержание, технологии, качество. 2015. Т. 1.  С. 79-81.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">185</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">УПРАВЛЕНИЕ СЕТЯМИ ПЕРЕДАЧИ ДАННЫХ С ИЗМЕНЯЮЩЕЙСЯ НАГРУЗКОЙ</span></b><br><i>Красов А.В., Левин М.В., Цветков А.Ю.</i><br>Всероссийская научная конференция по проблемам управления в технических системах. 2015. Т. 1.  С. 141-146.
+</td><td align="center" valign="top" width="30">32</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">186</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">CКРЫТОЕ ВЛОЖЕНИЕ ИНФОРМАЦИИ В СТРУКТУРУ БАЙТ-КОДА JAVA</span></b><br><i>Хомяков И.Н., Красов А.В.</i><br>Системы управления и информационные технологии. 2014. №&nbsp;2&nbsp;(56).  С. 89-93.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">187</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВОЗМОЖНОСТЬ СКРЫТОГО ВЛОЖЕНИЯ ИНФОРМАЦИИ В БАЙТ-КОД JAVA</span></b><br><i>Хомяков И.Н., Красов А.В.</i><br>Информационные технологии моделирования и управления. 2014. №&nbsp;2&nbsp;(86).  С. 185-191.
+</td><td align="center" valign="top" width="30">23</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">188</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЗАЩИТА ОБЛАЧНЫХ ВЫЧИСЛЕНИЙ ОТ АТАК НА СРЕДСТВА ВИРТУАЛИЗАЦИИ</span></b><br><i>Никольский А.В.</i><br>диссертация на соискание ученой степени кандидата технических наук / Санкт-Петербургский государственный политехнический университет. Санкт-Петербург, 2013
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">189</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММА ВНЕДРЕНИЯ ЦИФРОВЫХ ВОДЯНЫХ ЗНАКОВ В ИСПОЛНЯЕМЫЕ И БИБЛИОТЕЧНЫЕ ФАЙЛЫ</span></b><br><i>Красов А.В., Верещагин А.С.</i><br>Свидетельство о регистрации программы для ЭВМ RU&nbsp;2013612237. Заявка&nbsp;№&nbsp;2012661637&nbsp;от&nbsp;25.12.2012.
+</td><td align="center" valign="top" width="30">7</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">190</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОСТОЯНИЕ И ПЕРСПЕКТИВЫ РАЗРАБОТКИ УЧЕБНО-МЕТОДИЧЕСКОГО КОМПЛЕКСА ПО ДИСЦИПЛИНЕ "КРИПТОГРАФИЧЕСКИЕ МЕТОДЫ И СРЕДСТВА ОБЕСПЕЧЕНИЯ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ ИНФОКОММУНИКАЦИЙ" В СООТВЕТСТВИИ ГОС ВПО ТРЕТЬЕГО ПОКОЛЕНИЯ</span></b><br><i>Коржик В.И., Яковлев В.А., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;II Международная научно-техническая и научно-методическая конференция. 2013.  С. 832-834.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">191</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА ИНСТРУМЕНТАРИЯ ПРОВЕРКИ УМК НА ОСНОВЕ ТЕЗАУРУСНОГО ПОДХОДА</span></b><br><i>Красов А.В., Ушаков И.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;II Международная научно-техническая и научно-методическая конференция. 2013.  С. 834-839.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">192</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РЕАЛИЗАЦИЯ ИЕРАРХИЧНОСТИ В РАМКАХ РЕЛЯЦИОННОЙ МОДЕЛИ ДАННЫХ В ЦЕЛЯХ ОБЕСПЕЧЕНИЯ ПРОЕКТИРОВАНИЯ УМК НА ОСНОВЕ ЛИНГВИСТИЧЕСКОГО ПОДХОДА</span></b><br><i>Красов А.В., Ушаков И.А.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;II Международная научно-техническая и научно-методическая конференция. 2013.  С. 839-844.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">193</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА СИСТЕМЫ КОНТРОЛЯ ТЕКУЩЕЙ УСПЕВАЕМОСТИ СТУДЕНТОВ ВУЗА</span></b><br><i>Красов А.В., Цветков А.Ю.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;II Международная научно-техническая и научно-методическая конференция. 2013.  С. 844-847.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">194</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА МЕТОДОВ ЗАЩИТЫ ОТ КОПИРОВАНИЯ ПО НА ОСНОВЕ ЦИФРОВЫХ ВОДЯНЫХ ЗНАКОВ ВНЕДРЯЕМЫХ В ИСПОЛНЯЕМЫЕ И БИБЛИОТЕЧНЫЕ ФАЙЛЫ</span></b><br><i>Красов А.В., Штеренберг С.И.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;II Международная научно-техническая и научно-методическая конференция. 2013.  С. 847-852.
+</td><td align="center" valign="top" width="30">21</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">195</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ ВОЗМОЖНОСТЕЙ СКРЫТОГО ВЛОЖЕНИЯ ИНФОРМАЦИИ В СТРУКТУРУ БАЙТ-КОДА JAVA</span></b><br><i>Хомяков И.Н., Красов А.В.</i><br> В сборнике: Актуальные проблемы инфотелекоммуникаций в науке и образовании.&nbsp;II Международная научно-техническая и научно-методическая конференция. 2013.  С. 859-861.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">196</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА ИНСТРУМЕНТАРИЯ ВЕРИФИКАЦИИ ПРОЦЕССА ПРОЕКТИРОВАНИЯ УМК НА ОСНОВЕ ЛИНГВИСТИЧЕСКОГО ПОДХОДА</span></b><br><i>Кузьмин Н.Н., Красов А.В., Ушаков И.А.</i><br>Известия СПбГЭТУ ЛЭТИ. 2013. №&nbsp;3.  С. 26-32.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">197</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПОДГОТОВКА СПЕЦИАЛИСТОВ В ОБЛАСТИ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ В САНКТ-ПЕТЕРБУРГСКОМ ГОСУДАРСТВЕННОМ УНИВЕРСИТЕТЕ ТЕЛЕКОММУНИКАЦИЙ ИМ. ПРОФ. М.А. БОНЧ-БРУЕВИЧА</span></b><br><i>Красов А.В., Ушаков И.А.</i><br>Инновации. 2013. №&nbsp;7&nbsp;(177).  С. 92-97.
+</td><td align="center" valign="top" width="30">12</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">198</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АУТЕНТИФИКАЦИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ПРИ ПОМОЩИ ВЛОЖЕНИЯ ЦИФРОВЫХ ВОДЯНЫХ ЗНАКОВ В ИСПОЛНЯЕМЫЙ КОД</span></b><br><i>Красов А.В., Верещагин А.С., Цветков А.Ю.</i><br>Телекоммуникации. 2013. №&nbsp;S7.  С. 27-29.
+</td><td align="center" valign="top" width="30">30</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">199</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВАРИАНТЫ ВЛОЖЕНИЯ ИНФОРМАЦИИ В ИСПОЛНИМЫЙ ФАЙЛ ФОРМАТА.INTEL HEX</span></b><br><i>Штеренберг С.И., Красов А.В.</i><br>Информационные технологии и телекоммуникации. 2013. Т. 1. №&nbsp;4.  С. 52-64.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">200</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВАРИАНТЫ ПРИМЕНЕНИЯ ЯЗЫКА АССЕМБЛЕРА ДЛЯ ЗАРАЖЕНИЯ ВИРУСОМ ИСПОЛНИМОГО ФАЙЛА ФОРМАТА ELF</span></b><br><i>Штеренберг С.И., Красов А.В.</i><br>Информационные технологии и телекоммуникации. 2013. Т. 1. №&nbsp;3.  С. 61-71.
+</td><td align="center" valign="top" width="30">12</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">201</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РОЛЬ АВТОМАТИЗИРОВАННОЙ СИСТЕМЫ СТРУКТУРИРОВАНИЯ ЗНАНИЙ В КАЧЕСТВЕННОМ ФОРМИРОВАНИИ ПРОФЕССИОНАЛЬНОГО ТЕЗАУРУСА ЛИЧНОСТИ</span></b><br><i>Красов А.В., Ушаков И.А.</i><br>Современное образование: содержание, технологии, качество. 2013. Т. 1.  С. 231-232.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">202</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБЕСПЕЧЕНИЕ УСТОЙЧИВОСТИ ФУНКЦИОНИРОВАНИЯ МНОГОАГЕНТНЫХ СИСТЕМ ЗАЩИТЫ В УСЛОВИЯХ ВОЗДЕЙСТВИЯ РАСПРЕДЕЛЕННЫХ УГРОЗ БЕЗОПАСНОСТИ</span></b><br><i>Степанова Т.В.</i><br>диссертация на соискание ученой степени кандидата технических наук / Санкт-Петербургский государственный политехнический университет. Санкт-Петербург, 2012
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">203</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИННОВАЦИОННОЕ УПРАВЛЕНИЕ РИСКАМИ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ</span></b><br><i>Андрианов В.И., Красов А.В., Липатников В.А.</i><br>учебное пособие / В. И. Андрианов, А. В. Красов, В. А. Липатников ; Федеральное агентство связи, Федеральное гос. образовательное бюджетное учреждение высш. проф. образования "Санкт-Петербургский гос. ун-т телекоммуникаций им. проф. М. А. Бонч-Бруевича".  Санкт-Петербург, 2012.
+</td><td align="center" valign="top" width="30">52</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">204</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ СИСТЕМ УПРАВЛЕНИЯ</span></b><br><i>Душин С.Е., Красов А.В., Кузьмин Н.Н.</i><br>учебное пособие для студентов высших учебных заведений, обучающихся по направлению 220400 "Управление в технических системах" / С. Е. Душин, А. В. Красов, Н. Н. Кузьмин ; под ред. С. Е. Душина.  Москва, 2012.
+</td><td align="center" valign="top" width="30">43</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">205</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДЫ СКРЫТОГО ВЛОЖЕНИЯ ИНФОРМАЦИИ В ИСПОЛНЯЕМЫЕ ФАЙЛЫ</span></b><br><i>Красов А.В., Верещагин А.С., Абатуров В.С.</i><br>Известия СПбГЭТУ ЛЭТИ. 2012. №&nbsp;8.  С. 51-55.
+</td><td align="center" valign="top" width="30">27</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">206</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РОЛЬ НАУЧНО-ОБРАЗОВАТЕЛЬНОГО ЦЕНТРА "ЛАБОРАТОРИЯ CISCO" В ПОДГОТОВКЕ СПЕЦИАЛИСТОВ В ОБЛАСТИ ИНФОКОММУНИКАЦИЙ</span></b><br><i>Красов А.В., Ушаков И.А.</i><br>Методические вопросы преподавания инфокоммуникаций в высшей школе. 2012. Т. 1. №&nbsp;4.  С. 8-9.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">207</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИНФОРМАЦИОННАЯ СИСТЕМА ОЦЕНКИ ЭФФЕКТИВНОСТИ РАБОТЫ КАФЕДР УНИВЕРСИТЕТА</span></b><br><i>Красов А.В., Ушаков И.А.</i><br> В сборнике: 63-я научно-техническая конференция профессорско-преподавательского состава, научных сотрудников и аспирантов.&nbsp;Материалы. 2011.  С. 214-216.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">208</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КЛАССИФИКАЦИЯ МЕТОДОВ СКРЫТОГО ВЛОЖЕНИЯ ИНФОРМАЦИИ В ИСПОЛНЯЕМЫЕ ФАЙЛЫ</span></b><br><i>Красов А.В., Верещагин А.С.</i><br> В сборнике: 63-я научно-техническая конференция профессорско-преподавательского состава, научных сотрудников и аспирантов.&nbsp;Материалы. 2011.  С. 216-217.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">209</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ ВОЗМОЖНОСТИ СКРЫТОГО ВЛОЖЕНИЯ ИНФОРМАЦИИ МЕТОДОМ ЗАМЕНЫ СИНОНИМОВ В ИСПОЛНЯЕМЫЙ КОД ПРОЦЕССОРОВ СЕМЕЙСТВА Х86</span></b><br><i>Красов А.В., Верещагин А.С.</i><br> В сборнике: 63-я научно-техническая конференция профессорско-преподавательского состава, научных сотрудников и аспирантов.&nbsp;Материалы. 2011.  С. 217-219.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">210</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СТАТИСТИКА ВХОЖДЕНИЯ ЭКВИВАЛЕНТНЫХ ИНСТРУКЦИЙ, ИСПОЛЬЗУЕМЫХ В МЕТОДЕ ЗАМЕНЫ СИНОНИМОВ В ИСПОЛНЯЕМОМ КОДЕ БЕЗ ВЛОЖЕНИЙ</span></b><br><i>Красов А.В., Верещагин А.С.</i><br> В сборнике: 63-я научно-техническая конференция профессорско-преподавательского состава, научных сотрудников и аспирантов.&nbsp;Материалы. 2011.  С. 219-222.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">211</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ СИСТЕМ И КОМПЛЕКСОВ</span></b><br><i>Душин С.Е., Красов А.В., Литвинов Ю.В.</i><br> Санкт-Петербург, 2010.
+</td><td align="center" valign="top" width="30">14</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">212</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ РЕЗУЛЬТАТОВ УЧАСТИЯ СТУДЕНТОВ СПБГУТ В ФЭПО</span></b><br><i>Гоголь А.А., Томашевич С.В., Красов А.В., Ушаков И.А.</i><br> В сборнике: Теория и практика измерения латентных переменных в образовании и других социальных и экономических системах.&nbsp;материалы XI (04-05 февраля 2009 г.), XII (26-27 июня 2009 г.) всероссийских (с международным участием) научно-практических конференций. отв. ред. А.А. Маслак ; Славянский-на-Кубани государственный педагогический институт. 2009.  С. 148-150.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">213</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИНФОРМАЦИОННАЯ СИСТЕМА ОЦЕНКИ ЭФФЕКТИВНОСТИ РАБОТЫ КАФЕДР УНИВЕРСИТЕТА</span></b><br><i>Гоголь А.А., Томашевич С.В., Красов А.В., Ушаков И.А.</i><br> В сборнике: Теория и практика измерения латентных переменных в образовании и других социальных и экономических системах.&nbsp;материалы XI (04-05 февраля 2009 г.), XII (26-27 июня 2009 г.) всероссийских (с международным участием) научно-практических конференций. отв. ред. А.А. Маслак ; Славянский-на-Кубани государственный педагогический институт. 2009.  С. 151-154.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">214</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СЕТЕВЫЕ СРЕДСТВА ТЕСТИРОВАНИЯ ОСТАТОЧНЫХ ЗНАНИЙ СТУДЕНТОВ</span></b><br><i>Томашевич С.В., Ермилов Т.С., Красов А.В.</i><br>Современное образование: содержание, технологии, качество. 2009. Т. 1.  С. 223-224.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">215</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОНЦЕПЦИЯ ПЕРЕВОДА ОБРАЗОВАТЕЛЬНОЙ СРЕДЫ СПБГУТ ИМ. ПРОФ. М.А. БОНЧ-БРУЕВИЧА НА ПО С ОТКРЫТЫМ КОДОМ</span></b><br><i>Томашевич С.В., Красов А.В., Федянин И.А., Цветков</i><br>Современное образование: содержание, технологии, качество. 2009. Т. 1.  С. 225-226.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">216</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СЕТЕВОЙ МЕТОД ВЗАИМОПРОВЕРКИ ЗНАНИЙ СТУДЕНТОВ</span></b><br><i>Гоголь А.А., Томашевич С.В., Красов А.В.</i><br> В сборнике: ТЕОРИЯ И ПРАКТИКА ИЗМЕРЕНИЯ ЛАТЕНТНЫХ ПЕРЕМЕННЫХ В ОБРАЗОВАНИИ И ДРУГИХ СОЦИАЛЬНО-ЭКОНОМИЧЕСКИХ СИСТЕМАХ.&nbsp;Материалы X всероссийской (с международным участием) научно-практической конференции. Отв. ред. А.А. Маслак; Славянский-на-Кубани государственный педагогический институт. 2008.  С. 222-226.
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">217</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">УПРАВЛЕНИЕ ПРОЦЕССОМ РАСЧЕТА НАГРУЗКИ ВУЗА</span></b><br><i>Красов А.В., Ушаков И.А.</i><br>Современное образование: содержание, технологии, качество. 2008. Т. 2.  С. 7-9.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">218</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ СТРУКТУРНО-СЛОЖНЫХ НЕЛИНЕЙНЫХ СИСТЕМ УПРАВЛЕНИЯ</span></b><br><i>Душин С.Е., Красов А.В., Кузьмин Н.Н., Яковлев В.Б.</i><br>Системы с полиномиальными нелинейностями /  Санкт-Петербург, 2004.
+</td><td align="center" valign="top" width="30">24</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">219</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЧИСЛЕННОЕ МОДЕЛИРОВАНИЕ СИСТЕМ УПРАВЛЕНИЯ</span></b><br><i>Душин С.Е., Красов А.В., Кузьмин Н.Н., Пошехонов Л.Б.</i><br>Учеб. пособие для студентов вузов, обучающихся по направлениям 550200, 651900 "Автоматизация и упр." подгот. бакалавров, магистров и дипломир. специалистов / М-во образования РФ. С.-Петерб. гос. электротехн. ун-т "ЛЭТИ"; [С. Е. Душин и др.].  СПб., 2003.
+</td><td align="center" valign="top" width="30">10</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">220</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА И ИССЛЕДОВАНИЕ АЛГОРИТМОВ И МЕТОДИКИ ПОВЫШЕНИЯ ЭФФЕКТИВНОСТИ ЧИСЛЕННОГО МОДЕЛИРОВАНИЯ СТРУКТУРНО-СЛОЖНЫХ НЕЛИНЕЙНЫХ СИСТЕМ УПРАВЛЕНИЯ</span></b><br><i>Красов А.В.</i><br>диссертация на соискание ученой степени кандидата технических наук / Санкт-Петербург, 2001
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">221</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МНОГОКАНАЛЬНОЕ УСТРОЙСТВО ИЗМЕРЕНИЯ И ОБРАБОТКИ ЭЛЕКТРИЧЕСКИХ СИГНАЛОВ</span></b><br><i>Барбанель Е.С., Кольцов Ю.И., Красов А.В., Лустенков С.Н., Левин В.М., Наумов В.И., Точилов В.Н.</i><br>Патент на полезную модель RU&nbsp;12257&nbsp;U1, 16.12.1999. Заявка&nbsp;№&nbsp;99113411/20&nbsp;от&nbsp;18.06.1999.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">222</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИСТЕМА ТЕЛЕМЕХАНИКИ</span></b><br><i>Антонов Г.В., Веселов Б.П., Барбанель Е.С., Гуревич И.В., Красов А.В., Лесман М.Я., Лустенков С.Н., Лутовинов С.И., Мацкевич Д.Б., Точилов В.Н., Фомин Ю.П.</i><br>Патент на полезную модель RU&nbsp;6078&nbsp;U1, 16.02.1998. Заявка&nbsp;№&nbsp;96116234/20&nbsp;от&nbsp;06.08.1996.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">223</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МНОГОКАНАЛЬНОЕ УСТРОЙСТВО ИЗМЕРЕНИЯ И ОБРАБОТКИ ЭЛЕКТРИЧЕСКИХ СИГНАЛОВ</span></b><br><i>Барбанель Е.С., Кольцов Ю.И., Красов А.В., Лустенков С.Н., Наумов В.И., Точилов В.Н.</i><br>Патент на полезную модель RU&nbsp;8484&nbsp;U1, 16.11.1998. Заявка&nbsp;№&nbsp;97118702/20&nbsp;от&nbsp;11.11.1997.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+</tbody></table>
+
+
+</center><com-ya-translate style="visibility: visible !important"><style>
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:400;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/400.woff2') format('woff2');}
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:500;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/500.woff2') format('woff2');}
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:600;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/600.woff2') format('woff2');}
+    </style></com-ya-translate></body></html>

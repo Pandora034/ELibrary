@@ -1,0 +1,910 @@
+<html><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head>
+<style type="text/css">
+BODY, P, TR, TD, INPUT, SELECT, OPTION, TEXTAREA, UL {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 8pt;}
+A {text-decoration: none; color: #00008f}
+H1 {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 9pt;}
+H2 {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 9pt;}
+FORM, H1, H2 {margin: 0}
+A:hover {color: #ff0000; text-decoration: underline}
+.menus A {color: #ffffff}
+.menus A:hover {color: #ffffff; text-decoration: underline}
+.menub A {color: #000000}
+.expandable {cursor:pointer;}
+img.expandable {filter:alpha(opacity=70); opacity: 0.7;}
+.win_expandable {cursor:pointer}
+.expanded {display:}
+.collapsed {display:none}
+.menug A {color: #555555}
+.redref A {color: #ED1C24}
+P.break {page-break-before: always}
+.input {border: #7f9db9 1px solid; background: #f5f5f5; height: 20px}
+.inputw {border: #7f9db9 1px solid; background: #ffffff; height: 20px}
+.inputr {border: #7f9db9 1px solid; background: #f5f5f5}
+.inputrw {border: #7f9db9 1px solid; background: #ffffff}
+.ast A:hover {text-decoration: none; color: #F26C4F}
+.ast A {font-family: Times New Roman, Garamond, Times, Georgia, serif; font-size: 30pt; color: #F26C4F}
+.astb A:hover {text-decoration: none; color: #00008f}
+.astb A {font-family: Times New Roman, Times, serif; font-size: 30pt; color: #00008f}
+.aster {color: #F26C4F; font-family: Times New Roman, Times, serif; font-size: 16pt; cursor:pointer;}
+.tooltip {
+	background-color:#000;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:250px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:8pt;
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+.tooltip A:hover {color: #ffffff; text-decoration: underline}
+.tooltip A {color: #ffffff; text-decoration: underline}
+.redtext {color: #F26C4F;}
+.bluetext {color: #00008f;}
+</style>
+<meta property="og:image" content="https://elibrary.ru/images/elibrary_fb.png">
+
+<title>SCIENCE INDEX - Кожевников Сергей Олегович - Список публикаций</title>
+</head>
+
+<body bgcolor="#ffffff">
+<center>
+<font color="#000000">
+<b><span style="font-size: 10pt;">КОЖЕВНИКОВ СЕРГЕЙ ОЛЕГОВИЧ</span></b>
+<br><i>Ивановский государственный энергетический университет им. В.И. Ленина,<br>электромеханический факультет (Иваново)</i></font>
+<br>
+
+
+<img src="/pic/1pix.gif" vspace="8"><br>
+
+<table width="580" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr align="center" valign="bottom">
+<td width="30">№</td><td width="550" colspan="2" align="right">Публикация<img src="/pic/1pix.gif" hspace="100">Цитирований</td></tr>
+<tr><td colspan="3" valign="top"><hr width="100%" style="height:1px; color:#000; background-color:#000;"></td></tr>
+</tbody></table>
+<br>
+<table width="580" cellspacing="0" cellpadding="3" border="0">
+
+
+<tbody><tr valign="middle">
+<td align="center" valign="top" width="30">1</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОНЦЕПЦИЯ СТЕНДА ДЛЯ КАЛИБРОВКИ ГИРОСКОПОВ</span></b><br><i>Корытов Д.С., Кожевников С.О., Кожевникова Л.В.</i><br> В сборнике: Состояние и перспективы развития электро- и теплотехнологии (ХХII Бенардосовские чтения).&nbsp;Материалы Международной научно-технической конференции, посвященной 75-летию теплоэнергетического факультета. Иваново, 2023.  С. 149-152.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">2</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА И ИССЛЕДОВАНИЕ СХЕМЫ УПРАВЛЕНИЯ ЭЛЕКТРОМАГНИТОМ</span></b><br><i>Скребов Н.А., Кожевников С.О., Кожевникова Л.В.</i><br> В сборнике: Состояние и перспективы развития электро- и теплотехнологии (ХХII Бенардосовские чтения).&nbsp;Материалы Международной научно-технической конференции, посвященной 75-летию теплоэнергетического факультета. Иваново, 2023.  С. 156-160.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">3</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБОСНОВАНИЕ И ИССЛЕДОВАНИЕ СХЕМЫ УПРАВЛЕНИЯ ЭЛЕКТРОМАГНИТОМ</span></b><br><i>Скребов Н.А.</i><br> В книге: Электромеханотроника и управление.&nbsp;Восемнадцатая всероссийская (десятая международная) научно-техническая конференция студентов, аспирантов и молодых ученых: Материалы конференции. В 6-ти томах. Иваново, 2023.  С. 39.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">4</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ХАРАКТЕРИСТИК ПОТОКА ЖИДКОСТИ С ПОМОЩЬЮ ГАЗОВЫХ ПУЗЫРЬКОВ</span></b><br><i>Кожевников С.О., Кожевникова Л.В.</i><br> В сборнике: Школа молодых новаторов.&nbsp;сборник научных статей 4-й Международной научной конференции перспективных разработок молодых ученых. Северо-Кавказский федеральный университет, Пятигорский институт. Курск, 2023.  С. 402-406.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">5</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СТЕНД ДЛЯ КАЛИБРОВКИ ГИРОСКОПОВ</span></b><br><i>Корытов Д.С.</i><br> В книге: Электромеханотроника и управление.&nbsp;Восемнадцатая всероссийская (десятая международная) научно-техническая конференция студентов, аспирантов и молодых ученых: Материалы конференции. В 6-ти томах. Иваново, 2023.  С. 41-42.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">6</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА СТЕНДА ДЛЯ ДЕМОНСТРАЦИИ ВОЗМОЖНОСТЕЙ ФЕРРОМАГНИТНОЙ ЖИДКОСТИ</span></b><br><i>Скребов Н.А., Кожевникова Л.В., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2023. №&nbsp;1.  С. 1055-1056.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">7</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ СКВОЗНЫХ ТЕХНОЛОГИЙ ДЛЯ СОЗДАНИЯ ПОЛЬЗОВАТЕЛЬСКОЙ БИБЛИОТЕКИ РАДИОЭЛЕМЕНТОВ</span></b><br><i>Желтова Д.Н., Кожевников С.О., Кожевникова Л.В.</i><br> В сборнике: Современные инновации в науке и технике.&nbsp;Сборник научных статей 12-й Всероссийской научно-технической конференции с международным участием. Отв. редактор М.С. Разумов. Курск, 2022.  С. 117-119.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">8</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ОПРЕДЕЛЕНИЮ ПАРАМЕТРОВ КАВИТАЦИОННОГО ДИСПЕРГИРОВАНИЯ</span></b><br><i>Кожевникова Л.В., Кожевников С.О.</i><br> В сборнике: ТЕХНИКА И ТЕХНОЛОГИИ: ПУТИ ИННОВАЦИОННОГО РАЗВИТИЯ.&nbsp;Сборник научных статей 11-й Международной научно-практической конференции. Курск, 2022.  С. 166-169.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">9</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">УМНЫЙ ДОЗАТОР АНТИСЕПТИКА</span></b><br><i>Желтова Д.Н., Кутузова Ю.А.</i><br> В книге: Энергия-2022.&nbsp;Семнадцатая всероссийская (девятая международная) научно-техническая конференция студентов, аспирантов и молодых ученых: Материалы конференции. В 6-ти томах. Иваново, 2022.  С. 43.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">10</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРИМЕНЕНИЕ МИКРОКОНТРОЛЛЕРОВ ДЛЯ УПРАВЛЕНИЯ ГАЗОРАЗРЯДНЫМИ ИНДИКАТОРАМИ</span></b><br><i>Синицын И.А., Кожевников С.О.</i><br> В книге: Энергия-2022.&nbsp;Семнадцатая всероссийская (девятая международная) научно-техническая конференция студентов, аспирантов и молодых ученых: Материалы конференции. В 6-ти томах. Иваново, 2022.  С. 49.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">11</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПОВЫШЕНИЕ НАДЕЖНОСТИ ГИДРАВЛИЧЕСКОГО ПРИВОДА СТАНКА СПЕЦИАЛЬНОГО НАЗНАЧЕНИЯ</span></b><br><i>Кожевников С.О., Кожевникова Л.В.</i><br> В сборнике: ПРОГРЕССИВНЫЕ ТЕХНОЛОГИИ И ПРОЦЕССЫ.&nbsp;Сборник научных статей 9-й Всероссийской научно-технической конференции с международным участием. Курск, 2022.  С. 94-98.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">12</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СРАВНИТЕЛЬНОЕ ИССЛЕДОВАНИЕ ФИЗИКО-МЕХАНИЧЕСКИХ СВОЙСТВ ТРИАКСИАЛЬНОЙ ТКАНИ И ТКАНИ ОРТОГОНАЛЬНОГО СТРОЕНИЯ ПОЛОТНЯНОГО ПЕРЕПЛЕТЕНИЯ</span></b><br><i>Кожевникова Л.В., Карева Т.Ю., Кожевников С.О.</i><br>Известия высших учебных заведений. Технология текстильной промышленности. 2022. №&nbsp;3&nbsp;(399).  С. 148-151.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">13</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВЛИЯНИЕ СИЛЫ ТРЕНИЯ НА РАЗРЫВНУЮ НАГРУЗКУ ВДОЛЬ ОСНОВЫ ПРИ ВЗАИМОДЕЙСТВИИ НИТЕЙ ОСНОВЫ МЕЖДУ СОБОЙ В ТРИАКСИАЛЬНОЙ И ОРТОГОНАЛЬНОЙ ТКАНЯХ</span></b><br><i>Кожевникова Л.В., Карева Т.Ю., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2022. №&nbsp;1.  С. 54-56.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">14</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ УСТРОЙСТВА ДЛЯ МЕХАНОАКТИВАЦИИ КОЛЛОИДНЫХ ДИСПЕРСНЫХ СИСТЕМ В СРЕДЕ MATLAB</span></b><br><i>Кожевникова Л.В., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2022. №&nbsp;1.  С. 980-981.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">15</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИСПОЛЬЗОВАНИЕ ОНЛАЙН СЕРВИСОВ ДЛЯ СОЗДАНИЯ ПОЛЬЗОВАТЕЛЬСКОЙ БИБЛИОТЕКИ ЭЛЕКТРОННЫХ КОМПОНЕНТОВ</span></b><br><i>Кожевникова Л.В., Кожевников С.О., Желтова Д.А.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2022. №&nbsp;1.  С. 982.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">16</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ ПЕЧАТНОЙ ПЛАТЫ В СРЕДЕ ALTIUM DESIGNER</span></b><br><i>Желтова Д.Н., Кутузова Ю.А., Кожевников С.О.</i><br> В сборнике: ИННОВАЦИОННЫЙ ПОТЕНЦИАЛ РАЗВИТИЯ ОБЩЕСТВА: ВЗГЛЯД МОЛОДЫХ УЧЕНЫХ.&nbsp;сборник научных статей 2-й Всероссийской научной конференции перспективных разработок : в 5 т.. Курск, 2021.  С. 103-105.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">17</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МИКРОКОНТРОЛЛЕРНАЯ СИСТЕМА УПРАВЛЕНИЯ АППАРАТОМ ДЛЯ ПОЛУЧЕНИЯ СМАЗОЧНО-ОХЛАЖДАЮЩЕЙ ЖИДКОСТИ</span></b><br><i>Кожевников С.О., Кожевникова Л.В.</i><br> В сборнике: Состояние и перспективы развития электро- и теплотехнологии (ХХI Бенардосовские чтения).&nbsp;Материалы международной научно-технической конференции, посвященной 140-летию изобретения электросварки Н.Н. Бенардосом. Иваново, 2021.  С. 140-143.
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">18</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГРАММНЫЙ МОДУЛЬ ДЛЯ СИНТЕЗА ОПТИМАЛЬНОЙ ГЕОМЕТРИИ АППАРАТА ДЛЯ ПЕРЕМЕШИВАНИЯ</span></b><br><i>Кожевников С.О., Кожевникова Л.В.</i><br> В сборнике: СОВРЕМЕННЫЕ МАТЕРИАЛЫ, ТЕХНИКА И ТЕХНОЛОГИЯ.&nbsp;сборник научных статей 11-й Международной научно-практической конференции. Курск, 2021.  С. 172-176.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">19</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ МЕХАНОАКТИВАЦИИ МНОГОКОМПОНЕНТНЫХ СМЕСЕЙ</span></b><br><i>Кожевников С.О., Кожевникова Л.В., Кузнецов В.Б.</i><br> В сборнике: Молодежь и XXI век - 2021.&nbsp;Материалы XI Международной молодежной научной конференции. В 6-ти томах. Отв. редактор М.С. Разумов. Курск, 2021.  С. 76-78.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">20</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОД БИНАРИЗАЦИИ КАК ОСНОВА СТРУКТУРНОГО АНАЛИЗА ПОВЕРХНОСТНОЙ ПЛОТНОСТИ НЕТКАНОГО НАПОЛНИТЕЛЯ КОМПОЗИТНОГО МАТЕРИАЛА</span></b><br><i>Ершов С.В., Суворов И.А., Кожевников С.О., Кузнецов В.Б., Евгений К.</i><br>Вестник Череповецкого государственного университета. 2021. №&nbsp;1&nbsp;(100).  С. 9-19.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">21</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОЗДАНИЕ ПРОГРАММНОГО МОДУЛЯ ДЛЯ ОПРЕДЕЛЕНИЯ ОПТИМАЛЬНОГО РАЗМЕРА АППАРАТА ДЛЯ ПЕРЕМЕШИВАНИЯ</span></b><br><i>Кожевникова Л.В., Кузнецов В.Б., Кожевников С.О.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2021. №&nbsp;1.  С. 102-105.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">22</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВЛИЯНИЕ ВНУТРЕННИХ УСТРОЙСТВ НА ГИДРОДИНАМИКУ В ПЕРЕМЕШИВАЮЩЕМ АППАРАТЕ</span></b><br><i>Дмитриев Д.В., Кожевников С.О., Кузнецов В.Б.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2021. №&nbsp;1.  С. 36-37.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">23</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОНЦЕПЦИЯ УМНОГО ДОЗАТОРА АНТИСЕПТИКА</span></b><br><i>Дмитриев Д.В., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2021. №&nbsp;1.  С. 441-442.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">24</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА АВТОМАТИЧЕСКОЙ СИСТЕМЫ УПРАВЛЕНИЯ АППАРАТОМ ДЛЯ ПОЛУЧЕНИЯ СМАЗОЧНО-ОХЛАЖДАЮЩЕЙ ЖИДКОСТИ</span></b><br><i>Малов М.С., Буланов Д.А., Кожевников С.О.</i><br> В сборнике: ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ В УПРАВЛЕНИИ, АВТОМАТИЗАЦИИ И МЕХАТРОНИКЕ.&nbsp;сборник научных трудов 2-й Международной научно-технической конференции. Курск, 2020.  С. 129-131.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">25</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОНЦЕПЦИЯ ПОСТРОЕНИЯ БАЛАНСИРУЮЩЕГО ДВУХКОЛЕСНОГО РОБОТА</span></b><br><i>Буланов Д.А., Кожевников С.О.</i><br> В сборнике: Надежность и долговечность машин и механизмов.&nbsp;сборник материалов XI Всероссийской научно-практической конференции, посвященной 30-й годовщине МЧС России и 75-й годовщине Победы в Великой Отечественной войне 1941-1945 годов. Иваново, 2020.  С. 142-144.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">26</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ГЕОМЕТРИЧЕСКИЙ СИНТЕЗ ГИДРАВЛИЧЕСКОГО БУФЕРА КРАНА-ШТАБЕЛЕРА</span></b><br><i>Зайцев М.М., Кожевников С.О.</i><br> В сборнике: Техника и технологии: пути инновационного развития.&nbsp;Сборник научных трудов 9-й Международной научно-практической конференции. В 2-х томах. Отв. редактор А.А. Горохов. 2020.  С. 182-185.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">27</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПОВЫШЕНИЕ НАДЕЖНОСТИ ОТОБРАЖЕНИЯ ИНФОРМАЦИИ ЖК-ИНДИКАТОРАМИ</span></b><br><i>Кожевников С.О., Дмитриев Д.В., Кожевникова Л.В.</i><br> В сборнике: Наука молодых - будущее России.&nbsp;сборник научных статей 5-й Международной научной конференции перспективных разработок молодых ученых : в 4 т.. Курск, 2020.  С. 56-59.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">28</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ МЕТАЛЛОКОНСТРУКЦИИ НОЖНИЧНОГО ПОДЪЕМНИКА С ПОМОЩЬЮ САПР</span></b><br><i>Буланов Д.А., Кожевников С.О.</i><br> В сборнике: АВТОМОБИЛИ, ТРАНСПОРТНЫЕ СИСТЕМЫ И ПРОЦЕССЫ: НАСТОЯЩЕЕ, ПРОШЛОЕ И БУДУЩЕЕ.&nbsp;сборник статей 2-й Международной научно-технической конференции. Курск, 2020.  С. 58-60.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">29</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ И ОПТИМИЗАЦИЯ КРАНОВЫХ МЕТАЛЛОКОНСТРУКЦИЙ С ИСПОЛЬЗОВАНИЕМ САПР</span></b><br><i>Буланов Д.А., Кожевников С.О.</i><br> В сборнике: СОВРЕМЕННЫЕ МАТЕРИАЛЫ, ТЕХНИКА И ТЕХНОЛОГИЯ.&nbsp;сборник научных статей 10-й Международной научно-практической конференции. Курск, 2020.  С. 91-93.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">30</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АВТОМАТИЧЕСКАЯ СИСТЕМА УПРАВЛЕНИЯ АППАРАТОМ ДЛЯ ПОЛУЧЕНИЯ СМАЗОЧНО-ОХЛАЖДАЮЩЕЙ ТЕХНОЛОГИЧЕСКОЙ ЖИДКОСТИ</span></b><br><i>Кожевникова Л.В., Кожевников С.О.</i><br> В сборнике: Интеллектуальные информационные системы: тенденции, проблемы, перспективы.&nbsp;сборник научных статей 8-й Международной научно-практической конференции «ИИС-2020». Юго-Западный государственный университет; Московский политехнический университет. Курск, 2020.  С. 99-102.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">31</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ ВЛИЯНИЯ ПЕРЕХОДНЫХ ПРОЦЕССОВ НА ОБЕЗВОЖИВАНИЕ ВОЛОКНИСТОЙ СТРУКТУРЫ РАСПРЕДЕЛЕННЫМ ДАВЛЕНИЕМ В ДИНАМИЧЕСКОМ РЕЖИМЕ НАГРУЖЕНИЯ</span></b><br><i>Ершов С.В., Кожевников С.О., Никифорова Е.Н., Кузнецов В.Б., Калинин Е.Н.</i><br>Известия высших учебных заведений. Технология текстильной промышленности. 2020. №&nbsp;5&nbsp;(389).  С. 85-91.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">32</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ГИДРОДИНАМИКИ ЖИДКОСТИ В РАБОЧЕМ ОРГАНЕ УСТРОЙСТВА ДЛЯ МЕХАНОАКТИВАЦИИ КОЛЛОИДНЫХ ДИСПЕРСНЫХ СИСТЕМ</span></b><br><i>Кожевников С.О., Кузнецов В.Б., Ершов С.В., Малов М.С.</i><br>Вестник Череповецкого государственного университета. 2020. №&nbsp;6&nbsp;(99).  С. 11-21.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">33</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ПОСТАНОВКЕ ЗАДАЧИ МОДЕЛИРОВАНИЯ ДВИЖЕНИЯ ЖИДКОЙ СРЕДЫ В АППАРАТЕ С МЕШАЛКОЙ</span></b><br><i>Кожевников С.О., Кузнецов В.Б., Кожевникова Л.В.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2020. №&nbsp;1.  С. 182-187.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">34</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОНТРОЛЬ ЗАГРЯЗНЕННОСТИ ВОЗДУХА И СПОСОБ ЕГО МОНИТОРИНГА</span></b><br><i>Дмитриев Д.В., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2020. №&nbsp;1.  С. 177-178.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">35</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕХАНОАКТИВАЦИЯ КОЛЛОИДНЫХ СИСТЕМ</span></b><br><i>Малов М.С., Кузнецов В.Б., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2020. №&nbsp;1.  С. 408-409.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">36</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ И ОПТИМИЗАЦИЯ МЕТАЛЛОКОНСТРУКЦИИ МОСТОВОГО КРАНА С ПОМОЩЬЮ САПР</span></b><br><i>Буланов Д.А., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2020. №&nbsp;1.  С. 56-58.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">37</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРИМЕНЕНИЕ САПР ДЛЯ ОПТИМИЗАЦИИ КОНСТРУКЦИИ МОБИЛЬНОГО НОЖНИЧНОГО ПОДЪЕМНИКА</span></b><br><i>Буланов Д.А., Пахотина И.Н., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2020. №&nbsp;1.  С. 58-60.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">38</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">НАПРАВЛЕНИЯ ПОВЫШЕНИЯ ЭФФЕКТИВНОСТИ МОБИЛЬНОЙ ПЕРЕДВИЖНОЙ ДРОБИЛЬНО-СОРТИРОВОЧНОЙ УСТАНОВКИ</span></b><br><i>Воронов А.А., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2020. №&nbsp;1.  С. 93-94.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">39</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ДВИЖЕНИЯ ЖИДКОСТИ В РАБОЧИХ ОРГАНАХ МЕХАНОАКТИВАТОРА С ПОМОЩЬЮ MATLAB</span></b><br><i>Малов М.С., Кожевников С.О.</i><br> В сборнике: ТЕХНОЛОГИИ РАЗРАБОТКИ И ОТЛАДКИ СЛОЖНЫХ ТЕХНИЧЕСКИХ СИСТЕМ.&nbsp;сборник материалов VI Всероссийской научно-практической конференции. Московский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Центр инженерных технологий и моделирования «Экспонента». Москва, 2019.  С. 143-148.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">40</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ВОПРОСУ ОПТИМИЗАЦИИ ТЕПЛООБМЕННИКОВ ГИДРАВЛИЧЕСКИХ ПРИВОДОВ СТРОИТЕЛЬНО-ДОРОЖНЫХ МАШИН</span></b><br><i>Корочкина Е.Е., Кожевников С.О.</i><br> В сборнике: Состояние и перспективы развития электро- и теплотехнологии (Бенардосовские чтения).&nbsp;материалы международной (ХХ Всероссийской) научно-технической конференции. 2019.  С. 272-275.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">41</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ВЛИЯНИЯ ГЕОМЕТРИЧЕСКИХ ПАРАМЕТРОВ СМЕСИТЕЛЯ НА СЕДИМЕНТАЦИОННУЮ УСТОЙЧИВОСТЬ СУСПЕНЗИИ</span></b><br><i>Кожевников С.О., Кузнецов В.Б., Малов М.С.</i><br> В сборнике: Инженерные и социальные системы.&nbsp;Сборник научных трудов института архитектуры, строительства и транспорта ИВГПУ. Иваново, 2019.  С. 28-31.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">42</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ГИДРОДИНАМИКИ ЖИДКОСТИ В РОТОРНЫХ УСТРОЙСТВАХ</span></b><br><i>Кожевников С.О., Кузнецов В.Б., Малов М.С.</i><br> В сборнике: Надежность и долговечность машин и механизмов.&nbsp;Сборник материалов X Всероссийской научно-практической конференции. 2019.  С. 435-438.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">43</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ УСТРОЙСТВА ДЛЯ МЕХАНОАКТИВАЦИИ ВОДОЦЕМЕНТНОЙ СУСПЕНЗИИ</span></b><br><i>Кожевников С.О., Малов М.С.</i><br> В сборнике: Энерго-ресурсосберегающие технологии и оборудование в дорожной и строительной отраслях.&nbsp;Материалы международной научно-практической конференции. Белгород, 2019.  С. 93-97.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">44</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ И ОПТИМИЗАЦИЯ МАСЛООХЛАДИТЕЛЯ ГИДРАВЛИЧЕСКОГО ПРИВОДА СТРОИТЕЛЬНОЙ МАШИНЫ</span></b><br><i>Буланов Д.А., Корочкина Е.Е., Кожевников С.О.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2019. №&nbsp;1-2.  С. 131-133.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">45</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СИНТЕЗ И ОПТИМИЗАЦИЯ ПОДШИПНИКОВЫХ УЗЛОВ РЕДУКТОРОВ ДЛЯ ТЕКСТИЛЬНОГО МАШИНОСТРОЕНИЯ С ИСПОЛЬЗОВАНИЕМ МОДУЛЕЙ APM WINMACHINE</span></b><br><i>Клюйко А.И., Кожевников С.О., Блинов О.В.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2019. №&nbsp;1-2.  С. 167-172.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">46</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ГИДРОДИНАМИЧЕСКИХ ПРОЦЕССОВ В РАБОЧИХ ОРГАНАХ УСТРОЙСТВА ДЛЯ МЕХАНОАКТИВАЦИИ КОЛЛОИДНЫХ ДИСПЕРСНЫХ СРЕД</span></b><br><i>Малов М.С., Кожевников С.О., Кузнецов В.Б.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2019. №&nbsp;1-2.  С. 173-178.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">47</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОСОБЕННОСТЬ ПОСТРОЕНИЯ БАЛАНСИРУЮЩИХ МЕХАНИЧЕСКИХ СИСТЕМ НА ПРИМЕРЕ ДВУХКОЛЕСНОГО РОБОТА</span></b><br><i>Буланов Д.А., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2019. №&nbsp;1-1.  С. 278-279.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">48</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕРНИЗАЦИЯ СИСТЕМЫ АВТОМАТИЧЕСКОГО РЕГУЛИРОВАНИЯ ПОДАЧИ ВОЛОКНИСТОГО МАТЕРИАЛА В САМОВЕС ЧЕСАЛЬНОГО АППАРАТА</span></b><br><i>Воробьев М.В., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2019. №&nbsp;1-1.  С. 279-281.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">49</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОНСТРУКТИВНАЯ ОПТИМИЗАЦИЯ ТЕПЛООБМЕННИКА ГИДРАВЛИЧЕСКОГО ПРИВОДА ОДНОКОВШОВОГО ЭКСКАВАТОРА ЭО-41211</span></b><br><i>Малов М.С., Корочкина Е.Е., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2019. №&nbsp;1-1.  С. 288-290.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">50</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ВЛИЯНИЯ ФОРМЫ КОНФУЗОРА НА ГИДРОДИНАМИКУ ЖИДКОЙ СИСТЕМЫ В СРЕДЕ SOLIDWORKS</span></b><br><i>Малов М.С., Кожевников С.О., Кузнецов В.Б.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2019. №&nbsp;1-1.  С. 293-294.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">51</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">УСТРОЙСТВО ДЛЯ МЕХАНОАКТИВАЦИИ КОЛЛОИДНЫХ ДИСПЕРСНЫХ СИСТЕМ</span></b><br><i>Кожевников С.О., Калинин Е.Н., Кузнецов В.Б.</i><br>Патент на полезную модель RU&nbsp;184449&nbsp;U1, 25.10.2018. Заявка&nbsp;№&nbsp;2018126097&nbsp;от&nbsp;13.07.2018.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">52</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ВОПРОСУ О ВНЕДРЕНИИ ТРАНСПОРТИРУЮЩЕГО УСТРОЙСТВА ДЛЯ ПАРКОВОЧНОГО МЕХАНИЗМА</span></b><br><i>Малов М.С., Кожевников С.О.</i><br> В сборнике: Энерго-, ресурсосберегающие машины, оборудование и экологически чистые технологии в дорожной и строительной отраслях.&nbsp;Материалы Международной научно-практической конференции. 2018.  С. 132-138.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">53</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДЫ РАСЧЁТА ЧАСТОТЫ ВРАЩЕНИЯ РАБОЧИХ ОРГАНОВ ПЕРЕМЕШИВАЮЩИХ УСТРОЙСТВ</span></b><br><i>Малов М.С., Кожевников С.О., Кузнецов В.Б.</i><br> В сборнике: СОВРЕМЕННЫЕ МАТЕРИАЛЫ, ТЕХНИКА И ТЕХНОЛОГИЯ.&nbsp;сборник научных статей 8-й Международной научно-практической конференции. 2018.  С. 251-254.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">54</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">КОМПЬЮТЕРНОЕ МОДЕЛИРОВАНИЕ КОНФИГУРАЦИИ РАБОЧИХ ОРГАНОВ ПЕРЕМЕШИВАЮЩЕГО УСТРОЙСТВА</span></b><br><i>Малов М.С., Кожевников С.О., Кузнецов В.Б.</i><br> В сборнике: Наука молодых - будущее России.&nbsp;сборник научных статей 3-й Международной научной конференции перспективных разработок молодых ученых: в 6 томах. 2018.  С. 314-316.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">55</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИЗ ТЕХНИЧЕСКИХ ВОЗМОЖНОСТЕЙ SOLIDWORKS ПРИ МОДЕЛИРОВАНИИ ДВИЖЕНИЯ ЖИДКОСТИ В УСТРОЙСТВАХ ДЛЯ МЕХАНОАКТИВАЦИИ КОЛЛОИДНЫХ СИСТЕМ</span></b><br><i>Кузнецов В.Б., Кожевников С.О., Малов М.С.</i><br> В сборнике: КАЧЕСТВО ПРОДУКЦИИ: КОНТРОЛЬ, УПРАВЛЕНИЕ, ПОВЫШЕНИЕ, ПЛАНИРОВАНИЕ.&nbsp;сборник научных трудов 5-й Международной молодежной научно-практической конференции. 2018.  С. 335-338.
+</td><td align="center" valign="top" width="30">7</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">56</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБОСНОВАНИЕ ПАРАМЕТРОВ ТРАНСПОРТИРУЮЩЕГО УСТРОЙСТВА ДЛЯ АВТОМОБИЛЕЙ</span></b><br><i>Малов М.С., Кожевников С.О.</i><br> В сборнике: Инженерные и социальные системы.&nbsp;Сборник научных трудов инженерно-строительного института ИВГПУ. Иваново, 2018.  С. 60-65.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">57</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИНТЕНСИФИКАЦИЯ ПРОЦЕССА ДИСПЕРГИРОВАНИЯ ПИГМЕНТОВ В СИСТЕМАХ ЖИДКОСТЬ - ТВЕРДОЕ ТЕЛО</span></b><br><i>Родионов С.А., Кожевников С.О.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2018. №&nbsp;1-2.  С. 109-112.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">58</td>
+<td align="left" valign="top"><b>
+ИНТЕНСИФИКАЦИЯ ПРОЦЕССА ДИСПЕРГИРОВАНИЯ ПИГМЕНТОВ В СИСТЕМАХ ЖИДКОСТЬ-ТВЕРДОЕ ТЕЛО</b><br><i>
+Родионов С.А., Кожевников С.О.</i><br>
+Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX).
+2018.
+Т. 26. С. 280.</td>
+<td align="center" valign="top">4</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">59</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА СИСТЕМЫ АВТОМАТИЧЕСКОГО УПРАВЛЕНИЯ ПЕРЕМЕШИВАЮЩИМ УСТРОЙСТВОМ ДЛЯ ПОЛУЧЕНИЯ СОЖ</span></b><br><i>Песков М.В., Кутузов Д.Ф., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2018. №&nbsp;1.  С. 151-152.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">60</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ПРИВОДА ТИХОХОДНОГО АСИНХРОННОГО ДВИГАТЕЛЯ ЛИФТОВОЙ ЛЕБЕДКИ В СРЕДЕ MATLAB SIMULINK</span></b><br><i>Кутузов Д.Ф., Песков М.В., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2018. №&nbsp;1.  С. 152-153.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">61</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОБОСНОВАНИЕ КОНСТРУКТИВНОГО РЕШЕНИЯ ПОПЕРЕЧНОГО ПЕРЕМЕЩЕНИЯ АВТОМОБИЛЕЙ ДЛЯ ДВУХ УРОВНЕВОЙ ПАРКОВКИ</span></b><br><i>Малов М.С., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2018. №&nbsp;1.  С. 233-234.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">62</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВЕРШЕНСТВОВАНИЕ КОНСТРУКЦИИ РАБОЧЕГО ОБОРУДОВАНИЯ - ТРАНШЕЙНЫЙ КОВШ</span></b><br><i>Сибилев А.А., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2018. №&nbsp;1.  С. 234-235.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">63</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВЕРШЕНСТВОВАНИЕ КОНСТРУКЦИИ РАБОЧЕГО ОРГАНА ДОРОЖНОЙ ФРЕЗЫ</span></b><br><i>Баранов В.Д., Кожевников С.О.</i><br>Молодые ученые - развитию Национальной технологической инициативы (ПОИСК). 2018. №&nbsp;1.  С. 238-239.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">64</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА АВТОМАТИЧЕСКОЙ СИСТЕМЫ УПРАВЛЕНИЯ АППАРАТА ДЛЯ ПОЛУЧЕНИЯ СМАЗОЧНО-ОХЛАЖДАЮЩЕЙ ЖИДКОСТИ</span></b><br><i>Песков М.В., Кутузов Д.Ф., Кожевников С.О.</i><br> В сборнике: Качество продукции: контроль, управление, повышение, планирование.&nbsp;Сборник научных трудов 4-й Международной молодежной научно-практической конференции. В 3-х томах. Ответственный редактор Е.В. Павлов. 2017.  С. 145-148.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">65</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ВЛИЯНИЯ РАБОЧИХ ОРГАНОВ ПЕРЕМЕШИВАЮЩЕГО УСТРОЙСТВА НА ВРЕМЯ ГОМОГЕНИЗАЦИИ</span></b><br><i>Ладаев Н.М., Жбанова Е.В., Кожевников С.О., Герасимов Ф.О.</i><br> В сборнике: Инженерные и социальные системы.&nbsp;Сборник научных трудов инженерно-строительного института ИВГПУ. 2017.  С. 16-23.
+</td><td align="center" valign="top" width="30">6</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">66</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ОПРЕДЕЛЕНИЮ УСТОЙЧИВОСТИ КРАНО-МАНИПУЛЯТОРНОЙ УСТАНОВКИ</span></b><br><i>Сибилев А.А., Кожевников С.О.</i><br> В сборнике: Качество продукции: контроль, управление, повышение, планирование.&nbsp;Сборник научных трудов 4-й Международной молодежной научно-практической конференции. В 3-х томах. Ответственный редактор Е.В. Павлов. 2017.  С. 23-26.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">67</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МАНИПУЛЯТОР НА БАЗЕ МИКРОКОНТРОЛЛЕРНОЙ ПЛАТФОРМЫ ARDUINO</span></b><br><i>Кожевников С.О., Блинов О.В., Сибилев А.А.</i><br> В сборнике: ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ В УПРАВЛЕНИИ, АВТОМАТИЗАЦИИ И МЕХАТРОНИКЕ.&nbsp;Сборник научных трудов Международной научно-технической конференции. Ответственный редактор А.А. Горохов. 2017.  С. 39-41.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">68</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОПРЕДЕЛЕНИЕ МОЩНОСТИ, ЗАТРАЧИВАЕМОЙ НА КОРЧЕВАНИЕ ПНЕЙ РОТОРНЫМ РАБОЧИМ ОРГАНОМ</span></b><br><i>Кожевников С.О., Трофимов В.А.</i><br> В сборнике: Инженерные и социальные системы.&nbsp;Сборник научных трудов инженерно-строительного института ИВГПУ. 2017.  С. 90-94.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">69</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПРОГНОЗИРОВАНИЕ РАЗРЫВНЫХ НАГРУЗОК ТКАНЕЙ ОРТОГОНАЛЬНОГО И НЕОРТОГОНАЛЬНОГО СТРОЕНИЯ</span></b><br><i>Кожевникова Л.В., Карева Т.Ю., Кожевников С.О., Кулида Н.А.</i><br>Известия высших учебных заведений. Технология текстильной промышленности. 2017. №&nbsp;5&nbsp;(371).  С. 100-103.
+</td><td align="center" valign="top" width="30">4</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">70</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ПОДБОРА ПЕРЕПЛЕТЕНИЯ В ПРОДОЛЬНЫХ ПОЛОСАХ ТКАНИ С УСЛОВИЕМ ОБЕСПЕЧЕНИЯ СТАБИЛЬНОГО ПРОТЕКАНИЯ ПРОЦЕССА ТКАЧЕСТВА</span></b><br><i>Кожевникова Л.В., Карева Т.Ю., Кожевников С.О.</i><br>Известия высших учебных заведений. Технология текстильной промышленности. 2017. №&nbsp;3&nbsp;(369).  С. 145-148.
+</td><td align="center" valign="top" width="30">5</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">71</td>
+<td align="left" valign="top"><b>
+К ПОСТАНОВКЕ ЗАДАЧИ МОДЕЛИРОВАНИЯ ДВИЖЕНИЯ ЖИДКОЙ СРЕДЫ В ПЕРЕМЕШИВАЮЩЕМ АППАРАТЕ</b><br><i>
+Кожевников С.О., Калинин Е.Н.</i><br>
+Вестник Челябинского государственного университета.
+2017.
+№ 1. С. 40.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">72</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ПРОФИЛЯ ОКРУЖНОЙ СКОРОСТИ ЖИДКОСТИ В АППАРАТЕ С МЕШАЛКОЙ</span></b><br><i>Кожевников С.О., Блинов О.В., Ершов С.В., Кузнецов В.Б.</i><br>Вестник Череповецкого государственного университета. 2017. №&nbsp;6&nbsp;(81).  С. 33-38.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">73</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ПОСТАНОВКЕ ЗАДАЧИ МОДЕЛИРОВАНИЯ ДВИЖЕНИЯ ЖИДКОЙ СРЕДЫ В ПЕРЕМЕШИВАЮЩЕМ АППАРАТЕ</span></b><br><i>Кожевников С.О., Калинин Е.Н.</i><br>Вестник Череповецкого государственного университета. 2017. №&nbsp;1&nbsp;(76).  С. 40-47.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">74</td>
+<td align="left" valign="top"><b>
+BULLETIN OF HIGHER EDUCATIONAL INSTITUTIONS, TEXTILE INDUSTRY TECHNOLOGY</b><br><i>
+Kozhevnikova L., Kareva T., Kozhevnikov S.</i><br>
+Series.
+2017.
+№ 3(369). С. 145.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">75</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОПРЕДЕЛЕНИЕ МОЩНОСТИ ПРИВОДА РОТОРНОГО КОРЧЕВАТЕЛЯ</span></b><br><i>Кожевников С.О., Кожевникова Л.В.</i><br>Информационная среда вуза (см. в книгах). 2017. №&nbsp;1&nbsp;(24).  С. 185-188.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">76</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ВЛИЯНИЯ РАБОЧИХ ОРГАНОВ ПЕРЕМЕШИВАЮЩЕГО УСТРОЙСТВА НА ВРЕМЯ ОСАЖДЕНИЯ ИЗВЕСТИ</span></b><br><i>Ладаев Н.М., Кожевников С.О., Жбанова Е.В.</i><br>Информационная среда вуза (см. в книгах). 2017. №&nbsp;1&nbsp;(24).  С. 383-389.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">77</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВЕРШЕНСТВОВАНИЕ КОНСТРУКЦИИ РАБОЧЕГО ОБОРУДОВАНИЯ КОРЧЕВАТЕЛЯ ПНЕЙ</span></b><br><i>Трофимов В.А., Кожевников С.О.</i><br>Молодые ученые - развитию текстильно-промышленного кластера (ПОИСК). 2017. №&nbsp;2.  С. 334-335.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">78</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ВОПРОСУ О 3D-МОДЕЛИРОВАНИИ И 3D-ПЕЧАТИ</span></b><br><i>Кожевников С.О., Блинов О.В., Сибилев А.А., Баранов В.Д.</i><br>Молодые ученые - развитию текстильно-промышленного кластера (ПОИСК). 2017. №&nbsp;2.  С. 338.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">79</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СОВЕРШЕНСТВОВАНИЕ КОНСТРУКЦИИ МОБИЛЬНОГО ЛЕНТОЧНОГО КОНВЕЙЕРА</span></b><br><i>Бутусов Д.Г., Кожевников С.О.</i><br>Молодые ученые - развитию текстильно-промышленного кластера (ПОИСК). 2017. №&nbsp;2.  С. 340-341.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">80</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИТИЧЕСКОЕ ОПРЕДЕЛЕНИЕ УРАБОТКИ НИТЕЙ ОСНОВЫ В ТКАНИ С ПРОДОЛЬНЫМИ ПОЛОСАМИ ЧЕРЕЗ ЗАПРАВОЧНЫЕ ПАРАМЕТРЫ ТКАНИ НА ТКАЦКОМ СТАНКЕ</span></b><br><i>Кожевникова Л.В., Карева Т.Ю., Кожевников С.О.</i><br>Молодые ученые - развитию текстильно-промышленного кластера (ПОИСК). 2017. №&nbsp;2.  С. 40-41.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">81</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ТРЕХОСНАЯ ТКАНЬ И ОСОБЕННОСТИ ЕЕ СТРОЕНИЯ</span></b><br><i>Кожевникова Л.В., Карева Т.Ю., Кожевников С.О.</i><br> В сборнике: Поколение будущего: взгляд молодых ученых.&nbsp;сборник научных статей 4-й международной молодежной научной конференции: в 3 томах. 2016.  С. 319-320.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">82</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ВЫБОР ОПТИМАЛЬНОЙ КОНСТРУКЦИИ ПЕРЕМЕШИВАЩЕГО УСТРОЙСТВА ВЕРТИКАЛЬНОГО ЁМКОСТНОГО АППАРАТА</span></b><br><i>Кожевников С.О., Баранов В.Д., Орехов И.А.</i><br> В сборнике: Инженерные и социальные системы.&nbsp;сборник научных трудов инженерно-строительного института ИВГПУ. ФГБОУ ВО "Ивановский государственный политехнический университет". Иваново, 2016.  С. 52-55.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">83</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ ВИНТОВОГО ДВИЖЕНИЯ ЖИДКОСТИ В ТРУБЕ ПЕРЕМЕННОГО СЕЧЕНИЯ</span></b><br><i>Кожевников С.О.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2016. №&nbsp;1-1.  С. 276-279.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">84</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">АНАЛИТИЧЕСКОЕ ОПРЕДЕЛЕНИЕ УРАБОТКИ ОСНОВНЫХ НИТЕЙ ПО ЗАПРАВОЧНЫМ ПАРАМЕТРАМ ТКАНИ НА ТКАЦКОМ СТАНКЕ</span></b><br><i>Кожевникова Л.В., Кожевников С.О.</i><br>Физика волокнистых материалов: структура, свойства, наукоемкие технологии и материалы (SMARTEX). 2016. №&nbsp;1-1.  С. 280-284.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">85</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОСОБЕННОСТИ СТРУКТУРЫ ТРЕХОСНОЙ ТКАНИ</span></b><br><i>Кожевникова Л.В., Карева Т.Ю., Кожевников С.О.</i><br>Вестник молодых ученых Санкт-Петербургского государственного университета технологии и дизайна. 2016. №&nbsp;4.  С. 6-9.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">86</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МОДЕЛИРОВАНИЕ ПРОЦЕССА ПОЛУЧЕНИЯ МНОГОКОМПОНЕНТНЫХ СМЕСЕЙ В АППАРАТАХ С МЕШАЛКАМИ</span></b><br><i>Кожевников С.О., Кожевникова Л.В.</i><br>Информационная среда вуза (см. в книгах). 2016. №&nbsp;1&nbsp;(23).  С. 433-435.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">87</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ ПРОИЗВОДИТЕЛЬНОСТИ ПЕРЕМЕШИВАЮЩЕГО АППАРАТА НЕПРЕРЫВНОГО ДЕЙСТВИЯ</span></b><br><i>Кожевников С.О.</i><br>Новая наука: Опыт, традиции, инновации. 2016. №&nbsp;2&nbsp;(65).  С. 146-148.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">88</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИССЛЕДОВАНИЕ СМЕСИТЕЛЯ КОНФУЗОРНОГО ТИПА ДЛЯ АКТИВАЦИИ ВОДОЦЕМЕНТНОЙ СУСПЕНЗИИ</span></b><br><i>Кожевников С.О., Кожевникова Л.В.</i><br>Проблемы и инновации в области механизации и технологий в строительных и дорожных отраслях. 2016. Т. 1. №&nbsp;3.  С. 128-131.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">89</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ОПРЕДЕЛЕНИЕ ОПТИМАЛЬНОГО ТЕХНИЧЕСКОГО РЕШЕНИЯ АВТОМАТИЗИРОВАННОЙ МНОГОУРОВНЕВОЙ ПАРКОВКИ ДЛЯ АВТОМОБИЛЕЙ</span></b><br><i>Июльский Д.В., Сибилев А.А., Кожевников С.О.</i><br>Молодые ученые - развитию текстильно-промышленного кластера (ПОИСК). 2016. №&nbsp;1.  С. 397-398.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">90</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАСЧЕТ МЕТАЛЛОКОНСТРУКЦИИ МОБИЛЬНОГО КОЗЛОВОГО КРАНА С ИСПОЛЬЗОВАНИЕМ САПР SOLIDWORKS</span></b><br><i>Шалимов А.Д., Баранов В.Д., Кожевников С.О.</i><br>Молодые ученые - развитию текстильно-промышленного кластера (ПОИСК). 2016. №&nbsp;1.  С. 398-399.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">91</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">К ПОСТАНОВКЕ ЗАДАЧИ МОДЕЛИРОВАНИЯ ДВИЖЕНИЯ ЖИДКОЙ СРЕДЫ В ТРУБКЕ ПЕРЕМЕННОГО СЕЧЕНИЯ</span></b><br><i>Кожевников С.О., Калинин Е.Н.</i><br>Вестник Череповецкого государственного университета. 2015. №&nbsp;8&nbsp;(69).  С. 11-14.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">92</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ТЕХНИЧЕСКИЕ РЕШЕНИЯ АВТОМАТИЗИРОВАННЫХ МНОГОУРОВНЕВЫХ СТОЯНОК ДЛЯ ЛЕГКОВЫХ АВТОМОБИЛЕЙ</span></b><br><i>Июльский Д.В., Кожевников С.О.</i><br>Новая наука: Стратегии и векторы развития. 2015. №&nbsp;6-2.  С. 103-107.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">93</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕТОДИКА ВЫБОРА ОПТИМАЛЬНОЙ КОНСТРУКЦИИ ПОДЪЕМНИКА ДЛЯ АВТОМОБИЛЕЙ</span></b><br><i>Кожевников С.О.</i><br>Вестник развития науки и образования. 2014. №&nbsp;3.  С. 98-101.
+</td><td align="center" valign="top" width="30">2</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">94</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕШАЛКА</span></b><br><i>Гуюмджян П.П., Кожевников С.О., Ладаев Н.М., Марков В.В., Ясинский Ф.Н.</i><br>Патент на изобретение RU&nbsp;2396108&nbsp;C1, 10.08.2010. Заявка&nbsp;№&nbsp;2009113919/15&nbsp;от&nbsp;13.04.2009.
+</td><td align="center" valign="top" width="30">14</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top">95</td>
+<td align="left" valign="top"><b>
+ИССЛЕДОВАНИЕ АНТИФРИКЦИОННЫХ СВОЙСТВ ПРИСАДОК ДВОЙНОГО ДЕЙСТВИЯ К МАСЛАМ</b><br><i>
+Марков В.В., Киселева Е. В., Гуюмжян П.П., Кожевников С.О.</i><br>
+Физика, химия и механика трибосистем.
+2007.
+№ 6. С. 46.</td>
+<td align="center" valign="top">1</td></tr>
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">96</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МЕШАЛКА</span></b><br><i>Гуюмджян П.П., Марков В.В., Кожевников С.О., Ладаев Н.М., Гуюмджян Д.П.</i><br>Патент на изобретение RU&nbsp;2277964&nbsp;C2, 20.06.2006. Заявка&nbsp;№&nbsp;2004124680/15&nbsp;от&nbsp;12.08.2004.
+</td><td align="center" valign="top" width="30">13</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">97</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА СМЕСИТЕЛЯ ДЛЯ ПЕРЕМЕШИВАНИЯ ЖИДКИХ И ГЕТЕРОГЕННЫХ СРЕД</span></b><br><i>Кожевников С.О.</i><br>автореферат диссертации на соискание ученой степени кандидата технических наук / Ивановская государственная архитектурно-строительная академия. Иваново, 2005
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">98</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">РАЗРАБОТКА СМЕСИТЕЛЯ ДЛЯ ПЕРЕМЕШИВАНИЯ ЖИДКИХ И ГЕТЕРОГЕННЫХ СРЕД</span></b><br><i>Кожевников С.О.</i><br>диссертация на соискание ученой степени кандидата технических наук / ФГБОУ ВПО "Ивановский государственный архитектурно-строительный университет". Иваново, 2005
+</td><td align="center" valign="top" width="30">27</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">99</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ЭФФЕКТИВНОСТЬ ПЕРЕМЕШИВАНИЯ В АППАРАТАХ С ВРАЩАЮЩИМИСЯ МЕШАЛКАМИ</span></b><br><i>Марков В.В., Кожевников С.О.</i><br> В книге: Состояние и перспективы развития электротехнологии (XII Бенардосовские чтения).&nbsp;тезисы докладов Международной научно-технической конференции. Федеральное агентство по образованию; Государственное образовательное учреждение высшего профессионального образования «Ивановский государственный энергетический университет имени В.И. Ленина»; Академия технологических наук Российской Федерации, Верхне-Волжское отделение АТН РФ. 2005.  С. 148.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+</tbody></table>
+
+
+</center><com-ya-translate style="visibility: visible !important"><style>
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:400;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/400.woff2') format('woff2');}
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:500;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/500.woff2') format('woff2');}
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:600;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/600.woff2') format('woff2');}
+    </style></com-ya-translate></body></html>
