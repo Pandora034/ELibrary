@@ -93,10 +93,16 @@ public class Author {
                 .orElse(cits.size());
     }
 
+    /**
+     * Вычисляет количество публикаций автора
+     */
     private void calculateNumberOfPublication(){
         numberOfPublications = citations.size();
     }
 
+    /**
+     * Вычисляет количество публикаций с нулевым цитированием
+     */
     private void calculateNumberOfZeroCitations(){
         this.numberOfZeroCitations = (int) citations.stream()
                 .filter(number -> Integer.parseInt(number) == 0)

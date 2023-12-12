@@ -272,3 +272,32 @@
 2023-12-12 21:50:02.331 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
 2023-12-12 21:50:02.332 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\Report\Report 2.docx
 2023-12-12 21:50:04.369 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
+2023-12-12 22:37:18.414 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-12 22:37:21.233 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-12 22:37:36.569 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-12 22:37:37.689 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-12 22:37:45.746 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\Report
+2023-12-12 22:37:49.793 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-12 22:37:49.794 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-12 22:37:49.795 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-12 22:37:49.876 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 27 zero- 8 HIndex- 4
+2023-12-12 22:39:48.767 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-12 22:39:50.741 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
+2023-12-12 22:40:15.991 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-12 22:40:17.329 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-12 22:40:24.394 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-12 22:40:25.174 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-12 22:40:36.831 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\Report
+2023-12-12 22:40:40.744 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-12 22:40:40.745 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-12 22:40:40.745 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-12 22:40:40.819 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 27 zero- 8 HIndex- 4
+2023-12-12 22:40:40.833 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-12 22:40:41.152 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-12 22:40:41.153 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-12 22:40:41.222 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-12 22:40:41.225 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-12 22:40:41.227 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-12 22:40:41.235 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-12 22:40:41.236 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-12 22:40:41.237 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\Report\Oleg.docx

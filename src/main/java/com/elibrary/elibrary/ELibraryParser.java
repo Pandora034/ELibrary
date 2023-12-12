@@ -232,7 +232,7 @@ public class ELibraryParser {
         List<String> jointAuthors = parseJointAuthors();
         List<String> placeOfPublication = parsePlacesOfPublication();
         List<String> citations = parseCitations();
-        for (int i = 0; i < nameOfArticles.size(); i++) {
+        for (int i = 0; i < nameOfArticles.size() - 1; i++) {
             if (citations.get(i).equals("0"))
                 author.addArticle(nameOfArticles.get(i), jointAuthors.get(i), placeOfPublication.get(i));
         }
