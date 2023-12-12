@@ -1,0 +1,170 @@
+<html><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head>
+<style type="text/css">
+BODY, P, TR, TD, INPUT, SELECT, OPTION, TEXTAREA, UL {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 8pt;}
+A {text-decoration: none; color: #00008f}
+H1 {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 9pt;}
+H2 {font-family: Tahoma, Verdana, Arial Cyr, Arial, Helvetica, sans-serif; font-size: 9pt;}
+FORM, H1, H2 {margin: 0}
+A:hover {color: #ff0000; text-decoration: underline}
+.menus A {color: #ffffff}
+.menus A:hover {color: #ffffff; text-decoration: underline}
+.menub A {color: #000000}
+.expandable {cursor:pointer;}
+img.expandable {filter:alpha(opacity=70); opacity: 0.7;}
+.win_expandable {cursor:pointer}
+.expanded {display:}
+.collapsed {display:none}
+.menug A {color: #555555}
+.redref A {color: #ED1C24}
+P.break {page-break-before: always}
+.input {border: #7f9db9 1px solid; background: #f5f5f5; height: 20px}
+.inputw {border: #7f9db9 1px solid; background: #ffffff; height: 20px}
+.inputr {border: #7f9db9 1px solid; background: #f5f5f5}
+.inputrw {border: #7f9db9 1px solid; background: #ffffff}
+.ast A:hover {text-decoration: none; color: #F26C4F}
+.ast A {font-family: Times New Roman, Garamond, Times, Georgia, serif; font-size: 30pt; color: #F26C4F}
+.astb A:hover {text-decoration: none; color: #00008f}
+.astb A {font-family: Times New Roman, Times, serif; font-size: 30pt; color: #00008f}
+.aster {color: #F26C4F; font-family: Times New Roman, Times, serif; font-size: 16pt; cursor:pointer;}
+.tooltip {
+	background-color:#000;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:250px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:8pt;
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+.tooltip A:hover {color: #ffffff; text-decoration: underline}
+.tooltip A {color: #ffffff; text-decoration: underline}
+.redtext {color: #F26C4F;}
+.bluetext {color: #00008f;}
+</style>
+<meta property="og:image" content="https://elibrary.ru/images/elibrary_fb.png">
+
+<title>SCIENCE INDEX - Краснянский Игорь Юрьевич - Список публикаций</title>
+</head>
+
+<body bgcolor="#ffffff">
+<center>
+<font color="#000000">
+<b><span style="font-size: 10pt;">КРАСНЯНСКИЙ ИГОРЬ ЮРЬЕВИЧ</span></b>
+<br><i>Санкт-Петербургский государственный экономический университет (Санкт-Петербург)</i></font>
+<br>
+
+
+<img src="/pic/1pix.gif" vspace="8"><br>
+
+<table width="580" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr align="center" valign="bottom">
+<td width="30">№</td><td width="550" colspan="2" align="right">Публикация<img src="/pic/1pix.gif" hspace="100">Цитирований</td></tr>
+<tr><td colspan="3" valign="top"><hr width="100%" style="height:1px; color:#000; background-color:#000;"></td></tr>
+</tbody></table>
+<br>
+<table width="580" cellspacing="0" cellpadding="3" border="0">
+
+
+<tbody><tr valign="middle">
+<td align="center" valign="top" width="30">1</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">СТРАТЕГИЯ РАЗВИТИЯ И ЭКОНОМИЧЕСКАЯ БЕЗОПАСНОСТЬ КАЛИНИНГРАДСКОЙ ОБЛАСТИ</span></b><br><i>Федоров Г.М., Волошенко К.Ю., Жданов В.П.</i><br>Аналитический доклад /  Калининград, 2023.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">2</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МИКРОКЕЙСОВЫЕ ТЕХНОЛОГИИ В СИСТЕМЕ ПРОФЕССИОНАЛЬНОЙ ПЕРЕПОДГОТОВКИ И ПОВЫШЕНИЯ КВАЛИФИКАЦИИ КАДРОВ ИННОВАЦИОННОЙ ЭКОНОМИКИ И УПРАВЛЕНИЯ</span></b><br><i>Кострикова Н.А., Краснянский И.Ю., Яфасов А.Я., Яфасова Д.А.</i><br>Известия Балтийской государственной академии рыбопромыслового флота: психолого-педагогические науки. 2012. №&nbsp;4&nbsp;(22).  С. 103-120.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">3</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">МИКРОКЕЙСОВЫЕ ТЕХНОЛОГИИ В СИСТЕМЕ ПРОФЕССИОНАЛЬНОЙ ПЕРЕПОДГОТОВКИ И ПОВЫШЕНИЯ КВАЛИФИКАЦИИ КАДРОВ ИННОВАЦИОННОЙ ЭКОНОМИКИ И УПРАВЛЕНИЯ</span></b><br><i>Кострикова Н.А., Краснянский И.Ю., Яфасов А.Я.</i><br>Известия Балтийской государственной академии рыбопромыслового флота: психолого-педагогические науки. 2012. №&nbsp;2&nbsp;(20).  С. 7-21.
+</td><td align="center" valign="top" width="30">3</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">4</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ПОДГОТОВКА КАДРОВ РЕЗЕРВА ПРАВИТЕЛЬСТВА СУБЪЕКТА РОССИЙСКОЙ ФЕДЕРАЦИИ: ВОПРОСЫ МЕТОДИКИ И ОРГАНИЗАЦИИ</span></b><br><i>Краснянский И.Ю., Яфасов А.Я.</i><br>Экономика и управление. 2009. №&nbsp;9&nbsp;(47).  С. 124-132.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">5</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">ИННОВАЦИОННЫЕ АСПЕКТЫ ПРОФЕССИОНАЛЬНОЙ ПОДГОТОВКИ И ПЕРЕПОДГОТОВКИ УПРАВЛЕНЧЕСКИХ КАДРОВ В КАЛИНИНГРАДСКОЙ ОБЛАСТИ</span></b><br><i>Брюна Э., Валишин А.Г., Краснянский И.Ю., Рекунов И.В., Тургаев А.С., Яфасов А.Я.</i><br> В сборнике: Инновационные пути развития экономики Калининградской области.&nbsp;сборник статей : [в 2 ч.]. Федеральное гос. образовательное учреждение высш. проф. образования Северо-Западная акад. гос. службы : под ред. А. Я. Яфасова. Санкт-Петербург, 2008.  С. 18-50.
+</td><td align="center" valign="top" width="30">0</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">6</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">БОРЬБА С КОНТРАБАНДОЙ В РОССИИ (X - НАЧАЛО XX В.)</span></b><br><i>Аграшенков А.В., Краснянский И.Ю.</i><br>Известия высших учебных заведений. Правоведение. 1998. №&nbsp;4&nbsp;(223).  С. 70-80.
+</td><td align="center" valign="top" width="30">21</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">7</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">БОРЬБА С КОНТРАБАНДОЙ И РОССИЙСКОЕ УГОЛОВНОЕ ЗАКОНОДАТЕЛЬСТВО: ИСТОРИЧЕСКИЙ АСПЕКТ</span></b><br><i>Мячин А.Н., Аграшенков А.В., Краснянский И.Ю.</i><br>Ученые записки Санкт-Петербургского имени В.Б. Бобкова филиала Российской таможенной академии. 1998. №&nbsp;1&nbsp;(5).  С. 69-80.
+</td><td align="center" valign="top" width="30">8</td></tr>
+
+
+
+<tr valign="middle">
+<td align="center" valign="top" width="30">8</td>
+<td align="left" valign="top" width="520">
+<b><span style="line-height:1.0;">БОРЬБА С КОНТРАБАНДОЙ И РОССИЙСКОЕ УГОЛОВНОЕ ЗАКОНОДАТЕЛЬСТВО: ИСТОРИЧЕСКИЙ АСПЕКТ</span></b><br><i>Мячин А.Н., Аграшенков А.В., Краснянский И.Ю.</i><br>Ученые записки Санкт-Петербургского имени В.Б. Бобкова филиала Российской таможенной академии. 1998. №&nbsp;3&nbsp;(7).  С. 84-96.
+</td><td align="center" valign="top" width="30">1</td></tr>
+
+
+</tbody></table>
+
+
+</center><com-ya-translate style="visibility: visible !important"><style>
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:400;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/400.woff2') format('woff2');}
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:500;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/500.woff2') format('woff2');}
+      @font-face {font-display:swap;font-family:'RobotoExt';font-style:normal;font-weight:600;src:url('chrome-extension://afbjfmdncdlpomhgjanodjfogbaiknho/web-accessible-resources/fonts/Roboto/600.woff2') format('woff2');}
+    </style></com-ya-translate></body></html>
