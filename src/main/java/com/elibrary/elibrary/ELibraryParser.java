@@ -52,6 +52,7 @@ public class ELibraryParser {
      *
      * @param inputPaths Список путей к файлам с HTML.
      */
+    @Deprecated
     public void addInputPath(String... inputPaths) {
         for (String path : inputPaths) {
             addInputPath(path);
@@ -225,7 +226,7 @@ public class ELibraryParser {
 
     /**
      * Метод для добавления статей в класс
-     *{@link Author#addArticle(String, String, String)}.
+     * {@link Author#addArticle(String, String, String)}.
      */
     private void addArticles() {
         List<String> nameOfArticles = parseNameOfArticles();
