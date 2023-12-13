@@ -225,7 +225,7 @@ public class ELibraryParser {
 
     /**
      * Метод для добавления статей в класс
-     *{@link Author#addArticle(String, String, String)}.
+     * {@link Author#addArticle(String, String, String)}.
      */
     private void addArticles() {
         List<String> nameOfArticles = parseNameOfArticles();
