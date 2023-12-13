@@ -48,6 +48,7 @@ public class ELibraryGUI extends Application {
 
     /**
      * Входная точка в класс. Пишется лог о старте программы
+     *
      * @param args - аргументы из командной строки (не используются)
      */
     public static void main(String[] args) {
@@ -87,6 +88,7 @@ public class ELibraryGUI extends Application {
 
     /**
      * Метод createStartButton используется для создания кнопки "Старт".
+     *
      * @return объект Button - кнопка "Старт"
      */
     private Button createStartButton() {
@@ -110,6 +112,7 @@ public class ELibraryGUI extends Application {
 
     /**
      * Создает кнопку для выбора директории.
+     *
      * @param stage ссылка на объект Stage для использования в обработчике события
      * @return объект Button - кнопка "Выбрать директорию"
      */
@@ -121,6 +124,7 @@ public class ELibraryGUI extends Application {
 
     /**
      * Создает кнопку для выбора файлов.
+     *
      * @param stage ссылка на объект Stage для использования в обработчике события
      * @return объект Button - кнопка "Выбрать файлы"
      */
@@ -142,6 +146,7 @@ public class ELibraryGUI extends Application {
 
     /**
      * Создает вертикальный контейнер для размещения элементов интерфейса.
+     *
      * @return объект VBox - вертикальный контейнер layout
      */
     private VBox createLayout() {
@@ -167,8 +172,9 @@ public class ELibraryGUI extends Application {
 
     /**
      * Инициализирует сцену и настраивает основное окно приложения.
+     *
      * @param primaryStage главное окно приложения
-     * @param layout объект VBox, представляющий макет интерфейса
+     * @param layout       объект VBox, представляющий макет интерфейса
      */
     private void initScene(Stage primaryStage, VBox layout) {
         Scene scene = new Scene(layout);
@@ -340,7 +346,7 @@ public class ELibraryGUI extends Application {
      *
      * @param parser - объект класса {@link ELibraryParser}
      */
-    private void addPaths(ELibraryParser parser){
+    private void addPaths(ELibraryParser parser) {
         for (File file : selectedFiles) {
             parser.addInputPath(file.getPath());
         }
@@ -352,7 +358,7 @@ public class ELibraryGUI extends Application {
      *
      * @param parser - объект класса {@link ELibraryParser}
      */
-    private void writeToFile(ELibraryParser parser){
+    private void writeToFile(ELibraryParser parser) {
         LOGGER.info("The beginning of the report recording procedure");
         try {
             ELibraryFileWriter eLibraryFileWriter = new ELibraryFileWriter(parser);

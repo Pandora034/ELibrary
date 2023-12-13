@@ -96,18 +96,19 @@ public class Author {
     /**
      * Вычисляет количество публикаций автора
      */
-    private void calculateNumberOfPublication(){
+    private void calculateNumberOfPublication() {
         numberOfPublications = citations.size();
     }
 
     /**
      * Вычисляет количество публикаций с нулевым цитированием
      */
-    private void calculateNumberOfZeroCitations(){
+    private void calculateNumberOfZeroCitations() {
         this.numberOfZeroCitations = (int) citations.stream()
                 .filter(number -> Integer.parseInt(number) == 0)
                 .count();
     }
+
     /**
      * Возвращает индекс Hirsch автора.
      *
@@ -149,7 +150,9 @@ public class Author {
      *
      * @return количество статей автора.
      */
-    public int getNumberOfPublications(){return numberOfPublications;}
+    public int getNumberOfPublications() {
+        return numberOfPublications;
+    }
 
     /**
      * Возвращает количество статей с нулевым цитированием.

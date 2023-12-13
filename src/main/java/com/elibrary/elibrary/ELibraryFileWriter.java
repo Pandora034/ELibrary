@@ -207,7 +207,7 @@ public class ELibraryFileWriter {
      * @param outputPath Путь, по которому необходимо сохранить файл.
      * @throws IOException Если возникают проблемы при записи в файл.
      */
-    private void writeToFile(String outputPath) throws  IOException {
+    private void writeToFile(String outputPath) throws IOException {
         try (OutputStream fileOut = new FileOutputStream(outputPath + "\\" + outputFileName + ".docx")) {
             if (!documentIsEmpty()) {
                 document.write(fileOut);
