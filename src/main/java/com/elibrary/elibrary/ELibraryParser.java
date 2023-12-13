@@ -52,6 +52,7 @@ public class ELibraryParser {
      *
      * @param inputPaths Список путей к файлам с HTML.
      */
+    @Deprecated
     public void addInputPath(String... inputPaths) {
         for (String path : inputPaths) {
             addInputPath(path);
@@ -118,6 +119,11 @@ public class ELibraryParser {
      */
     private void initTrElements() {
         try {
+            trElements = doc.select("tr");
+            for (Element tr : trElements){
+                Elements tables = tr.select("table");
+                tables.remove();
+            }
             trElements = doc.select("tr");
         } catch (NullPointerException e) {
             LOGGER.error("Failed to parse the table");
@@ -232,10 +238,17 @@ public class ELibraryParser {
         List<String> jointAuthors = parseJointAuthors();
         List<String> placeOfPublication = parsePlacesOfPublication();
         List<String> citations = parseCitations();
-        for (int i = 0; i < nameOfArticles.size() - 1; i++) {
-            if (citations.get(i).equals("0"))
-                author.addArticle(nameOfArticles.get(i), jointAuthors.get(i), placeOfPublication.get(i));
+
+        int sizeOfFirstList = nameOfArticles.size();
+        if (jointAuthors.size() == sizeOfFirstList &&
+                placeOfPublication.size() == sizeOfFirstList &&
+                citations.size() == sizeOfFirstList) {
+            for (int i = 0; i < nameOfArticles.size(); i++) {
+                if (citations.get(i).equals("0"))
+                    author.addArticle(nameOfArticles.get(i), jointAuthors.get(i), placeOfPublication.get(i));
+            }
         }
+        else LOGGER.error("Failed to parse articles for author");
     }
 
     /**

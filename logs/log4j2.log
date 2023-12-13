@@ -216,3 +216,670 @@
 2023-12-12 21:42:02.430 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
 2023-12-12 21:42:04.313 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
 2023-12-12 21:42:08.822 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
+2023-12-13 20:45:35.045 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 20:45:37.246 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 20:45:52.896 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:45:52.897 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:45:52.897 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:45:52.897 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:45:52.897 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:45:54.183 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 20:45:58.446 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 20:46:03.070 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 20:46:03.072 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:46:03.072 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:46:03.072 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:46:03.072 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:46:03.072 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:46:03.073 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:46:03.142 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 20:46:03.146 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:46:03.183 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 20:48:03.824 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 20:48:05.875 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 20:48:10.135 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:48:10.135 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:48:10.135 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:48:10.135 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:48:10.135 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:48:13.967 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 20:48:19.068 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 20:48:25.735 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 20:48:25.737 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:48:25.737 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:48:25.737 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:48:25.737 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:48:25.737 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:48:25.737 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:48:25.800 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 20:48:25.804 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:48:25.844 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 20:53:20.045 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 20:53:21.570 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 20:53:27.074 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:53:27.074 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:53:27.075 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:53:27.075 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:53:27.075 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:53:28.778 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 20:53:33.565 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 20:53:40.809 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 20:53:40.810 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:53:40.810 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:53:40.810 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:53:40.810 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:53:40.810 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:53:40.811 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:53:40.867 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 20:53:40.874 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:53:40.908 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 20:54:41.755 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 20:54:43.682 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 20:54:49.999 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:54:50.000 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:54:50.000 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:54:50.000 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:54:50.000 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:54:50.972 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 20:54:55.270 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 20:54:59.417 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 20:54:59.430 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:54:59.431 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 20:54:59.431 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:54:59.431 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 20:54:59.431 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 20:54:59.431 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 20:54:59.491 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 20:55:08.107 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 20:55:08.151 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 21:17:31.076 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:17:35.033 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:17:43.412 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:17:43.412 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:17:43.412 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:17:43.412 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:17:43.412 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:17:45.567 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:17:52.532 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:17:58.791 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:17:58.793 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:17:58.793 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:17:58.794 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:17:58.794 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:17:58.794 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:17:58.794 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:17:58.854 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:17:58.857 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:17:58.879 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:17:58.881 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:17:58.906 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:17:58.908 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:17:58.910 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:17:58.910 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:17:58.914 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:17:58.914 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 21:17:59.228 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 21:17:59.228 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 21:17:59.297 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 21:17:59.300 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 21:17:59.302 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 21:17:59.310 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 21:17:59.311 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 21:17:59.312 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\Test.docx
+2023-12-13 21:19:27.918 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:19:31.441 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:19:52.060 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:19:52.061 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:19:52.061 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:19:52.061 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:19:52.061 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:19:55.837 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:20:55.813 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:21:21.350 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:21:21.358 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:21:21.359 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:21:21.359 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:21:21.359 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:21:21.359 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:21:21.360 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:21:21.414 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:21:28.953 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:21:28.978 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:21:31.149 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:21:31.177 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:21:32.127 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:21:32.130 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:21:33.062 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:21:33.065 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:21:34.116 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 21:21:34.449 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 21:21:34.449 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 21:21:34.521 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 21:21:34.526 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 21:21:34.528 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 21:21:34.537 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 21:21:34.538 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 21:21:34.540 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\Test2.docx
+2023-12-13 21:24:47.766 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:24:49.184 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:24:54.657 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:24:54.657 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:24:54.657 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:24:54.657 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:24:54.657 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:24:55.522 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:25:02.064 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:25:07.455 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:25:07.460 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:25:07.460 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:25:07.460 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:25:07.460 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:25:07.460 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:25:07.460 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:25:07.533 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:25:12.682 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:25:12.708 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:25:13.452 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:25:13.484 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:26:42.636 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:26:42.640 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:26:42.641 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:26:42.645 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:26:42.646 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 21:26:44.078 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:26:45.804 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:26:51.521 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:26:51.522 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:26:51.522 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:26:51.522 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:26:51.522 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:26:52.247 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:26:55.619 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:26:59.844 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:26:59.852 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:26:59.852 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:26:59.852 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:26:59.852 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:26:59.853 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:26:59.853 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:28:01.477 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:28:01.479 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:43:41.133 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:43:42.586 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:43:47.140 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:43:47.140 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:43:47.140 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:43:47.140 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:43:47.140 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:43:48.100 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:43:57.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:44:08.170 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:44:08.174 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:44:08.174 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:44:08.174 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:44:08.175 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:44:08.175 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:44:08.175 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:44:08.238 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:44:15.361 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:44:15.387 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:44:16.454 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:44:16.482 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:44:16.485 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:44:16.488 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:44:16.489 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:44:57.519 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:44:59.081 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:45:04.656 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:45:04.656 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:45:04.656 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:45:04.656 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:45:04.656 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:45:05.419 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:45:09.806 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:45:13.474 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:45:13.480 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:45:13.480 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:45:13.480 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:45:13.480 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:45:13.480 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:45:13.481 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:45:40.284 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:45:40.286 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:45:41.465 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:45:43.031 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:45:49.887 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:45:49.887 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:45:49.888 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:45:49.888 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:45:49.888 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:45:50.643 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:45:53.348 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:45:56.711 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:45:56.716 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:45:56.717 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:45:56.717 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:45:56.717 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:45:56.717 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:45:56.717 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:47:11.138 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:47:11.141 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:47:12.315 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:47:13.731 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:47:20.001 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:47:20.001 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:47:20.001 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:47:20.002 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:47:20.002 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:47:20.826 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:47:26.275 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:47:29.474 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:47:29.482 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:47:29.482 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:47:29.482 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:47:29.482 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:47:29.483 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:47:29.483 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:51:47.065 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:51:47.069 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:51:48.565 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:51:50.008 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:52:01.554 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:52:01.554 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:52:01.554 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:52:01.555 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:52:01.555 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:52:02.287 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:52:04.652 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:52:07.641 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:52:07.645 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:52:07.645 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:52:07.645 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:52:07.645 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:52:07.645 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:52:07.645 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:52:07.703 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:52:07.706 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:52:07.731 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:52:07.734 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:52:07.764 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:52:07.766 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:52:07.768 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:52:07.769 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:52:07.772 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:52:07.774 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 21:52:08.118 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 21:52:08.118 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 21:52:08.200 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 21:52:08.205 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 21:52:08.207 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 21:52:08.216 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 21:52:08.218 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 21:52:08.220 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\test.docx
+2023-12-13 21:53:12.744 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:53:14.106 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:53:18.385 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:53:18.385 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:53:18.385 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:53:18.386 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:53:18.386 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:53:19.087 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:53:24.525 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:53:29.415 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:53:29.420 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:53:29.421 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:53:29.421 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:53:29.421 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:53:29.421 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:53:29.421 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:53:29.470 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:53:29.473 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:53:29.493 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:53:29.496 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:53:29.522 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:53:29.524 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:53:29.525 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:53:29.525 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:53:29.529 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 21:53:29.530 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 21:53:29.815 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 21:53:29.816 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 21:53:29.881 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 21:53:29.886 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 21:53:29.888 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 21:53:29.895 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 21:53:29.897 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 21:53:29.898 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\test.docx
+2023-12-13 21:54:31.599 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:54:44.385 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
+2023-12-13 21:54:46.039 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
+2023-12-13 21:54:48.960 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:54:50.281 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:54:54.972 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
+2023-12-13 21:55:17.784 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:55:19.195 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:55:23.939 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:55:23.940 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:55:23.940 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:55:23.940 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:55:23.940 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:55:24.535 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:55:27.464 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:55:31.616 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:55:31.623 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:55:31.623 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:55:31.624 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:55:31.624 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:55:31.624 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:55:31.624 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:55:31.674 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 21:55:39.920 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:55:39.962 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 21:58:12.320 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:58:13.618 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:58:17.359 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:58:17.360 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:58:17.360 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:58:17.360 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:58:17.360 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:58:17.983 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:58:21.714 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:58:26.413 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:58:26.418 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:58:26.419 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:58:26.419 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:58:26.419 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:58:26.419 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:58:26.419 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:58:26.469 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 21:58:32.734 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:58:32.775 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 21:59:22.296 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:59:28.229 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:59:30.151 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
+2023-12-13 21:59:35.820 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 21:59:37.282 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 21:59:47.323 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:59:47.324 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:59:47.324 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:59:47.324 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:59:47.324 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:59:48.106 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 21:59:50.016 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 21:59:53.259 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 21:59:53.264 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:59:53.264 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 21:59:53.265 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:59:53.265 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 21:59:53.265 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 21:59:53.265 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 21:59:53.313 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 21:59:58.280 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 21:59:58.321 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 22:00:06.026 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:00:08.671 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:00:10.058 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:00:17.198 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:00:17.199 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:00:17.199 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:00:17.199 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:00:17.199 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:00:18.061 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:00:21.570 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:00:27.203 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:00:27.206 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:00:27.206 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:00:27.206 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:00:27.206 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:00:27.206 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:00:27.206 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:00:27.254 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:00:27.257 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:00:27.299 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 22:00:27.316 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:00:27.358 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 297 zero- 119 HIndex- 19
+2023-12-13 22:02:32.542 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:02:34.653 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:03:10.384 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:03:12.798 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:03:23.244 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:03:24.034 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:03:26.481 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:03:30.304 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:03:30.309 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:03:30.309 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:03:30.464 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 297 zero- 119 HIndex- 19
+2023-12-13 22:19:51.243 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:19:52.766 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:20:17.950 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:20:17.950 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:20:18.633 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:20:21.581 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:20:27.168 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:20:27.173 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:20:27.173 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:20:27.173 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:20:27.267 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 22:21:43.311 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:21:45.776 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:21:52.632 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:21:52.632 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:21:53.518 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:21:55.771 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:21:59.113 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:21:59.118 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:21:59.119 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:21:59.119 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:21:59.205 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 22:22:30.422 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:22:30.432 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 32 zero- 10 HIndex- 7
+2023-12-13 22:22:42.368 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 22:22:42.692 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 22:22:42.692 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 22:22:42.775 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 22:22:42.780 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 22:22:42.783 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 22:22:42.792 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 22:22:42.794 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 22:22:42.795 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\test.docx
+2023-12-13 22:41:24.983 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:41:40.103 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:43:00.200 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_2
+2023-12-13 22:43:00.200 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_3
+2023-12-13 22:43:00.200 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_4
+2023-12-13 22:43:00.200 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Krasov
+2023-12-13 22:43:00.200 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-13 22:43:01.629 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:43:05.067 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:43:09.235 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:43:09.236 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_2
+2023-12-13 22:43:09.237 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_3
+2023-12-13 22:43:09.237 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_4
+2023-12-13 22:43:09.237 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Krasov
+2023-12-13 22:43:09.237 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-13 22:43:09.237 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Krasov
+2023-12-13 22:43:09.385 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 223 zero- 86 HIndex- 21
+2023-12-13 22:43:09.417 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_4
+2023-12-13 22:43:09.446 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-13 22:43:09.452 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\Oleg
+2023-12-13 22:43:09.468 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 27 zero- 8 HIndex- 4
+2023-12-13 22:43:09.469 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_2
+2023-12-13 22:43:09.470 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:43:09.471 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\IdeaProjects\ELibraryGradle\Examples\InputFiles\AuthorTest_3
+2023-12-13 22:43:09.485 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-13 22:43:09.486 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 22:43:09.872 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 22:43:09.872 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 22:43:09.950 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 22:43:09.954 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 22:43:09.956 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 22:43:09.967 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 22:43:09.972 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 22:43:09.974 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\test1.docx
+2023-12-13 22:43:35.613 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:44:18.045 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:44:18.046 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:44:23.464 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:44:29.790 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:44:37.443 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:44:37.444 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:44:37.444 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:44:37.444 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:44:37.444 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:44:37.444 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:44:37.444 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:44:37.444 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:44:37.445 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:44:37.445 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:44:37.445 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:44:37.445 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:44:37.448 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:44:37.448 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:44:37.478 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 223 zero- 86 HIndex- 21
+2023-12-13 22:44:37.490 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:44:37.504 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-13 22:44:37.505 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:44:37.523 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-13 22:44:37.527 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:44:37.530 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:44:37.530 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:44:37.546 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 27 zero- 8 HIndex- 4
+2023-12-13 22:44:37.547 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:44:37.553 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 22:44:37.557 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:44:37.571 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 297 zero- 119 HIndex- 19
+2023-12-13 22:44:37.582 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:44:37.583 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 22:44:37.584 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:44:37.587 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 32 zero- 10 HIndex- 7
+2023-12-13 22:44:37.588 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 22:44:37.644 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 22:44:37.644 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 22:44:37.645 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 22:44:37.647 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 22:44:37.647 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 22:44:37.648 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 22:44:37.654 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 22:44:37.655 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\TEST.docx
+2023-12-13 22:46:12.298 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:46:14.324 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:46:33.424 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:46:33.425 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:46:33.425 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:46:33.425 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:46:33.425 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:46:33.425 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:46:33.425 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:46:33.426 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:46:33.426 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:46:33.426 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:46:35.895 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:46:38.721 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:46:42.862 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:46:42.863 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:46:42.863 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:46:42.863 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:46:42.863 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:46:42.863 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:46:42.863 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:46:42.864 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:46:42.864 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:46:42.864 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:46:42.864 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:46:42.864 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:46:42.919 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:46:42.923 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:46:42.996 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 223 zero- 86 HIndex- 21
+2023-12-13 22:46:43.026 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:46:43.029 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-13 22:46:43.030 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:46:43.044 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-13 22:46:43.052 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:46:43.053 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:46:43.054 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:46:43.058 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 27 zero- 8 HIndex- 4
+2023-12-13 22:46:43.059 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:46:43.069 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 22:46:43.074 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:46:43.098 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 297 zero- 119 HIndex- 19
+2023-12-13 22:46:43.111 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Не удалось выполнить парсинг  для: АКБАЕВ РАМАЗАН МАГАМЕТОВИЧ
+2023-12-13 22:46:43.111 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:46:43.112 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 22:46:43.113 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:46:43.116 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 32 zero- 10 HIndex- 7
+2023-12-13 22:46:43.119 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Не удалось выполнить парсинг  для: ПРОВАДКИН ГЕННАДИЙ ГЕОРГИЕВИЧ
+2023-12-13 22:46:43.119 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 22:46:43.520 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 22:46:43.520 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 22:46:43.591 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 22:46:43.597 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 22:46:43.599 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 22:46:43.608 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 22:46:43.616 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 22:46:43.617 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\TEST.docx
+2023-12-13 22:48:56.358 [main] INFO  com.elibrary.elibrary.ELibraryGUI - Starting program
+2023-12-13 22:48:59.019 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a files
+2023-12-13 22:49:09.911 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:49:09.912 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new file has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:49:13.435 [JavaFX Application Thread] WARN  com.elibrary.elibrary.ELibraryGUI - Incorrect or empty input
+2023-12-13 22:49:15.491 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - The file explorer is open to select a directory
+2023-12-13 22:49:21.864 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryGUI - A new directory has been selected: C:\Users\fyodo\OneDrive\Desktop\Парсер
+2023-12-13 22:49:23.396 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Starting to parse
+2023-12-13 22:49:23.397 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:49:23.397 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:49:23.397 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:49:23.398 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:49:23.398 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:49:23.398 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:49:23.398 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:49:23.398 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:49:23.398 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:49:23.398 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.ELibraryParser - Added the path to the input file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:49:23.399 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\3.txt
+2023-12-13 22:49:23.449 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:49:23.453 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Krasov
+2023-12-13 22:49:23.534 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 223 zero- 86 HIndex- 21
+2023-12-13 22:49:23.566 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_3
+2023-12-13 22:49:23.570 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 8 zero- 2 HIndex- 3
+2023-12-13 22:49:23.571 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_4
+2023-12-13 22:49:23.585 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 99 zero- 75 HIndex- 5
+2023-12-13 22:49:23.591 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\AuthorTest_2
+2023-12-13 22:49:23.593 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 3 zero- 2 HIndex- 1
+2023-12-13 22:49:23.593 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\Oleg
+2023-12-13 22:49:23.598 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 27 zero- 8 HIndex- 4
+2023-12-13 22:49:23.599 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\1.txt
+2023-12-13 22:49:23.610 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 89 zero- 44 HIndex- 9
+2023-12-13 22:49:23.620 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\2.txt
+2023-12-13 22:49:23.636 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 297 zero- 119 HIndex- 19
+2023-12-13 22:49:23.648 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse article for author
+2023-12-13 22:49:23.648 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\4.txt
+2023-12-13 22:49:23.649 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 0 zero- 0 HIndex- 0
+2023-12-13 22:49:23.650 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryParser - Starting to parse the file: C:\Users\fyodo\OneDrive\Desktop\Парсер\5.txt
+2023-12-13 22:49:23.652 [JavaFX Application Thread] DEBUG com.elibrary.elibrary.Author - Create new author: all- 32 zero- 10 HIndex- 7
+2023-12-13 22:49:23.654 [JavaFX Application Thread] ERROR com.elibrary.elibrary.ELibraryParser - Failed to parse article for author
+2023-12-13 22:49:23.654 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - The beginning of the report recording procedure
+2023-12-13 22:49:24.072 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+2023-12-13 22:49:24.072 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+2023-12-13 22:49:24.146 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+2023-12-13 22:49:24.150 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+2023-12-13 22:49:24.153 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+2023-12-13 22:49:24.162 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/document.xml'
+2023-12-13 22:49:24.169 [JavaFX Application Thread] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'word/settings.xml'
+2023-12-13 22:49:24.171 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryFileWriter - The file was successfully written: C:\Users\fyodo\OneDrive\Desktop\Парсер\test.docx
+2023-12-13 22:49:32.503 [JavaFX Application Thread] INFO  com.elibrary.elibrary.ELibraryGUI - Closing program
